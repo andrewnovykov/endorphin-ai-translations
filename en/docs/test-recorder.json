@@ -164,8 +164,8 @@
             }
         },
         "nextSteps": {
-            "next": "Next: Environment Setup →",
-            "previous": "← Previous: HTML Reporter"
+            "next": "Environment Setup",
+            "previous": "HTML Reporter"
         }
     }
 }

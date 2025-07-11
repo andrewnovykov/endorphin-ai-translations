@@ -128,8 +128,8 @@
             }
         },
         "nextSteps": {
-            "next": "Next: CI/CD Setup →",
-            "previous": "← Previous: Test Recorder"
+            "next": "CI/CD Setup",
+            "previous": "Test Recorder"
         }
     }
 }

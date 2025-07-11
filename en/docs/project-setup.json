@@ -56,8 +56,8 @@
       "description": "Your project is now configured and ready for AI-powered testing. You can start writing tests using natural language descriptions."
     },
     "nextSteps": {
-      "nextButton": "Next: Test Structure →",
-      "backButton": "Back to Documentation"
+      "nextButton": "Test Structure",
+      "backButton": "Documentation"
     }
   }
 }

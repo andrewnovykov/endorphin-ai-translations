@@ -96,8 +96,8 @@
       }
     },
     "nextSteps": {
-      "nextButton": "Next: Prompt Guide →",
-      "backButton": "Back to Documentation"
+      "nextButton": "Prompt Guide",
+      "previousButton": "Test Structure"
     }
   }
 }
