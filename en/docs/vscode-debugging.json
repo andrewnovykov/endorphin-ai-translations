@@ -171,8 +171,8 @@
             }
         },
         "nextSteps": {
-            "next": "Next: HTML Reporter →",
-            "previous": "← Previous: Prompt Guide"
+            "next": "HTML Reporter",
+            "previous": "Prompt Guide"
         }
     }
 }

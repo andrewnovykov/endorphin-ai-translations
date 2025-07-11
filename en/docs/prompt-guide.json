@@ -120,8 +120,8 @@
       }
     },
     "nextSteps": {
-      "nextButton": "Next: VS Code Debugging →",
-      "backButton": "Back to Documentation"
+      "nextButton": "VS Code Debugging",
+      "previousButton": "Test Writing Tips"
     }
   }
 }

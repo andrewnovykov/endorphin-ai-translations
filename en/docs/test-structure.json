@@ -98,8 +98,8 @@
       "formTest": "📝 Form Submission Test Example"
     },
     "nextSteps": {
-      "nextButton": "Next: Test Writing Tips →",
-      "previousButton": "← Previous: Project Setup"
+      "nextButton": "Test Writing Tips",
+      "previousButton": "Project Setup"
     }
   }
 }

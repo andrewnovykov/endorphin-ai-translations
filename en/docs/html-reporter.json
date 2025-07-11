@@ -196,8 +196,8 @@
             }
         },
         "nextSteps": {
-            "next": "Next: Test Recorder →",
-            "previous": "← Previous: VS Code Debugging"
+            "next": "Test Recorder",
+            "previous": "VS Code Debugging"
         }
     }
 }
