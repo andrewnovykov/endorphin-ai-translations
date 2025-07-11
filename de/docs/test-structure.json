@@ -52,6 +52,14 @@
         "title": "Grundlegende KI-Datengenerierung",
         "description": "Verwenden Sie die generateData-Funktion, um realistische Testdaten mit KI zu erstellen:"
       },
+      "ecommerceProductTesting": {
+        "title": "E-Commerce-Produkttests",
+        "description": "Generieren Sie Produktkatalogdaten für umfassende E-Commerce-Tests:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Komplexe Geschäftsszenarien",
+        "description": "Erstellen Sie anspruchsvolle Geschäftsabläufe mit KI-generierten Daten:"
+      },
       "tipsTitle": "💡 Tipps für KI-Datengenerierung",
       "tips": {
         "specific": "• Seien Sie spezifisch: Detaillierte Anforderungen produzieren bessere Daten",

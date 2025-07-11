@@ -52,6 +52,14 @@
         "title": "基本的なAIデータ生成",
         "description": "generateData関数を使用してAIでリアルなテストデータを作成する："
       },
+      "ecommerceProductTesting": {
+        "title": "Eコマース製品テスト",
+        "description": "包括的なeコマーステストのための製品カタログデータを生成する："
+      },
+      "complexBusinessScenarios": {
+        "title": "複雑なビジネスシナリオ",
+        "description": "リアルなワークフローと関係性を持つ完全なビジネスシナリオを生成する："
+      },
       "tipsTitle": "💡 AIデータ生成のヒント",
       "tips": {
         "specific": "• 具体的に：詳細な要件がより良いデータを生成します",

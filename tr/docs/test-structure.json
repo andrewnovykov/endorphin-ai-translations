@@ -60,6 +60,14 @@
         "relationships": "• Gerçekçi ilişkiler: İş açısından mantıklı bağlantılı veriler üretin",
         "async": "• Asenkron üretim: Veri üretimi fonksiyonları için her zaman async/await kullanın",
         "errorHandling": "• Hata yönetimi: AI üretimi başarısız olursa yedek veri ekleyin"
+      },
+      "ecommerceProductTesting": {
+        "title": "E-ticaret Ürün Testleri",
+        "description": "Kapsamlı e-ticaret testleri için ürün katalog verisi oluşturun:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Karmaşık İş Senaryoları",
+        "description": "AI tarafından oluşturulan verilerle gelişmiş iş akışları oluşturun:"
       }
     },
     "bestPractices": {

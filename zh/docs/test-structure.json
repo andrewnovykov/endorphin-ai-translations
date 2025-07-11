@@ -60,6 +60,14 @@
         "relationships": "• 真实关系：生成在业务上有意义的关联数据",
         "async": "• 异步生成：对数据生成函数始终使用async/await",
         "errorHandling": "• 错误处理：在AI生成失败时包含备用数据"
+      },
+      "ecommerceProductTesting": {
+        "title": "电商产品测试",
+        "description": "生成产品目录数据进行全面的电商测试:"
+      },
+      "complexBusinessScenarios": {
+        "title": "复杂业务场景",
+        "description": "使用AI生成的数据创建复杂的业务工作流程:"
       }
     },
     "bestPractices": {

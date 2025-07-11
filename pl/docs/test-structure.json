@@ -60,6 +60,14 @@
         "relationships": "• Realistyczne relacje: Generuj połączone dane, które mają sens biznesowy",
         "async": "• Generowanie asynchroniczne: Zawsze używaj async/await dla funkcji generowania danych",
         "errorHandling": "• Obsługa błędów: Uwzględnij dane zapasowe w przypadku niepowodzenia generowania AI"
+      },
+      "ecommerceProductTesting": {
+        "title": "Testowanie Produktów E-commerce",
+        "description": "Generuj dane katalogu produktów do kompleksowych testów e-commerce:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Złożone Scenariusze Biznesowe",
+        "description": "Twórz zaawansowane przepływy pracy biznesowej z danymi generowanymi przez AI:"
       }
     },
     "bestPractices": {

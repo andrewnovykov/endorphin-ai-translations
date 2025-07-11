@@ -52,6 +52,14 @@
         "title": "Generación Básica de Datos con IA",
         "description": "Usa la función generateData para crear datos de prueba realistas con IA:"
       },
+      "ecommerceProductTesting": {
+        "title": "Pruebas de Productos E-commerce",
+        "description": "Genera datos de catálogo de productos para pruebas completas de e-commerce:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Escenarios de Negocio Complejos",
+        "description": "Crea flujos de trabajo empresariales sofisticados con datos generados por IA:"
+      },
       "tipsTitle": "💡 Consejos de Generación de Datos con IA",
       "tips": {
         "specific": "• Sé específico: Los requisitos detallados producen mejores datos",

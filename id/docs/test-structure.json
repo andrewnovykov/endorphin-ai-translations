@@ -60,6 +60,14 @@
         "relationships": "• Hubungan realistis: Buat data yang terhubung dan masuk akal secara bisnis",
         "async": "• Generasi asinkron: Selalu gunakan async/await untuk fungsi pembuatan data",
         "errorHandling": "• Penanganan kesalahan: Sertakan data cadangan jika pembuatan AI gagal"
+      },
+      "ecommerceProductTesting": {
+        "title": "Pengujian Produk E-commerce",
+        "description": "Hasilkan data katalog produk untuk pengujian e-commerce yang komprehensif:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Skenario Bisnis Kompleks",
+        "description": "Buat alur kerja bisnis yang canggih dengan data yang dihasilkan AI:"
       }
     },
     "bestPractices": {

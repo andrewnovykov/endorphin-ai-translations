@@ -52,6 +52,14 @@
         "title": "Basic AI Data Generation",
         "description": "Use the generateData function to create realistic test data with AI:"
       },
+      "ecommerceProductTesting": {
+        "title": "E-commerce Product Testing",
+        "description": "Generate product catalog data for comprehensive e-commerce testing:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Complex Business Scenarios",
+        "description": "Create sophisticated business workflows with AI-generated data:"
+      },
       "tipsTitle": "💡 AI Data Generation Tips",
       "tips": {
         "specific": "• Be specific: Detailed requirements produce better data",

@@ -60,6 +60,14 @@
         "relationships": "• Realistiset suhteet: Luo yhteydessä olevaa dataa, joka on liiketoiminnallisesti järkevää",
         "async": "• Asynkroninen luominen: Käytä aina async/await datan luomisfunktioissa",
         "errorHandling": "• Virheenkäsittely: Sisällytä varasuunnitelma-dataa AI-luomisen epäonnistuessa"
+      },
+      "ecommerceProductTesting": {
+        "title": "E-kaupan Tuotetestaus",
+        "description": "Luo tuoteluettelotietoja kattavaa e-kaupan testausta varten:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Monimutkaiset Liiketoimintaskenaariot",
+        "description": "Luo kehittyneitä liiketoimintatyönkulkuja AI-generoidulla datalla:"
       }
     },
     "bestPractices": {

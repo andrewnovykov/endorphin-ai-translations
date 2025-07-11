@@ -60,6 +60,14 @@
         "relationships": "• Relazioni realistiche: Genera dati connessi che abbiano senso dal punto di vista aziendale",
         "async": "• Generazione asincrona: Usa sempre async/await per le funzioni di generazione dati",
         "errorHandling": "• Gestione errori: Includi dati di fallback in caso di fallimento della generazione IA"
+      },
+      "ecommerceProductTesting": {
+        "title": "Test Prodotti E-commerce",
+        "description": "Genera dati del catalogo prodotti per test e-commerce completi:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Scenari Aziendali Complessi",
+        "description": "Crea flussi di lavoro aziendali sofisticati con dati generati dall'AI:"
       }
     },
     "bestPractices": {

@@ -52,6 +52,14 @@
         "title": "Génération de Données IA de Base",
         "description": "Utilisez la fonction generateData pour créer des données de test réalistes avec l'IA :"
       },
+      "ecommerceProductTesting": {
+        "title": "Tests de Produits E-commerce",
+        "description": "Générez des données de catalogue de produits pour des tests e-commerce complets :"
+      },
+      "complexBusinessScenarios": {
+        "title": "Scénarios Commerciaux Complexes",
+        "description": "Créez des flux de travail d'entreprise sophistiqués avec des données générées par IA :"
+      },
       "tipsTitle": "💡 Conseils pour la Génération de Données IA",
       "tips": {
         "specific": "• Soyez spécifique : Des exigences détaillées produisent de meilleures données",

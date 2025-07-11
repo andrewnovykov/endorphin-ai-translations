@@ -60,6 +60,14 @@
         "relationships": "• Realistische relaties: Genereer verbonden data die zakelijk logisch is",
         "async": "• Asynchrone generatie: Gebruik altijd async/await voor data generatie functies",
         "errorHandling": "• Foutafhandeling: Voeg fallback data toe voor het geval AI generatie faalt"
+      },
+      "ecommerceProductTesting": {
+        "title": "E-commerce Product Testing",
+        "description": "Genereer productcatalogusgegevens voor uitgebreide e-commerce tests:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Complexe Bedrijfsscenario's",
+        "description": "Creëer geavanceerde bedrijfsworkflows met AI-gegenereerde data:"
       }
     },
     "bestPractices": {

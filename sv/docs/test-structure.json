@@ -60,6 +60,14 @@
         "relationships": "• Realistiska relationer: Generera ansluten data som är affärsmässigt vettig",
         "async": "• Asynkron generering: Använd alltid async/await för datagenerering funktioner",
         "errorHandling": "• Felhantering: Inkludera fallback data ifall AI generering misslyckas"
+      },
+      "ecommerceProductTesting": {
+        "title": "E-handel Produkttestning",
+        "description": "Generera produktkatalogdata för omfattande e-handelstester:"
+      },
+      "complexBusinessScenarios": {
+        "title": "Komplexa Affärsscenarier",
+        "description": "Skapa sofistikerade affärsarbetsflöden med AI-genererade data:"
       }
     },
     "bestPractices": {
