@@ -5,7 +5,8 @@
   "scripts": {
     "validate": "node build-translations.cjs validate",
     "build": "node build-translations.cjs build",
-    "test": "npm run validate"
+    "check-keys": "bash validate-translations.sh",
+    "test": "npm run validate && npm run check-keys"
   },
   "keywords": [
     "translations",
