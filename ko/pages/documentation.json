@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "완전한 문서",
+    "subtitle": "Endorphin AI로 AI 기반 테스팅을 마스터하는 데 필요한 모든 것. 빠른 시작부터 고급 기술까지.",
+    "versionBadge": "v0.9.0 문서",
+    "startQuickGuide": "빠른 가이드로 시작",
+    "browseAllDocs": "모든 문서 둘러보기",
+    "readGuide": "가이드 읽기",
+    "badges": {
+      "5min": "5분",
+      "essential": "필수",
+      "v090": "v0.9.0",
+      "examples": "예제",
+      "advanced": "고급",
+      "proTips": "프로 팁",
+      "reports": "리포트",
+      "interactive": "인터랙티브",
+      "config": "설정",
+      "automation": "자동화",
+      "patterns": "패턴"
+    },
+    "gettingStarted": {
+      "title": "시작하기",
+      "description": "Endorphin AI와 함께 여정을 시작하세요. 이 가이드들이 빠르게 시작할 수 있도록 도와드립니다.",
+      "quickStart": "빠른 시작",
+      "quickStartDesc": "5분 안에 Endorphin AI 시작하기",
+      "projectSetup": "프로젝트 설정",
+      "projectSetupDesc": "프로젝트 설정 및 구성 완전 가이드",
+      "testStructure": "테스트 구조",
+      "testStructureDesc": "setup/data/task 함수를 사용한 v0.9 스마트 테스트 구조"
+    },
+    "advanced": {
+      "title": "고급 주제",
+      "description": "엔터프라이즈급 테스팅을 위한 고급 기능과 기술을 마스터하세요.",
+      "testWritingTips": "테스트 작성 팁",
+      "testWritingTipsDesc": "엔터프라이즈 및 소규모 앱 예제와 모범 사례",
+      "promptGuide": "프롬프트 가이드",
+      "promptGuideDesc": "고급 AI 프롬프팅 기술 및 최적화",
+      "vscodeDebugging": "VS Code 디버깅",
+      "vscodeDebuggingDesc": "중단점과 디버그 객체를 사용한 전문적인 디버깅"
+    },
+    "tools": {
+      "title": "도구 및 통합",
+      "description": "테스트 워크플로우를 향상시키는 강력한 도구와 리포팅 기능.",
+      "htmlReporter": "HTML 리포터",
+      "htmlReporterDesc": "비용 추적 및 AI 결정이 포함된 인터랙티브 리포트",
+      "testRecorder": "테스트 레코더",
+      "testRecorderDesc": "브라우저 녹화를 통한 인터랙티브 테스트 생성",
+      "environmentSetup": "환경 설정",
+      "environmentSetupDesc": "환경 변수 및 구성 가이드"
+    },
+    "deployment": {
+      "title": "배포 및 CI/CD",
+      "description": "테스트를 배포하고 자동화된 테스팅을 위한 지속적 통합을 설정하세요.",
+      "cicdSetup": "CI/CD 설정",
+      "cicdSetupDesc": "GitHub Actions 통합 및 자동화 워크플로우",
+      "globalSetup": "글로벌 설정",
+      "globalSetupDesc": "글로벌 설정 함수 및 재사용 가능한 패턴"
+    },
+    "quickLinks": {
+      "title": "인기 빠른 링크",
+      "subtitle": "가장 자주 필요한 문서로 바로 이동하세요.",
+      "helpText": "도움이 필요하신가요? 포괄적인 예제와 문제 해결 가이드를 확인하세요.",
+      "buttons": {
+        "viewExamples": "예제 보기",
+        "troubleshooting": "문제 해결",
+        "joinCommunity": "커뮤니티 가입"
+      },
+      "quickStart": {
+        "title": "5분 빠른 시작",
+        "description": "가장 빠른 설정 가이드로 5분 안에 첫 번째 테스트를 실행하세요.",
+        "button": "지금 시작 →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 테스트 구조",
+        "description": "비동기 setup(), data(), task() 함수를 사용한 새로운 스마트 테스트 구조를 배우세요.",
+        "button": "더 알아보기 →"
+      }
+    }
+  }
+}

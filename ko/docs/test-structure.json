@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "문서로 돌아가기"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "테스트 구조 가이드",
+      "subtitle": "async setup(), data(), task() 함수를 사용한 v0.9.0 스마트 테스트 구조 마스터하기"
+    },
+    "basicStructure": {
+      "title": "📝 기본 테스트 구조",
+      "description": "모든 테스트에 이러한 필수 필드가 필요합니다"
+    },
+    "writingInstructions": {
+      "title": "🎯 테스트 지침 작성",
+      "description": "테스트 복잡성에 따른 다양한 형식",
+      "simpleFormat": {
+        "title": "간단한 형식",
+        "description": "직접적인 테스트에 적합:"
+      },
+      "stepByStepFormat": {
+        "title": "단계별 형식",
+        "description": "복잡한 워크플로우에 적합:"
+      },
+      "naturalLanguageFormat": {
+        "title": "자연어 형식",
+        "description": "사람에게 설명하듯이 작성:"
+      }
+    },
+    "dynamicTests": {
+      "title": "동적 테스트",
+      "badge": "v0.9.0 기능",
+      "setupFunctions": {
+        "title": "Setup 함수 사용",
+        "description": "테스트 환경 준비:"
+      },
+      "dataFunctions": {
+        "title": "Data 함수 사용",
+        "description": "테스트 데이터를 동적으로 생성:"
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data 결합",
+        "description": "setup 함수와 data 함수 모두 사용:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI 기반 데이터 생성",
+      "badge": "고급 기능",
+      "description": "AI를 사용하여 현실적인 테스트 데이터를 자동 생성",
+      "basicAiGeneration": {
+        "title": "기본 AI 데이터 생성",
+        "description": "generateData 함수를 사용하여 AI로 현실적인 테스트 데이터를 생성:"
+      },
+      "tipsTitle": "💡 AI 데이터 생성 팁",
+      "tips": {
+        "specific": "• 구체적으로: 상세한 요구사항이 더 나은 데이터를 생성합니다",
+        "contexts": "• 컨텍스트 사용: 업계, 사용자 유형 또는 시나리오 컨텍스트 지정",
+        "edgeCases": "• 엣지 케이스 포함: 경계 조건과 오류 시나리오 요청",
+        "relationships": "• 현실적인 관계: 비즈니스적으로 의미 있는 연결된 데이터 생성",
+        "async": "• 비동기 생성: 데이터 생성 함수에서 항상 async/await 사용",
+        "errorHandling": "• 오류 처리: AI 생성이 실패할 경우 대체 데이터 포함"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 모범 사례",
+      "description": "효과적인 테스트 작성을 위한 팁",
+      "uniqueIds": {
+        "title": "고유한 테스트 ID 사용",
+        "description": "형식: 카테고리-번호 (예: LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "설명적인 이름 작성",
+        "description": "명확하고 사람이 읽을 수 있는 테스트 이름은 정리에 도움이 됩니다"
+      },
+      "meaningfulTags": {
+        "title": "의미 있는 태그 사용",
+        "description": "관련 테스트 그룹화: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "적절한 우선순위 설정",
+        "description": "중요 경로는 높음, 기능은 보통, 엣지 케이스는 낮음"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 빠른 예제",
+      "description": "바로 사용할 수 있는 테스트 템플릿",
+      "loginTest": "📧 로그인 테스트 예제",
+      "cartTest": "🛒 장바구니 테스트 예제",
+      "formTest": "📝 폼 제출 테스트 예제"
+    },
+    "nextSteps": {
+      "nextButton": "다음: 테스트 작성 팁 →",
+      "previousButton": "← 이전: 프로젝트 설정"
+    }
+  }
+}

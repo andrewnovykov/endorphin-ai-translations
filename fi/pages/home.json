@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E-testaus Uudelleenkeksittynä AI:lla",
+    "subtitle": "Kirjoita testit selkeällä suomella. Anna AI:n luoda, vahvistaa ja korjata ne automaattisesti. Päästä päähän -testauksen tulevaisuus.",
+    "getStarted": "Aloita",
+    "watchDemo": "Katso Demo",
+    "learnMore": "Lue Lisää",
+    "socialProof": {
+      "stars": "tähteä",
+      "license": "AGPLv3-lisenssi",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Miksi Kehittäjät Rakastavat Kehystämme",
+    "subtitle": "Rakennettu nykyaikaisille kehitystyönkuluille AI:n ollessa ytimessä",
+    "aiPowered": {
+      "title": "🧠 AI-voimainen Testien Kirjoitus",
+      "description": "Kuvaile käyttäjän toimintoja selkeällä suomella"
+    },
+    "selfHealing": {
+      "title": "🔁 Itseparantuvat Testit",
+      "description": "Mukautuu automaattisesti käyttöliittymän muutoksiin"
+    },
+    "smartValidation": {
+      "title": "🕵️ Älykäs Vahvistusagentti",
+      "description": "Havaitsee visuaaliset ja loogiset virheet"
+    },
+    "costTracking": {
+      "title": "💰 Kustannus- ja Token-seuranta",
+      "description": "Seuraa AI:n käyttökustannuksia ja tokenien kulutusta"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI-integraatio",
+      "description": "Saumaton yhteys putkeesi"
+    },
+    "insightfulReports": {
+      "title": "📊 Oivaltavat Raportit",
+      "description": "Saa ihmisen luettavia, AI:n tuottamia raportteja"
+    }
+  },
+  "codeExample": {
+    "title": "Yksinkertainen ja intuitiivinen testien kirjoitus",
+    "description": "Kirjoita testejä, jotka lukevat kuin dokumentaatiota. Kehyksemme hoitaa monimutkaisuuden taustalla."
+  },
+  "whyChoose": {
+    "title": "Miksi valita kehyksemme?",
+    "subtitle": "Edistyneet ominaisuudet, jotka antavat sinulle kilpailuedun",
+    "smartTestStructure": {
+      "title": "🧠 Älykäs testirakenne",
+      "description": "Dynaamiset async setup(), data(), task() -funktiot vahvaan testin valmisteluun"
+    },
+    "costTokenTracking": {
+      "title": "💰 Kustannus- ja tokenseuranta",
+      "description": "Seuraa AI:n käyttökustannuksia testiä ja askelta kohden yksityiskohtaisella hinnoitteluerittelyllä"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI:n päätöshistoria",
+      "description": "Näe tarkalleen, miten AI analysoi, päättelee ja suorittaa testiohjeitasi"
+    },
+    "builtInTools": {
+      "title": "🔧 Sisäänrakennettu työkalujärjestelmä",
+      "description": "12 kattavaa selainautomatisointityökalua mukana - et tarvitse mukautettuja työkaluja"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Testin tallentaja",
+      "description": "Interaktiivinen testin tallentaja reaaliaikaista prompt-testausta varten - kokeile ja vahvista testi-ideasi välittömästi"
+    },
+    "enhancedReports": {
+      "title": "📊 Parannetut HTML-raportit",
+      "description": "Interaktiiviset raportit kustannusseurannalla, AI:n päätöksillä ja kuvakaappausgallerialla"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Pikaloitus",
+    "step1": "Asenna kehys",
+    "step2": "Määritä OpenAI API-avaimesi",
+    "step3": "Kirjoita ensimmäinen testisi",
+    "step4": "Suorita ja katso taikaa!",
+    "startNow": "Aloita nyt →"
+  }
+}

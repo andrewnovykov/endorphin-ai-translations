@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 AI-kostnadstransparens",
+    "subtitle": "Spor AI-brukskostnader i sanntid med detaljerte fordelinger per test og trinn",
+    "averageCostPerTest": "Gjennomsnittlig kostnad per test",
+    "tokensUsed": "Brukte tokens",
+    "executionTime": "Utførelsestid",
+    "perStepBreakdown": {
+      "title": "🔍 Per-trinn Fordeling",
+      "navigate": "Naviger",
+      "fillForm": "Fyll skjema",
+      "verify": "Verifiser",
+      "step1": "Trinn 1",
+      "step2": "Trinn 2",
+      "step3": "Trinn 3",
+      "tokensUnit": "tokens"
+    },
+    "costOptimization": {
+      "title": "📊 Kostnadsoptimalisering",
+      "smartPromptOptimization": "Smart ledetekstoptimalisering",
+      "tokenUsageAnalytics": "Token-bruksanalyse",
+      "costAlertsAndBudgets": "Kostnadsvarsler og budsjetter",
+      "historicalCostTracking": "Historisk kostnadssporing",
+      "costSavingsLabel": "Kostnadsbesparelser",
+      "optimizationDescription": "Vår optimalisering reduserer kostnadene med opptil 60% sammenlignet med ikke-optimalisert AI-testing"
+    },
+    "callToAction": {
+      "title": "Klar for Lykkelig Testing?",
+      "description": "Bli med i AI-testrevolusjonen med v0.9.0. Smart teststruktur, kostnadstransparens og bedriftsklasse pålitelighet.",
+      "getStartedFree": "Start Gratis",
+      "readDocumentation": "Les Dokumentasjon"
+    }
+  }
+}

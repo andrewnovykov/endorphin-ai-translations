@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "糟糕！页面未找到",
+    "returnHome": "返回首页"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "structure": {
+    "common/navigation.json": [
+      "nav"
+    ],
+    "common/footer.json": [
+      "footer"
+    ],
+    "common/errors.json": [
+      "notFound"
+    ],
+    "pages/home.json": [
+      "hero",
+      "features",
+      "codeExample",
+      "whyChoose",
+      "quickStart"
+    ],
+    "pages/documentation.json": [
+      "documentation"
+    ],
+    "pages/cost-transparency.json": [
+      "costTransparency"
+    ],
+    "docs/quick-start.json": [
+      "quickStartPage"
+    ],
+    "docs/project-setup.json": [
+      "projectSetupPage"
+    ],
+    "docs/test-structure.json": [
+      "testStructurePage"
+    ],
+    "docs/test-writing-tips.json": [
+      "testWritingTipsPage"
+    ],
+    "docs/prompt-guide.json": [
+      "promptGuidePage"
+    ]
+  },
+  "languages": [
+    "ar",
+    "da",
+    "de",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "he",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "sv",
+    "tr",
+    "ua",
+    "zh"
+  ],
+  "files": [
+    "common/navigation.json",
+    "common/footer.json",
+    "common/errors.json",
+    "pages/home.json",
+    "pages/documentation.json",
+    "pages/cost-transparency.json",
+    "docs/quick-start.json",
+    "docs/project-setup.json",
+    "docs/test-structure.json",
+    "docs/test-writing-tips.json",
+    "docs/prompt-guide.json"
+  ],
+  "description": "Modular translation structure for Endorphin AI website"
+}

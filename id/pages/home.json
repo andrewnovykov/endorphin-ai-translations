@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Pengujian E2E Diciptakan Ulang dengan AI",
+    "subtitle": "Tulis tes dalam bahasa Indonesia sederhana. Biarkan AI menghasilkan, memvalidasi, dan memperbaikinya secara otomatis. Masa depan pengujian end-to-end.",
+    "getStarted": "Mulai Sekarang",
+    "watchDemo": "Tonton Demo",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "socialProof": {
+      "stars": "bintang",
+      "license": "Lisensi AGPLv3",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Mengapa Developer Menyukai Framework Kami",
+    "subtitle": "Dibangun untuk alur kerja pengembangan modern dengan AI sebagai intinya",
+    "aiPowered": {
+      "title": "🧠 Penulisan Tes Bertenaga AI",
+      "description": "Jelaskan tindakan pengguna dalam bahasa Indonesia sederhana"
+    },
+    "selfHealing": {
+      "title": "🔁 Tes yang Menyembuhkan Diri",
+      "description": "Otomatis beradaptasi dengan perubahan UI"
+    },
+    "smartValidation": {
+      "title": "🕵️ Agen Validasi Cerdas",
+      "description": "Mendeteksi bug visual dan logika"
+    },
+    "costTracking": {
+      "title": "💰 Pelacakan Biaya & Token",
+      "description": "Pantau biaya penggunaan AI dan konsumsi token"
+    },
+    "ciIntegration": {
+      "title": "🚀 Integrasi CI",
+      "description": "Terhubung mulus ke pipeline Anda"
+    },
+    "insightfulReports": {
+      "title": "📊 Laporan Mendalam",
+      "description": "Dapatkan laporan yang dapat dibaca manusia, dihasilkan oleh AI"
+    }
+  },
+  "codeExample": {
+    "title": "Penulisan tes yang sederhana dan intuitif",
+    "description": "Tulis tes yang terbaca seperti dokumentasi. Framework kami menangani kompleksitas di latar belakang."
+  },
+  "whyChoose": {
+    "title": "Mengapa memilih framework kami?",
+    "subtitle": "Fitur canggih yang memberikan keunggulan kompetitif",
+    "smartTestStructure": {
+      "title": "🧠 Struktur tes cerdas",
+      "description": "Fungsi dinamis async setup(), data(), task() untuk persiapan tes yang kuat"
+    },
+    "costTokenTracking": {
+      "title": "💰 Pelacakan biaya & token",
+      "description": "Pantau biaya penggunaan AI per tes dan langkah dengan rincian harga terperinci"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 Riwayat keputusan AI",
+      "description": "Lihat persis bagaimana AI menganalisis, bernalar, dan mengeksekusi instruksi tes Anda"
+    },
+    "builtInTools": {
+      "title": "🔧 Sistem alat terintegrasi",
+      "description": "12 alat otomasi browser komprehensif disertakan - tidak perlu alat kustom"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Perekam tes",
+      "description": "Perekam tes interaktif untuk pengujian prompt real-time - bereksperimen dan validasi ide tes secara instan"
+    },
+    "enhancedReports": {
+      "title": "📊 Laporan HTML yang ditingkatkan",
+      "description": "Laporan interaktif dengan pelacakan biaya, keputusan AI, dan galeri screenshot"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Mulai cepat",
+    "step1": "Instal framework",
+    "step2": "Konfigurasi kunci OpenAI API Anda",
+    "step3": "Tulis tes pertama Anda",
+    "step4": "Jalankan dan saksikan keajaiban!",
+    "startNow": "Mulai sekarang →"
+  }
+}

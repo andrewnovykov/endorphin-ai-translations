@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E-testing Gjenoppfunnet med AI",
+    "subtitle": "Skriv tester på vanlig norsk. La AI generere, validere og fikse dem automatisk. Fremtiden for ende-til-ende-testing.",
+    "getStarted": "Kom i Gang",
+    "watchDemo": "Se Demo",
+    "learnMore": "Lær Mer",
+    "socialProof": {
+      "stars": "stjerner",
+      "license": "AGPLv3-lisens",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Hvorfor Utviklere Elsker Vårt Rammeverk",
+    "subtitle": "Bygget for moderne utviklingsflyter med AI i kjernen",
+    "aiPowered": {
+      "title": "🧠 AI-drevet Testskriving",
+      "description": "Beskriv brukerhandlinger på vanlig norsk"
+    },
+    "selfHealing": {
+      "title": "🔁 Selvhelbredende Tester",
+      "description": "Tilpasser seg automatisk til UI-endringer"
+    },
+    "smartValidation": {
+      "title": "🕵️ Smart Valideringsagent",
+      "description": "Oppdager visuelle og logiske feil"
+    },
+    "costTracking": {
+      "title": "💰 Kostnads- og Token-sporing",
+      "description": "Overvåk AI-brukskostnader og tokenforbruk"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI-integrasjon",
+      "description": "Sømløs tilkobling til din pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Innsiktsfulle Rapporter",
+      "description": "Få lesbare, AI-genererte rapporter"
+    }
+  },
+  "codeExample": {
+    "title": "Enkel, Intuitiv Testskriving",
+    "description": "Skriv tester som leser som dokumentasjon. Vårt rammeverk håndterer kompleksiteten bak kulissene."
+  },
+  "whyChoose": {
+    "title": "Hvorfor Velge Vårt Rammeverk?",
+    "subtitle": "Avanserte funksjoner som gir deg fordel over konkurrenter",
+    "smartTestStructure": {
+      "title": "🧩 Smart Teststruktur",
+      "description": "Dynamiske async setup(), data() og task() funksjoner for kraftig testforberedelse"
+    },
+    "costTokenTracking": {
+      "title": "💰 Kostnads- og Token-sporing",
+      "description": "Overvåk AI-brukskostnader for tester og trinn med detaljert prisfordeling"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI-beslutningshistorikk",
+      "description": "Se nøyaktig hvordan AI analyserte, resonnerte og utførte testinstruksjoner"
+    },
+    "builtInTools": {
+      "title": "🔧 Innebygd Verktøysystem",
+      "description": "12 omfattende nettleserautomatiseringsverktøy innebygd - ingen tilpassede verktøy nødvendig"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Testopptaker",
+      "description": "Interaktiv testopptaker for å prøve ledetekster i sanntid - eksperimenter og valider testideer umiddelbart"
+    },
+    "enhancedReports": {
+      "title": "📊 Forbedrede HTML-rapporter",
+      "description": "Interaktive rapporter med kostnadssporing, AI-beslutninger og skjermbildegallerier"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Hurtigstart",
+    "step1": "Installer rammeverket",
+    "step2": "Sett opp din OpenAI API-nøkkel",
+    "step3": "Skriv din første test",
+    "step4": "Kjør og se magien skje!",
+    "startNow": "Start Nå →"
+  }
+}

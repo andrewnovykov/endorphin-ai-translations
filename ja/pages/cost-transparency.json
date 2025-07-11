@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 AIコスト透明性",
+    "subtitle": "テストとステップごとの詳細な内訳でAI使用コストをリアルタイムで追跡",
+    "perStepBreakdown": {
+      "title": "🔍 ステップ別内訳",
+      "tokensUnit": "トークン",
+      "navigate": "ナビゲート",
+      "fillForm": "フォーム入力",
+      "verify": "検証",
+      "step1": "ステップ1",
+      "step2": "ステップ2",
+      "step3": "ステップ3"
+    },
+    "costOptimization": {
+      "title": "📊 コスト最適化",
+      "costSavingsLabel": "コスト削減",
+      "optimizationDescription": "我々の最適化により、最適化されていないAIテストと比較して最大60%のコスト削減が可能です",
+      "smartPromptOptimization": "スマートプロンプト最適化",
+      "tokenUsageAnalytics": "トークン使用分析",
+      "costAlertsAndBudgets": "コストアラートと予算",
+      "historicalCostTracking": "履歴コスト追跡"
+    },
+    "callToAction": {
+      "title": "Happy Vibetestingの準備はできましたか？",
+      "description": "v0.9.0でAIテスト革命に参加しましょう。スマートなテスト構造、コスト透明性、エンタープライズ級の信頼性。",
+      "getStartedFree": "無料で始める",
+      "readDocumentation": "ドキュメントを読む"
+    },
+    "averageCostPerTest": "テスト当たりの平均コスト",
+    "tokensUsed": "使用されたトークン",
+    "executionTime": "実行時間"
+  }
+}

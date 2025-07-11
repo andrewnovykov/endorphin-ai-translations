@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "إطار عمل E2E من الجيل التالي الذي يجمع بين قوة الذكاء الاصطناعي وبساطة اللغة الطبيعية.",
+    "quickLinks": "روابط سريعة",
+    "gettingStarted": "البدء",
+    "documentation": "التوثيق",
+    "examples": "أمثلة",
+    "resources": "الموارد",
+    "community": "المجتمع",
+    "github": "GitHub",
+    "support": "الدعم",
+    "contributing": "المساهمة",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

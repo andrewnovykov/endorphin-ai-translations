@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "Framework E2E nowej generacji, który łączy moc AI z prostotą języka naturalnego.",
+    "quickLinks": "Szybkie Linki",
+    "gettingStarted": "Rozpoczęcie",
+    "documentation": "Dokumentacja",
+    "examples": "Przykłady",
+    "resources": "Zasoby",
+    "community": "Społeczność",
+    "github": "GitHub",
+    "support": "Wsparcie",
+    "contributing": "Współtworzenie",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

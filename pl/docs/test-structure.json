@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Powrót do Dokumentacji"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Przewodnik Struktury Testów",
+      "subtitle": "Opanuj inteligentną strukturę testów v0.9.0 z funkcjami async setup(), data() i task()"
+    },
+    "basicStructure": {
+      "title": "📝 Podstawowa Struktura Testu",
+      "description": "Każdy test potrzebuje tych wymaganych pól"
+    },
+    "writingInstructions": {
+      "title": "🎯 Pisanie Instrukcji Testów",
+      "description": "Różne formaty dla różnych złożoności testów",
+      "simpleFormat": {
+        "title": "Prosty Format",
+        "description": "Idealny dla prostych testów:"
+      },
+      "stepByStepFormat": {
+        "title": "Format Krok po Kroku",
+        "description": "Świetny dla złożonych przepływów pracy:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Format Języka Naturalnego",
+        "description": "Pisz jakbyś wyjaśniał osobie:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Testy Dynamiczne",
+      "badge": "Funkcja v0.9.0",
+      "setupFunctions": {
+        "title": "Używanie Funkcji Setup",
+        "description": "Przygotuj swoje środowisko testowe:"
+      },
+      "dataFunctions": {
+        "title": "Używanie Funkcji Data",
+        "description": "Generuj dane testowe na bieżąco:"
+      },
+      "combinedSetupData": {
+        "title": "Połączony Setup + Data",
+        "description": "Użyj zarówno funkcji setup jak i data:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "Generowanie Danych Zasilane AI",
+      "badge": "Funkcja Zaawansowana",
+      "description": "Użyj AI do automatycznego generowania realistycznych danych testowych",
+      "basicAiGeneration": {
+        "title": "Podstawowe Generowanie Danych AI",
+        "description": "Użyj funkcji generateData do tworzenia realistycznych danych testowych z AI:"
+      },
+      "tipsTitle": "💡 Wskazówki Generowania Danych AI",
+      "tips": {
+        "specific": "• Bądź konkretny: Szczegółowe wymagania produkują lepsze dane",
+        "contexts": "• Używaj kontekstów: Określ branżę, typ użytkownika lub kontekst scenariusza",
+        "edgeCases": "• Uwzględnij przypadki brzegowe: Poproś o warunki graniczne i scenariusze błędów",
+        "relationships": "• Realistyczne relacje: Generuj połączone dane, które mają sens biznesowy",
+        "async": "• Generowanie asynchroniczne: Zawsze używaj async/await dla funkcji generowania danych",
+        "errorHandling": "• Obsługa błędów: Uwzględnij dane zapasowe w przypadku niepowodzenia generowania AI"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Najlepsze Praktyki",
+      "description": "Wskazówki do pisania efektywnych testów",
+      "uniqueIds": {
+        "title": "Używaj unikalnych ID testów",
+        "description": "Format: CATEGORY-NUMBER (np. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Pisz opisowe nazwy",
+        "description": "Jasne, czytelne dla człowieka nazwy testów pomagają w organizacji"
+      },
+      "meaningfulTags": {
+        "title": "Używaj znaczących tagów",
+        "description": "Grupuj powiązane testy: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Ustaw odpowiedni priorytet",
+        "description": "Wysoki dla ścieżek krytycznych, Średni dla funkcji, Niski dla przypadków brzegowych"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Szybkie Przykłady",
+      "description": "Gotowe do użycia szablony testów",
+      "loginTest": "📧 Przykład Testu Logowania",
+      "cartTest": "🛒 Przykład Testu Koszyka",
+      "formTest": "📝 Przykład Testu Wysyłania Formularza"
+    },
+    "nextSteps": {
+      "nextButton": "Następne: Wskazówki Pisania Testów →",
+      "previousButton": "← Poprzednie: Konfiguracja Projektu"
+    }
+  }
+}

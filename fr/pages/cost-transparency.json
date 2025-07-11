@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 Transparence des Coûts IA",
+    "subtitle": "Suivez les coûts d'utilisation de l'IA en temps réel avec des répartitions détaillées par test et étape",
+    "averageCostPerTest": "Coût moyen par test",
+    "tokensUsed": "Tokens utilisés",
+    "executionTime": "Temps d'exécution",
+    "perStepBreakdown": {
+      "title": "🔍 Répartition par Étape",
+      "navigate": "Naviguer",
+      "fillForm": "Remplir formulaire",
+      "verify": "Vérifier",
+      "step1": "Étape 1",
+      "step2": "Étape 2",
+      "step3": "Étape 3",
+      "tokensUnit": "tokens"
+    },
+    "costOptimization": {
+      "title": "📊 Optimisation des Coûts",
+      "smartPromptOptimization": "Optimisation intelligente des prompts",
+      "tokenUsageAnalytics": "Analyses d'utilisation des tokens",
+      "costAlertsAndBudgets": "Alertes de coûts et budgets",
+      "historicalCostTracking": "Suivi historique des coûts",
+      "costSavingsLabel": "Économies de Coûts",
+      "optimizationDescription": "Notre optimisation réduit les coûts jusqu'à 60% par rapport aux tests IA non optimisés"
+    },
+    "callToAction": {
+      "title": "Prêt pour Happy Vibetesting ?",
+      "description": "Rejoignez la révolution des tests IA avec v0.9.0. Structure de test intelligente, transparence des coûts et fiabilité de niveau entreprise.",
+      "getStartedFree": "Commencer Gratuitement",
+      "readDocumentation": "Lire la Documentation"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "quickStartPage": {
+    "badge": "5分",
+    "title": "クイックスタートガイド",
+    "subtitle": "5分以内でEndorphin AIを使い始める",
+    "congratulations": {
+      "title": "🎉 おめでとうございます！",
+      "subtitle": "最初のAI駆動テストを正常に実行しました。さらに進みませんか？"
+    },
+    "step1": {
+      "title": "インストール",
+      "description": "npmでEndorphin AIをインストール:",
+      "npmInstall": "npm install endorphin-ai",
+      "npmInit": "npx endorphin-ai init",
+      "benefits": "✅ TypeScript定義が含まれています • ✅ 設定は不要です"
+    },
+    "step2": {
+      "title": "🔑 OpenAIセットアップ",
+      "description": "OpenAI APIキーを設定:",
+      "getApiKey": "1. OpenAIからAPIキーを取得",
+      "visitPlatform": "platform.openai.com/api-keysでAPIキーを作成してください",
+      "addToEnv": "2. .envファイルに追加:",
+      "envExample": "OPENAI_API_KEY=sk-proj-abc123..",
+      "security": "✅ APIキーを安全に保管 • ✅ .envファイルをバージョン管理にコミットしないでください",
+      "substep1": "1. OpenAIからAPIキーを取得",
+      "visitLink": "Visit",
+      "createKey": "to create your API key",
+      "substep2": "2. .envファイルに追加:"
+    },
+    "step3": {
+      "title": "最初のテストを作成",
+      "description": "v0.9.0スマート構造を使用してシンプルなテストファイルを作成:",
+      "codeComment": "// my-first-test.ts\\nimport type { TestCase } from 'endorphin-ai';\\n\\nexport const LOGIN_TEST: TestCase = {\\n  id: 'LOGIN-001',\\n  name: 'ユーザーログインテスト',\\n  description: 'ユーザー認証フローをテスト',\\n  tags: ['認証'],\\n  priority: '高',\\n  \\n  setup: async () => ({\\n    baseUrl: 'https://example.com'\\n  }),\\n  \\n  data: async () => ({\\n    email: 'test@example.com',\\n    password: 'password123'\\n  }),\\n  \\n  task: async (data, setup) => \\`\\n    \\${setup.baseUrl}/loginに移動\\n    メールフィールドに\\\"\\${data.email}\\\"を入力\\n    パスワードフィールドに\\\"\\${data.password}\\\"を入力\\n    \\\"ログイン\\\"ボタンをクリック\\n    ダッシュボードが表示されることを確認\\n  \\`\\n};"
+    },
+    "step4": {
+      "title": "テストを実行",
+      "description": "単一のコマンドでテストを実行:",
+      "command": "npx endorphin-ai run my-first-test.js",
+      "aiAnalysis": "AIがあなたの指示を分析し、自動的にテストを実行します"
+    },
+    "step5": {
+      "title": "結果を表示",
+      "description": "コスト追跡付きの美しいHTMLレポートを確認:",
+      "command": "npx endorphin-ai generate report && npx endorphin-ai open report",
+      "features": {
+        "testExecution": "テスト実行詳細",
+        "aiDecisions": "AI決定履歴",
+        "costBreakdown": "コスト内訳",
+        "screenshots": "スクリーンショットギャラリー"
+      },
+      "feature1": "テスト実行詳細",
+      "feature2": "AI決定履歴",
+      "feature3": "コスト内訳",
+      "feature4": "スクリーンショットギャラリー"
+    },
+    "nextSteps": {
+      "setup": {
+        "title": "完全セットアップ",
+        "description": "高度な設定とプロジェクトセットアップを学ぶ",
+        "button": "ガイドを読む"
+      },
+      "structure": {
+        "title": "テスト構造",
+        "description": "v0.9.0スマートテスト構造をマスター",
+        "button": "詳細を見る"
+      },
+      "examples": {
+        "title": "例",
+        "description": "実世界のテスト例を参照",
+        "button": "例を表示"
+      }
+    },
+    "exploreAll": "すべてのドキュメントを探索"
+  }
+}

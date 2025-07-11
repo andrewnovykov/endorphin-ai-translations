@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "Retour à la Documentation"
+    },
+    "header": {
+      "badge": "Meilleures Pratiques",
+      "title": "Conseils d'Écriture de Tests",
+      "subtitle": "Exemples d'entreprise et de petites applications avec les meilleures pratiques pour des tests efficaces alimentés par l'IA"
+    },
+    "introduction": {
+      "title": "Maîtriser l'Écriture de Tests",
+      "description": "Apprenez à écrire des tests efficaces pour différents scénarios, des applications simples aux workflows d'entreprise complexes.",
+      "coverage": "Ce guide couvre :",
+      "coverageList": {
+        "patterns": "✅ Modèles de test courants et anti-modèles",
+        "enterprise": "✅ Stratégies de test à l'échelle de l'entreprise",
+        "smallApps": "✅ Approches optimisées pour les petites applications",
+        "maintenance": "✅ Stratégies de maintenance des tests à long terme",
+        "debugging": "✅ Techniques de débogage et de dépannage"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "Modèles de Test d'Entreprise",
+      "description": "Meilleures pratiques pour les applications à grande échelle :",
+      "patterns": {
+        "dataIsolation": {
+          "title": "Isolation des Données",
+          "description": "Séparez les données de test des données de production avec des stratégies d'isolation appropriées"
+        },
+        "pageObjects": {
+          "title": "Intégration Page Objects",
+          "description": "Combinez les tests IA avec les modèles page objects traditionnels"
+        },
+        "workflows": {
+          "title": "Test de Workflows Métier",
+          "description": "Testez les processus métier complexes multi-étapes de bout en bout"
+        },
+        "parallelization": {
+          "title": "Exécution de Tests en Parallèle",
+          "description": "Concevez des tests pour l'exécution parallèle et les pipelines CI/CD"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "Conseils pour Petites Applications",
+      "description": "Stratégies optimisées pour les projets plus petits :",
+      "tips": {
+        "simplicity": {
+          "title": "Restez Simple",
+          "description": "Concentrez-vous sur les parcours utilisateur principaux et la fonctionnalité critique"
+        },
+        "costOptimization": {
+          "title": "Optimisation des Coûts",
+          "description": "Minimisez l'utilisation des tokens IA tout en maintenant la couverture de test"
+        },
+        "quickFeedback": {
+          "title": "Boucles de Feedback Rapides",
+          "description": "Structurez les tests pour des cycles de développement rapides"
+        },
+        "essential": {
+          "title": "Tests Essentiels Seulement",
+          "description": "Priorisez les tests à fort impact qui capturent les bugs critiques"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "Modèles de Test Courants",
+      "description": "Modèles éprouvés qui fonctionnent sur différents types d'applications :",
+      "authentication": {
+        "title": "Flux d'Authentification",
+        "description": "Connexion, déconnexion, réinitialisation de mot de passe et authentification multi-facteurs"
+      },
+      "forms": {
+        "title": "Test de Formulaires",
+        "description": "Validation, soumission, gestion d'erreurs et formulaires dynamiques"
+      },
+      "navigation": {
+        "title": "Test de Navigation",
+        "description": "Navigation de menu, fil d'Ariane et liens profonds"
+      },
+      "dataVisualization": {
+        "title": "Visualisation de Données",
+        "description": "Test de graphiques, diagrammes et affichages de données interactifs"
+      }
+    },
+    "antiPatterns": {
+      "title": "Anti-Modèles à Éviter",
+      "description": "Erreurs courantes qui mènent à des tests instables ou non maintenables :",
+      "patterns": {
+        "overSpecification": "❌ Sur-spécification d'éléments UI (utilisez des descriptions sémantiques)",
+        "hardcoding": "❌ Codage en dur de valeurs dynamiques (utilisez les fonctions data)",
+        "chainedTests": "❌ Création de longues chaînes de tests dépendants",
+        "noValidation": "❌ Manque de validation et d'assertions appropriées",
+        "duplicateLogic": "❌ Duplication de logique de test dans plusieurs tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "Suivant: Guide de Prompts →",
+      "backButton": "Retour à la Documentation"
+    }
+  }
+}

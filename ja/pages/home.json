@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "AIでE2Eテストを再発明",
+    "subtitle": "日本語でテストを書くだけ。AIが自動的に生成、検証、修正します。エンドツーエンドテストの未来。",
+    "getStarted": "始める",
+    "watchDemo": "デモを見る",
+    "learnMore": "詳細を見る",
+    "socialProof": {
+      "stars": "スター",
+      "license": "AGPLv3 ライセンス",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "開発者が私たちのフレームワークを愛する理由",
+    "subtitle": "AIを中核とした現代的な開発ワークフロー向けに構築",
+    "aiPowered": {
+      "title": "🧠 AI搭載テスト作成",
+      "description": "日本語でユーザーアクションを記述"
+    },
+    "selfHealing": {
+      "title": "🔁 自己修復テスト",
+      "description": "UIの変更に自動的に適応"
+    },
+    "smartValidation": {
+      "title": "🕵️ インテリジェント検証エージェント",
+      "description": "視覚的・論理的エラーを検出"
+    },
+    "costTracking": {
+      "title": "💰 コストとトークン追跡",
+      "description": "AI使用コストとトークン消費を監視"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI統合",
+      "description": "パイプラインにシームレスに接続"
+    },
+    "insightfulReports": {
+      "title": "📊 洞察に富んだレポート",
+      "description": "AI生成の読みやすいレポートを取得"
+    }
+  },
+  "codeExample": {
+    "title": "シンプルで直感的なテスト作成",
+    "description": "ドキュメントのように読めるテストを作成。フレームワークがバックグラウンドで複雑さを処理します。"
+  },
+  "whyChoose": {
+    "title": "なぜ私たちのフレームワークを選ぶのか？",
+    "subtitle": "競合他社より優位に立つ高度な機能",
+    "smartTestStructure": {
+      "title": "� スマートテスト構造",
+      "description": "強力なテスト準備のための動的な非同期setup()、data()、task()関数"
+    },
+    "costTokenTracking": {
+      "title": "💰 コストとトークン追跡",
+      "description": "詳細な価格内訳でテストとステップごとのAI使用コストを監視"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI判断履歴",
+      "description": "AIがテスト指示をどのように分析、推論、実行するかを正確に確認"
+    },
+    "builtInTools": {
+      "title": "🔧 内蔵ツールシステム",
+      "description": "12の包括的なブラウザ自動化ツールを内蔵 - カスタムツール不要"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 テストレコーダー",
+      "description": "インタラクティブなテストレコーダーでプロンプトをリアルタイムで試行 - テストアイデアを即座に実験・検証"
+    },
+    "enhancedReports": {
+      "title": "📊 拡張HTMLレポート",
+      "description": "コスト追跡、AI判断、スクリーンショットギャラリー付きインタラクティブレポート"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 クイックスタート",
+    "step1": "フレームワークをインストール",
+    "step2": "OpenAI APIキーを設定",
+    "step3": "最初のテストを作成",
+    "step4": "実行して魔法を体験！",
+    "startNow": "今すぐ始める →"
+  }
+}

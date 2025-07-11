@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 AI Kosten Transparantie",
+    "subtitle": "Volg AI gebruikskosten in real-time met gedetailleerde uitsluitingen per test en stap",
+    "averageCostPerTest": "Gemiddelde kosten per test",
+    "tokensUsed": "Tokens gebruikt",
+    "executionTime": "Uitvoeringstijd",
+    "perStepBreakdown": {
+      "title": "🔍 Per-Stap Uitsplitsing",
+      "navigate": "Navigeren",
+      "fillForm": "Formulier invullen",
+      "verify": "Verifiëren",
+      "step1": "Stap 1",
+      "step2": "Stap 2",
+      "step3": "Stap 3",
+      "tokensUnit": "tokens"
+    },
+    "costOptimization": {
+      "title": "📊 Kostenoptimalisatie",
+      "smartPromptOptimization": "Slimme prompt optimalisatie",
+      "tokenUsageAnalytics": "Token gebruik analytics",
+      "costAlertsAndBudgets": "Kostenwaarschuwingen en budgetten",
+      "historicalCostTracking": "Historische kostentracking",
+      "costSavingsLabel": "Kostenbesparing",
+      "optimizationDescription": "Onze optimalisatie vermindert kosten met tot 60% vergeleken met niet-geoptimaliseerde AI testen"
+    },
+    "callToAction": {
+      "title": "Klaar voor Gelukkig Testen?",
+      "description": "Sluit u aan bij de AI test revolutie met v0.9.0. Slimme test structuur, kosten transparantie en enterprise-grade betrouwbaarheid.",
+      "getStartedFree": "Start Gratis",
+      "readDocumentation": "Lees Documentatie"
+    }
+  }
+}

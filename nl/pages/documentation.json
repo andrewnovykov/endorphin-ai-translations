@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Volledige Documentatie",
+    "subtitle": "Alles wat u nodig heeft om AI-aangedreven testen met Endorphin AI te beheersen. Van snelle start tot geavanceerde technieken.",
+    "versionBadge": "v0.9.0 Documentatie",
+    "startQuickGuide": "Start met Snelle Gids",
+    "browseAllDocs": "Bekijk Alle Docs",
+    "readGuide": "Lees Gids",
+    "badges": {
+      "5min": "5 min",
+      "essential": "Essentieel",
+      "v090": "v0.9.0",
+      "examples": "Voorbeelden",
+      "advanced": "Geavanceerd",
+      "proTips": "Pro Tips",
+      "reports": "Rapporten",
+      "interactive": "Interactief",
+      "config": "Config",
+      "automation": "Automatisering",
+      "patterns": "Patronen"
+    },
+    "gettingStarted": {
+      "title": "Aan de Slag",
+      "description": "Begin uw reis met Endorphin AI. Deze gidsen helpen u snel aan de slag.",
+      "quickStart": "Snelle Start",
+      "quickStartDesc": "Ga aan de slag met Endorphin AI in 5 minuten",
+      "projectSetup": "Project Setup",
+      "projectSetupDesc": "Volledige project setup en configuratie gids",
+      "testStructure": "Test Structuur",
+      "testStructureDesc": "v0.9 slimme test structuur met setup/data/task functies"
+    },
+    "advanced": {
+      "title": "Geavanceerde Onderwerpen",
+      "description": "Beheers geavanceerde functies en technieken voor enterprise-grade testen.",
+      "testWritingTips": "Test Schrijf Tips",
+      "testWritingTipsDesc": "Enterprise en kleine app voorbeelden met beste praktijken",
+      "promptGuide": "Prompt Gids",
+      "promptGuideDesc": "Geavanceerde AI prompting technieken en optimalisatie",
+      "vscodeDebugging": "VS Code Debugging",
+      "vscodeDebuggingDesc": "Professionele debugging met breakpoints en debug object"
+    },
+    "tools": {
+      "title": "Tools & Integraties",
+      "description": "Krachtige tools en rapportage functies om uw test workflow te verbeteren.",
+      "htmlReporter": "HTML Reporter",
+      "htmlReporterDesc": "Interactieve rapporten met kostentracering en AI beslissingen",
+      "testRecorder": "Test Recorder",
+      "testRecorderDesc": "Interactieve test creatie met browser opname",
+      "environmentSetup": "Omgeving Setup",
+      "environmentSetupDesc": "Omgevingsvariabelen en configuratie gids"
+    },
+    "deployment": {
+      "title": "Deployment & CI/CD",
+      "description": "Deploy uw tests en stel continue integratie in voor geautomatiseerd testen.",
+      "cicdSetup": "CI/CD Setup",
+      "cicdSetupDesc": "GitHub Actions integratie en automatisering workflows",
+      "globalSetup": "Globale Setup",
+      "globalSetupDesc": "Globale setup functies en herbruikbare patronen"
+    },
+    "quickLinks": {
+      "title": "Populaire Snelle Links",
+      "subtitle": "Spring direct naar de meest benodigde documentatie.",
+      "helpText": "Hulp nodig? Bekijk onze uitgebreide voorbeelden en probleemoplossing gidsen.",
+      "buttons": {
+        "viewExamples": "Bekijk Voorbeelden",
+        "troubleshooting": "Probleemoplossing",
+        "joinCommunity": "Word Lid van Gemeenschap"
+      },
+      "quickStart": {
+        "title": "5-Minuten Snelle Start",
+        "description": "Krijg uw eerste test draaiend in minder dan 5 minuten met onze snelste setup gids.",
+        "button": "Start Nu →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 Test Structuur",
+        "description": "Leer de nieuwe slimme test structuur met async setup(), data() en task() functies.",
+        "button": "Meer Informatie →"
+      }
+    }
+  }
+}

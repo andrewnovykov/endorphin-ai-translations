@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 Yapay Zeka Maliyet Şeffaflığı",
+    "subtitle": "Test ve adım başına detaylı dökümlerle yapay zeka kullanım maliyetlerini gerçek zamanlı takip edin",
+    "averageCostPerTest": "Test başına ortalama maliyet",
+    "tokensUsed": "Kullanılan tokenler",
+    "executionTime": "Çalıştırma süresi",
+    "perStepBreakdown": {
+      "title": "🔍 Adım Bazında Dökümü",
+      "navigate": "Gezin",
+      "fillForm": "Formu doldur",
+      "verify": "Doğrula",
+      "step1": "Adım 1",
+      "step2": "Adım 2",
+      "step3": "Adım 3",
+      "tokensUnit": "token"
+    },
+    "costOptimization": {
+      "title": "📊 Maliyet Optimizasyonu",
+      "smartPromptOptimization": "Akıllı komut optimizasyonu",
+      "tokenUsageAnalytics": "Token kullanım analitiği",
+      "costAlertsAndBudgets": "Maliyet uyarıları ve bütçeler",
+      "historicalCostTracking": "Geçmiş maliyet takibi",
+      "costSavingsLabel": "Maliyet Tasarrufu",
+      "optimizationDescription": "Optimizasyonumuz, optimize edilmemiş yapay zeka testlerine kıyasla maliyetleri %60'a kadar azaltır"
+    },
+    "callToAction": {
+      "title": "Mutlu Test Deneyimine Hazır mısınız?",
+      "description": "v0.9.0 ile yapay zeka test devrimine katılın. Akıllı test yapısı, maliyet şeffaflığı ve kurumsal düzeyde güvenilirlik.",
+      "getStartedFree": "Ücretsiz Başla",
+      "readDocumentation": "Dokümantasyonu Oku"
+    }
+  }
+}

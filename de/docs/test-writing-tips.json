@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "Zurück zur Dokumentation"
+    },
+    "header": {
+      "badge": "Best Practices",
+      "title": "Test-Schreib-Tipps",
+      "subtitle": "Unternehmens- und kleine App-Beispiele mit Best Practices für effektive KI-gestützte Tests"
+    },
+    "introduction": {
+      "title": "Meistern Sie das Schreiben von Tests",
+      "description": "Lernen Sie, wie Sie effektive Tests für verschiedene Szenarien schreiben, von einfachen Anwendungen bis hin zu komplexen Unternehmens-Workflows.",
+      "coverage": "Dieser Leitfaden behandelt:",
+      "coverageList": {
+        "patterns": "✅ Häufige Test-Muster und Anti-Muster",
+        "enterprise": "✅ Unternehmens-Test-Strategien",
+        "smallApps": "✅ Optimierte Ansätze für kleine Anwendungen",
+        "maintenance": "✅ Langfristige Test-Wartungsstrategien",
+        "debugging": "✅ Debugging- und Fehlerbehebungstechniken"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "Unternehmens-Test-Muster",
+      "description": "Best Practices für große Anwendungen:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "Datenisolation",
+          "description": "Trennen Sie Testdaten von Produktionsdaten mit angemessenen Isolationsstrategien"
+        },
+        "pageObjects": {
+          "title": "Page Object Integration",
+          "description": "Kombinieren Sie KI-Tests mit traditionellen Page Object Mustern"
+        },
+        "workflows": {
+          "title": "Geschäfts-Workflow-Tests",
+          "description": "Testen Sie komplexe mehrstufige Geschäftsprozesse End-to-End"
+        },
+        "parallelization": {
+          "title": "Parallele Test-Ausführung",
+          "description": "Entwerfen Sie Tests für parallele Ausführung und CI/CD-Pipelines"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "Tipps für kleine Anwendungen",
+      "description": "Optimierte Strategien für kleinere Projekte:",
+      "tips": {
+        "simplicity": {
+          "title": "Einfach halten",
+          "description": "Fokussieren Sie sich auf Kern-User-Journeys und kritische Funktionalität"
+        },
+        "costOptimization": {
+          "title": "Kostenoptimierung",
+          "description": "Minimieren Sie KI-Token-Verbrauch bei gleichzeitiger Test-Abdeckung"
+        },
+        "quickFeedback": {
+          "title": "Schnelle Feedback-Schleifen",
+          "description": "Strukturieren Sie Tests für schnelle Entwicklungszyklen"
+        },
+        "essential": {
+          "title": "Nur wesentliche Tests",
+          "description": "Priorisieren Sie Tests mit hoher Auswirkung, die kritische Bugs fangen"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "Häufige Test-Muster",
+      "description": "Bewährte Muster, die in verschiedenen Anwendungstypen funktionieren:",
+      "authentication": {
+        "title": "Authentifizierungs-Flows",
+        "description": "Anmeldung, Abmeldung, Passwort-Reset und Multi-Faktor-Authentifizierung"
+      },
+      "forms": {
+        "title": "Formular-Tests",
+        "description": "Validierung, Übermittlung, Fehlerbehandlung und dynamische Formulare"
+      },
+      "navigation": {
+        "title": "Navigations-Tests",
+        "description": "Menü-Navigation, Breadcrumbs und Deep-Linking"
+      },
+      "dataVisualization": {
+        "title": "Datenvisualisierung",
+        "description": "Testen von Diagrammen, Grafiken und interaktiven Daten-Displays"
+      }
+    },
+    "antiPatterns": {
+      "title": "Zu vermeidende Anti-Muster",
+      "description": "Häufige Fehler, die zu unzuverlässigen oder nicht wartbaren Tests führen:",
+      "patterns": {
+        "overSpecification": "❌ Über-Spezifikation von UI-Elementen (verwenden Sie semantische Beschreibungen)",
+        "hardcoding": "❌ Hardcoding dynamischer Werte (verwenden Sie Data-Funktionen)",
+        "chainedTests": "❌ Erstellen langer Ketten abhängiger Tests",
+        "noValidation": "❌ Fehlende ordnungsgemäße Validierung und Assertions",
+        "duplicateLogic": "❌ Duplizieren von Test-Logik in mehreren Tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "Weiter: Prompt-Leitfaden →",
+      "backButton": "Zurück zur Dokumentation"
+    }
+  }
+}

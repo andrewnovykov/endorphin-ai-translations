@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "Voltar à Documentação"
+    },
+    "header": {
+      "badge": "Melhores Práticas",
+      "title": "Dicas de Escrita de Teste",
+      "subtitle": "Exemplos empresariais e de pequenos apps com melhores práticas para testes eficazes potencializados por IA"
+    },
+    "introduction": {
+      "title": "Domine a Escrita de Testes",
+      "description": "Aprenda como escrever testes eficazes para diferentes cenários, desde aplicações simples até fluxos de trabalho empresariais complexos.",
+      "coverage": "Este guia cobre:",
+      "coverageList": {
+        "patterns": "✅ Padrões de teste comuns e anti-padrões",
+        "enterprise": "✅ Estratégias de teste em escala empresarial",
+        "smallApps": "✅ Abordagens otimizadas para pequenas aplicações",
+        "maintenance": "✅ Estratégias de manutenção de teste a longo prazo",
+        "debugging": "✅ Técnicas de depuração e resolução de problemas"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "Padrões de Teste Empresarial",
+      "description": "Melhores práticas para aplicações em larga escala:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "Isolamento de Dados",
+          "description": "Separe dados de teste dos dados de produção com estratégias de isolamento apropriadas"
+        },
+        "pageObjects": {
+          "title": "Integração Page Objects",
+          "description": "Combine testes de IA com padrões tradicionais de page objects"
+        },
+        "workflows": {
+          "title": "Teste de Fluxos de Trabalho de Negócio",
+          "description": "Teste processos de negócio complexos multi-etapa end-to-end"
+        },
+        "parallelization": {
+          "title": "Execução de Teste Paralela",
+          "description": "Projete testes para execução paralela e pipelines CI/CD"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "Dicas para Pequenas Aplicações",
+      "description": "Estratégias otimizadas para projetos menores:",
+      "tips": {
+        "simplicity": {
+          "title": "Mantenha Simples",
+          "description": "Foque nas jornadas de usuário principais e funcionalidade crítica"
+        },
+        "costOptimization": {
+          "title": "Otimização de Custos",
+          "description": "Minimize o uso de tokens de IA mantendo a cobertura de teste"
+        },
+        "quickFeedback": {
+          "title": "Loops de Feedback Rápido",
+          "description": "Estruture testes para ciclos de desenvolvimento rápidos"
+        },
+        "essential": {
+          "title": "Apenas Testes Essenciais",
+          "description": "Priorize testes de alto impacto que capturam bugs críticos"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "Padrões de Teste Comuns",
+      "description": "Padrões comprovados que funcionam em diferentes tipos de aplicação:",
+      "authentication": {
+        "title": "Fluxos de Autenticação",
+        "description": "Login, logout, reset de senha e autenticação multi-fator"
+      },
+      "forms": {
+        "title": "Teste de Formulários",
+        "description": "Validação, envio, tratamento de erro e formulários dinâmicos"
+      },
+      "navigation": {
+        "title": "Teste de Navegação",
+        "description": "Navegação de menu, breadcrumbs e deep linking"
+      },
+      "dataVisualization": {
+        "title": "Visualização de Dados",
+        "description": "Teste de gráficos, charts e displays de dados interativos"
+      }
+    },
+    "antiPatterns": {
+      "title": "Anti-Padrões a Evitar",
+      "description": "Erros comuns que levam a testes instáveis ou não sustentáveis:",
+      "patterns": {
+        "overSpecification": "❌ Sobre-especificação de elementos UI (use descrições semânticas)",
+        "hardcoding": "❌ Hardcoding de valores dinâmicos (use funções data)",
+        "chainedTests": "❌ Criar longas cadeias de testes dependentes",
+        "noValidation": "❌ Falta de validação e asserções adequadas",
+        "duplicateLogic": "❌ Duplicar lógica de teste em múltiplos testes"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "Próximo: Guia de Prompt →",
+      "backButton": "Voltar à Documentação"
+    }
+  }
+}

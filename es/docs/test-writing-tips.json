@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "Volver a la Documentación"
+    },
+    "header": {
+      "badge": "Mejores Prácticas",
+      "title": "Consejos para Escribir Pruebas",
+      "subtitle": "Ejemplos empresariales y de aplicaciones pequeñas con mejores prácticas para pruebas efectivas potenciadas por IA"
+    },
+    "introduction": {
+      "title": "Domina la Escritura de Pruebas",
+      "description": "Aprende cómo escribir pruebas efectivas para diferentes escenarios, desde aplicaciones simples hasta flujos de trabajo empresariales complejos.",
+      "coverage": "Esta guía cubre:",
+      "coverageList": {
+        "patterns": "✅ Patrones de prueba comunes y anti-patrones",
+        "enterprise": "✅ Estrategias de prueba a escala empresarial",
+        "smallApps": "✅ Enfoques optimizados para aplicaciones pequeñas",
+        "maintenance": "✅ Estrategias de mantenimiento de pruebas a largo plazo",
+        "debugging": "✅ Técnicas de depuración y resolución de problemas"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "Patrones de Prueba Empresarial",
+      "description": "Mejores prácticas para aplicaciones a gran escala:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "Aislamiento de Datos",
+          "description": "Separa los datos de prueba de los datos de producción con estrategias de aislamiento apropiadas"
+        },
+        "pageObjects": {
+          "title": "Integración de Page Objects",
+          "description": "Combina pruebas de IA con patrones tradicionales de page objects"
+        },
+        "workflows": {
+          "title": "Pruebas de Flujos de Trabajo de Negocio",
+          "description": "Prueba procesos de negocio complejos de múltiples pasos de extremo a extremo"
+        },
+        "parallelization": {
+          "title": "Ejecución de Pruebas en Paralelo",
+          "description": "Diseña pruebas para ejecución paralela y pipelines de CI/CD"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "Consejos para Aplicaciones Pequeñas",
+      "description": "Estrategias optimizadas para proyectos más pequeños:",
+      "tips": {
+        "simplicity": {
+          "title": "Mantenlo Simple",
+          "description": "Enfócate en los viajes de usuario principales y funcionalidad crítica"
+        },
+        "costOptimization": {
+          "title": "Optimización de Costos",
+          "description": "Minimiza el uso de tokens de IA mientras mantienes la cobertura de pruebas"
+        },
+        "quickFeedback": {
+          "title": "Ciclos de Retroalimentación Rápida",
+          "description": "Estructura las pruebas para ciclos de desarrollo rápidos"
+        },
+        "essential": {
+          "title": "Solo Pruebas Esenciales",
+          "description": "Prioriza pruebas de alto impacto que capturen errores críticos"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "Patrones de Prueba Comunes",
+      "description": "Patrones probados que funcionan en diferentes tipos de aplicaciones:",
+      "authentication": {
+        "title": "Flujos de Autenticación",
+        "description": "Login, logout, restablecimiento de contraseña y autenticación multifactor"
+      },
+      "forms": {
+        "title": "Pruebas de Formularios",
+        "description": "Validación, envío, manejo de errores y formularios dinámicos"
+      },
+      "navigation": {
+        "title": "Pruebas de Navegación",
+        "description": "Navegación de menús, breadcrumbs y enlaces profundos"
+      },
+      "dataVisualization": {
+        "title": "Visualización de Datos",
+        "description": "Pruebas de gráficos, gráficas y visualizaciones de datos interactivas"
+      }
+    },
+    "antiPatterns": {
+      "title": "Anti-Patrones a Evitar",
+      "description": "Errores comunes que llevan a pruebas inestables o no mantenibles:",
+      "patterns": {
+        "overSpecification": "❌ Sobre-especificar elementos UI (usa descripciones semánticas)",
+        "hardcoding": "❌ Codificar valores dinámicos (usa funciones data)",
+        "chainedTests": "❌ Crear largas cadenas de pruebas dependientes",
+        "noValidation": "❌ Falta de validación y aserciones apropiadas",
+        "duplicateLogic": "❌ Duplicar lógica de prueba en múltiples pruebas"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "Siguiente: Guía de Prompts →",
+      "backButton": "Volver a la Documentación"
+    }
+  }
+}

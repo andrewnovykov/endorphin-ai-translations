@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Takaisin dokumentaatioon"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Testirakenteen opas",
+      "subtitle": "Hallitse älykäs testirakenne v0.9.0 async setup(), data() ja task() funktioilla"
+    },
+    "basicStructure": {
+      "title": "📝 Perustestirakenne",
+      "description": "Jokainen testi tarvitsee nämä vaaditut kentät"
+    },
+    "writingInstructions": {
+      "title": "🎯 Testiohjeiden kirjoittaminen",
+      "description": "Eri formaatit eri testi-monimutkaisuuksille",
+      "simpleFormat": {
+        "title": "Yksinkertainen formaatti",
+        "description": "Täydellinen suoraviivaisille testeille:"
+      },
+      "stepByStepFormat": {
+        "title": "Vaihe vaiheelta -formaatti",
+        "description": "Loistava monimutkaisille työnkuluille:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Luonnollinen kieli -formaatti",
+        "description": "Kirjoita kuin selittäisit henkilölle:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynaamiset testit",
+      "badge": "v0.9.0 ominaisuus",
+      "setupFunctions": {
+        "title": "Setup-funktioiden käyttö",
+        "description": "Valmistele testiympäristösi:"
+      },
+      "dataFunctions": {
+        "title": "Data-funktioiden käyttö",
+        "description": "Luo testidataa lennossa:"
+      },
+      "combinedSetupData": {
+        "title": "Yhdistetty setup + data",
+        "description": "Käytä sekä setup- että data-funktioita:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI-voimainen datan luominen",
+      "badge": "Kehittynyt ominaisuus",
+      "description": "Käytä AI:ta realistisen testidatan automaattiseen luomiseen",
+      "basicAiGeneration": {
+        "title": "Perustason AI-datan luominen",
+        "description": "Käytä generateData-funktiota realistisen testidatan luomiseen AI:lla:"
+      },
+      "tipsTitle": "💡 AI-datan luomisen vinkit",
+      "tips": {
+        "specific": "• Ole tarkka: Yksityiskohtaiset vaatimukset tuottavat parempaa dataa",
+        "contexts": "• Käytä konteksteja: Määrittele toimiala, käyttäjätyyppi tai skenaarion konteksti",
+        "edgeCases": "• Sisällytä rajatapaukset: Pyydä raja-arvoja ja virhetilanteita",
+        "relationships": "• Realistiset suhteet: Luo yhteydessä olevaa dataa, joka on liiketoiminnallisesti järkevää",
+        "async": "• Asynkroninen luominen: Käytä aina async/await datan luomisfunktioissa",
+        "errorHandling": "• Virheenkäsittely: Sisällytä varasuunnitelma-dataa AI-luomisen epäonnistuessa"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Parhaat käytännöt",
+      "description": "Vinkkejä tehokkaiden testien kirjoittamiseen",
+      "uniqueIds": {
+        "title": "Käytä uniikkeja testi-ID:itä",
+        "description": "Formaatti: KATEGORIA-NUMERO (esim. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Kirjoita kuvaavia nimiä",
+        "description": "Selkeät, ihmisluettavat testinimet auttavat organisoinnissa"
+      },
+      "meaningfulTags": {
+        "title": "Käytä merkityksellisiä tageja",
+        "description": "Ryhmittele liittyvät testit: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Aseta sopiva prioriteetti",
+        "description": "Korkea kriittisille poluille, keskitaso ominaisuuksille, matala rajatapauksille"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Pikaiset esimerkit",
+      "description": "Käyttövalmis testimallit",
+      "loginTest": "📧 Sisäänkirjautumistesti esimerkki",
+      "cartTest": "🛒 Ostoskorin testi esimerkki",
+      "formTest": "📝 Lomakkeen lähetys testi esimerkki"
+    },
+    "nextSteps": {
+      "nextButton": "Seuraava: Testin kirjoitusvinkit →",
+      "previousButton": "← Edellinen: Projektin asennus"
+    }
+  }
+}

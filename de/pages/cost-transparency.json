@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 KI-Kostentransparenz",
+    "subtitle": "Verfolgen Sie KI-Nutzungskosten in Echtzeit mit detaillierten Aufschlüsselungen pro Test und Schritt",
+    "averageCostPerTest": "Durchschnittliche Kosten pro Test",
+    "tokensUsed": "Verwendete Tokens",
+    "executionTime": "Ausführungszeit",
+    "perStepBreakdown": {
+      "title": "🔍 Aufschlüsselung nach Schritten",
+      "navigate": "Navigieren",
+      "fillForm": "Formular ausfüllen",
+      "verify": "Überprüfen",
+      "step1": "Schritt 1",
+      "step2": "Schritt 2",
+      "step3": "Schritt 3",
+      "tokensUnit": "Tokens"
+    },
+    "costOptimization": {
+      "title": "📊 Kostenoptimierung",
+      "smartPromptOptimization": "Intelligente Prompt-Optimierung",
+      "tokenUsageAnalytics": "Token-Nutzungsanalyse",
+      "costAlertsAndBudgets": "Kostenwarnungen und Budgets",
+      "historicalCostTracking": "Historische Kostenverfolgung",
+      "costSavingsLabel": "Kosteneinsparungen",
+      "optimizationDescription": "Unsere Optimierung reduziert die Kosten um bis zu 60% im Vergleich zu unoptimierten KI-Tests"
+    },
+    "callToAction": {
+      "title": "Bereit für Happy Vibetesting?",
+      "description": "Schließen Sie sich der KI-Test-Revolution mit v0.9.0 an. Intelligente Teststruktur, Kostentransparenz und Zuverlässigkeit auf Enterprise-Niveau.",
+      "getStartedFree": "Kostenlos starten",
+      "readDocumentation": "Dokumentation lesen"
+    }
+  }
+}

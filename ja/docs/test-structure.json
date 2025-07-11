@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "ドキュメントに戻る"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "テスト構造ガイド",
+      "subtitle": "async setup()、data()、task()関数を使ったv0.9.0スマートテスト構造をマスターする"
+    },
+    "basicStructure": {
+      "title": "📝 基本テスト構造",
+      "description": "すべてのテストにこれらの必須フィールドが必要です"
+    },
+    "writingInstructions": {
+      "title": "🎯 テスト指示の記述",
+      "description": "テストの複雑さに応じた異なる形式",
+      "simpleFormat": {
+        "title": "シンプル形式",
+        "description": "直接的なテストに最適："
+      },
+      "stepByStepFormat": {
+        "title": "ステップバイステップ形式",
+        "description": "複雑なワークフローに適している："
+      },
+      "naturalLanguageFormat": {
+        "title": "自然言語形式",
+        "description": "人に説明するように書く："
+      }
+    },
+    "dynamicTests": {
+      "title": "動的テスト",
+      "badge": "v0.9.0 機能",
+      "setupFunctions": {
+        "title": "Setup関数の使用",
+        "description": "テスト環境を準備する："
+      },
+      "dataFunctions": {
+        "title": "Data関数の使用",
+        "description": "テストデータを動的に生成する："
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data の組み合わせ",
+        "description": "setup関数とdata関数の両方を使用する："
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI駆動データ生成",
+      "badge": "高度な機能",
+      "description": "AIを使用してリアルなテストデータを自動生成",
+      "basicAiGeneration": {
+        "title": "基本的なAIデータ生成",
+        "description": "generateData関数を使用してAIでリアルなテストデータを作成する："
+      },
+      "tipsTitle": "💡 AIデータ生成のヒント",
+      "tips": {
+        "specific": "• 具体的に：詳細な要件がより良いデータを生成します",
+        "contexts": "• コンテキストを使用：業界、ユーザータイプ、シナリオコンテキストを指定",
+        "edgeCases": "• エッジケースを含める：境界条件とエラーシナリオを要求",
+        "relationships": "• リアルな関係：ビジネス的に意味のある関連データを生成",
+        "async": "• 非同期生成：データ生成関数では常にasync/awaitを使用",
+        "errorHandling": "• エラーハンドリング：AI生成が失敗した場合のフォールバックデータを含める"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 ベストプラクティス",
+      "description": "効果的なテスト作成のヒント",
+      "uniqueIds": {
+        "title": "一意のテストIDを使用",
+        "description": "形式：カテゴリ-番号（例：LOGIN-001、CART-002）"
+      },
+      "descriptiveNames": {
+        "title": "説明的な名前を書く",
+        "description": "明確で人間が読める テスト名は整理に役立ちます"
+      },
+      "meaningfulTags": {
+        "title": "意味のあるタグを使用",
+        "description": "関連するテストをグループ化：['auth', 'critical']、['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "適切な優先度を設定",
+        "description": "重要なパスは高、機能は中、エッジケースは低"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 クイック例",
+      "description": "すぐに使えるテストテンプレート",
+      "loginTest": "📧 ログインテスト例",
+      "cartTest": "🛒 ショッピングカートテスト例",
+      "formTest": "📝 フォーム送信テスト例"
+    },
+    "nextSteps": {
+      "nextButton": "次：テスト作成のコツ →",
+      "previousButton": "← 前：プロジェクト設定"
+    }
+  }
+}

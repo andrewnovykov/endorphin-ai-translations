@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "Das Next-Generation E2E-Testing-Framework, das die Kraft der KI mit der Einfachheit natürlicher Sprache verbindet.",
+    "quickLinks": "Schnellzugriff",
+    "gettingStarted": "Erste Schritte",
+    "documentation": "Dokumentation",
+    "examples": "Beispiele",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "github": "GitHub",
+    "support": "Support",
+    "contributing": "Mitwirken",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

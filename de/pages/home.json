@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E-Tests neu erfunden mit KI",
+    "subtitle": "Schreiben Sie Tests in einfachem Deutsch. Lassen Sie KI sie automatisch generieren, validieren und reparieren. Die Zukunft des End-to-End-Testens.",
+    "getStarted": "Loslegen",
+    "watchDemo": "Demo ansehen",
+    "learnMore": "Mehr erfahren",
+    "socialProof": {
+      "stars": "Sterne",
+      "license": "AGPLv3 Lizenz",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Warum Entwickler unser Framework lieben",
+    "subtitle": "Entwickelt für moderne Entwicklungsworkflows mit KI im Kern",
+    "aiPowered": {
+      "title": "🧠 KI-gestützte Testentwicklung",
+      "description": "Beschreiben Sie Benutzeraktionen in einfachem Deutsch"
+    },
+    "selfHealing": {
+      "title": "🔁 Selbstheilende Tests",
+      "description": "Automatische Anpassung an UI-Änderungen"
+    },
+    "smartValidation": {
+      "title": "🕵️ Intelligenter Validierungs-Agent",
+      "description": "Erkennt visuelle und logische Fehler"
+    },
+    "costTracking": {
+      "title": "💰 Kosten- & Token-Verfolgung",
+      "description": "Überwachen Sie KI-Nutzungskosten und Token-Verbrauch"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI-Integration",
+      "description": "Nahtlose Verbindung zu Ihrer Pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Aussagekräftige Berichte",
+      "description": "Erhalten Sie lesbare, KI-generierte Berichte"
+    }
+  },
+  "codeExample": {
+    "title": "Einfaches, intuitives Testschreiben",
+    "description": "Schreiben Sie Tests, die sich wie Dokumentation lesen. Unser Framework übernimmt die Komplexität im Hintergrund."
+  },
+  "whyChoose": {
+    "title": "Warum unser Framework wählen?",
+    "subtitle": "Erweiterte Funktionen, die uns von der Konkurrenz abheben",
+    "smartTestStructure": {
+      "title": "🧠 Intelligente Teststruktur",
+      "description": "Dynamische asynchrone setup(), data(), task() Funktionen für robuste Test-Vorbereitung"
+    },
+    "costTokenTracking": {
+      "title": "💰 Kosten- & Token-Verfolgung",
+      "description": "Überwachen Sie KI-Nutzungskosten pro Test und Schritt mit detaillierter Preisaufschlüsselung"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 KI-Entscheidungshistorie",
+      "description": "Sehen Sie genau, wie KI Testanweisungen analysiert, begründet und ausführt"
+    },
+    "builtInTools": {
+      "title": "🔧 Eingebautes Tool-System",
+      "description": "12 umfassende Browser-Automatisierungstools eingebaut - keine benutzerdefinierten Tools erforderlich"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Test-Recorder",
+      "description": "Interaktiver Test-Recorder zum Ausprobieren von Prompts in Echtzeit - experimentieren und validieren Sie Test-Ideen sofort"
+    },
+    "enhancedReports": {
+      "title": "📊 Erweiterte HTML-Berichte",
+      "description": "Interaktive Berichte mit Kostenverfolgung, KI-Entscheidungen und Screenshot-Galerie"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Schnellstart",
+    "step1": "Framework installieren",
+    "step2": "OpenAI API-Schlüssel einrichten",
+    "step3": "Ersten Test schreiben",
+    "step4": "Ausführen und die Magie erleben!",
+    "startNow": "Jetzt starten →"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Dokümantasyona Dön"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Test Yapısı Rehberi",
+      "subtitle": "Async setup(), data() ve task() fonksiyonları ile v0.9.0 akıllı test yapısında ustalaşın"
+    },
+    "basicStructure": {
+      "title": "📝 Temel Test Yapısı",
+      "description": "Her test bu gerekli alanlara ihtiyaç duyar"
+    },
+    "writingInstructions": {
+      "title": "🎯 Test Talimatları Yazma",
+      "description": "Farklı test karmaşıklıkları için farklı formatlar",
+      "simpleFormat": {
+        "title": "Basit Format",
+        "description": "Doğrudan testler için mükemmel:"
+      },
+      "stepByStepFormat": {
+        "title": "Adım Adım Format",
+        "description": "Karmaşık iş akışları için harika:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Doğal Dil Formatı",
+        "description": "Bir kişiye açıklıyormuş gibi yazın:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dinamik Testler",
+      "badge": "v0.9.0 Özelliği",
+      "setupFunctions": {
+        "title": "Setup Fonksiyonları Kullanma",
+        "description": "Test ortamınızı hazırlayın:"
+      },
+      "dataFunctions": {
+        "title": "Data Fonksiyonları Kullanma",
+        "description": "Anında test verisi oluşturun:"
+      },
+      "combinedSetupData": {
+        "title": "Birleşik Setup + Data",
+        "description": "Hem setup hem de data fonksiyonlarını kullanın:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI Destekli Veri Üretimi",
+      "badge": "Gelişmiş Özellik",
+      "description": "Gerçekçi test verilerini otomatik olarak üretmek için AI kullanın",
+      "basicAiGeneration": {
+        "title": "Temel AI Veri Üretimi",
+        "description": "AI ile gerçekçi test verisi oluşturmak için generateData fonksiyonunu kullanın:"
+      },
+      "tipsTitle": "💡 AI Veri Üretimi İpuçları",
+      "tips": {
+        "specific": "• Spesifik olun: Detaylı gereksinimler daha iyi veri üretir",
+        "contexts": "• Bağlamları kullanın: Sektör, kullanıcı türü veya senaryo bağlamını belirtin",
+        "edgeCases": "• Edge durumları dahil edin: Sınır koşulları ve hata senaryoları isteyin",
+        "relationships": "• Gerçekçi ilişkiler: İş açısından mantıklı bağlantılı veriler üretin",
+        "async": "• Asenkron üretim: Veri üretimi fonksiyonları için her zaman async/await kullanın",
+        "errorHandling": "• Hata yönetimi: AI üretimi başarısız olursa yedek veri ekleyin"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 En İyi Uygulamalar",
+      "description": "Etkili testler yazmak için ipuçları",
+      "uniqueIds": {
+        "title": "Benzersiz test ID'leri kullanın",
+        "description": "Format: CATEGORY-NUMBER (örn. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Açıklayıcı isimler yazın",
+        "description": "Net, insanların okuyabileceği test isimleri organizasyonda yardımcı olur"
+      },
+      "meaningfulTags": {
+        "title": "Anlamlı etiketler kullanın",
+        "description": "İlgili testleri gruplandırın: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Uygun öncelik belirleyin",
+        "description": "Kritik yollar için Yüksek, özellikler için Orta, edge durumlar için Düşük"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Hızlı Örnekler",
+      "description": "Kullanıma hazır test şablonları",
+      "loginTest": "📧 Giriş Testi Örneği",
+      "cartTest": "🛒 Sepet Testi Örneği",
+      "formTest": "📝 Form Gönderimi Testi Örneği"
+    },
+    "nextSteps": {
+      "nextButton": "Sonraki: Test Yazma İpuçları →",
+      "previousButton": "← Önceki: Proje Kurulumu"
+    }
+  }
+}

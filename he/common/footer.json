@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "מסגרת E2E מהדור הבא המשלבת את הכוח של AI עם הפשטות של שפה טבעית.",
+    "quickLinks": "קישורים מהירים",
+    "gettingStarted": "התחלה",
+    "documentation": "תיעוד",
+    "examples": "דוגמאות",
+    "resources": "משאבים",
+    "community": "קהילה",
+    "github": "GitHub",
+    "support": "תמיכה",
+    "contributing": "תרומה",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

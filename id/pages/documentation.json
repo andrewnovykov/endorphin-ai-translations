@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Dokumentasi lengkap",
+    "subtitle": "Semua yang Anda butuhkan untuk menguasai pengujian bertenaga AI dengan Endorphin AI. Dari mulai cepat hingga teknik lanjutan.",
+    "versionBadge": "Dokumentasi v0.9.0",
+    "startQuickGuide": "Mulai dengan panduan cepat",
+    "browseAllDocs": "Jelajahi semua dokumen",
+    "readGuide": "Baca panduan",
+    "badges": {
+      "5min": "5 menit",
+      "essential": "Penting",
+      "v090": "v0.9.0",
+      "examples": "Contoh",
+      "advanced": "Lanjutan",
+      "proTips": "Tips Pro",
+      "reports": "Laporan",
+      "interactive": "Interaktif",
+      "config": "Konfigurasi",
+      "automation": "Otomasi",
+      "patterns": "Pola"
+    },
+    "gettingStarted": {
+      "title": "Memulai",
+      "description": "Mulai perjalanan Anda dengan Endorphin AI. Panduan ini akan membuat Anda berjalan dengan cepat.",
+      "quickStart": "Mulai cepat",
+      "quickStartDesc": "Dapatkan Endorphin AI berjalan dalam 5 menit",
+      "projectSetup": "Pengaturan proyek",
+      "projectSetupDesc": "Panduan lengkap pengaturan dan instalasi proyek",
+      "testStructure": "Struktur tes",
+      "testStructureDesc": "Struktur tes cerdas v0.9 dengan fungsi setup/data/task"
+    },
+    "advanced": {
+      "title": "Topik lanjutan",
+      "description": "Kuasai fitur dan teknik lanjutan untuk pengujian tingkat enterprise.",
+      "testWritingTips": "Tips menulis tes",
+      "testWritingTipsDesc": "Contoh enterprise dan aplikasi kecil dengan praktik terbaik",
+      "promptGuide": "Panduan prompt",
+      "promptGuideDesc": "Teknik prompt AI lanjutan dan optimisasi",
+      "vscodeDebugging": "Debugging VS Code",
+      "vscodeDebuggingDesc": "Debugging profesional dengan breakpoint dan objek debug"
+    },
+    "tools": {
+      "title": "Alat dan integrasi",
+      "description": "Alat canggih dan fitur pelaporan untuk meningkatkan alur kerja pengujian Anda.",
+      "htmlReporter": "Reporter HTML",
+      "htmlReporterDesc": "Laporan interaktif dengan pelacakan biaya dan keputusan AI",
+      "testRecorder": "Perekam tes",
+      "testRecorderDesc": "Pembuatan tes interaktif dengan perekaman browser",
+      "environmentSetup": "Pengaturan lingkungan",
+      "environmentSetupDesc": "Variabel lingkungan dan panduan konfigurasi"
+    },
+    "deployment": {
+      "title": "Deployment dan CI/CD",
+      "description": "Deploy tes Anda dan atur integrasi berkelanjutan untuk pengujian otomatis.",
+      "cicdSetup": "Pengaturan CI/CD",
+      "cicdSetupDesc": "Integrasi GitHub Actions dan alur kerja otomasi",
+      "globalSetup": "Pengaturan global",
+      "globalSetupDesc": "Fungsi pengaturan global dan pola yang dapat digunakan kembali"
+    },
+    "quickLinks": {
+      "title": "Tautan cepat populer",
+      "subtitle": "Langsung menuju dokumentasi yang paling dibutuhkan.",
+      "helpText": "Butuh bantuan? Lihat contoh lengkap dan panduan pemecahan masalah kami.",
+      "buttons": {
+        "viewExamples": "Lihat contoh",
+        "troubleshooting": "Pemecahan masalah",
+        "joinCommunity": "Bergabung dengan komunitas"
+      },
+      "quickStart": {
+        "title": "Mulai cepat 5 menit",
+        "description": "Jalankan tes pertama Anda dalam waktu kurang dari 5 menit dengan panduan pengaturan tercepat kami.",
+        "button": "Mulai sekarang →"
+      },
+      "testStructure": {
+        "title": "Struktur tes v0.9.0",
+        "description": "Pelajari struktur tes cerdas baru dengan fungsi async setup(), data(), dan task().",
+        "button": "Pelajari lebih lanjut →"
+      }
+    }
+  }
+}

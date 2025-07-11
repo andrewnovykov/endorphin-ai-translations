@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Strona nie została znaleziona",
+    "returnHome": "Wróć do Strony Głównej"
+  }
+}

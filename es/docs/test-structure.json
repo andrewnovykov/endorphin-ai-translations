@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Volver a la Documentación"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Guía de Estructura de Pruebas",
+      "subtitle": "Domina la estructura de pruebas inteligente v0.9.0 con funciones async setup(), data() y task()"
+    },
+    "basicStructure": {
+      "title": "📝 Estructura Básica de Pruebas",
+      "description": "Cada prueba necesita estos campos requeridos"
+    },
+    "writingInstructions": {
+      "title": "🎯 Escribiendo Instrucciones de Prueba",
+      "description": "Diferentes formatos para diferentes complejidades de prueba",
+      "simpleFormat": {
+        "title": "Formato Simple",
+        "description": "Perfecto para pruebas directas:"
+      },
+      "stepByStepFormat": {
+        "title": "Formato Paso a Paso",
+        "description": "Excelente para flujos de trabajo complejos:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Formato de Lenguaje Natural",
+        "description": "Escribe como si le estuvieras explicando a una persona:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Pruebas Dinámicas",
+      "badge": "Función v0.9.0",
+      "setupFunctions": {
+        "title": "Usando Funciones Setup",
+        "description": "Prepara tu entorno de prueba:"
+      },
+      "dataFunctions": {
+        "title": "Usando Funciones Data",
+        "description": "Genera datos de prueba al vuelo:"
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data Combinados",
+        "description": "Usa tanto funciones setup como data:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "Generación de Datos con IA",
+      "badge": "Función Avanzada",
+      "description": "Usa IA para generar datos de prueba realistas automáticamente",
+      "basicAiGeneration": {
+        "title": "Generación Básica de Datos con IA",
+        "description": "Usa la función generateData para crear datos de prueba realistas con IA:"
+      },
+      "tipsTitle": "💡 Consejos de Generación de Datos con IA",
+      "tips": {
+        "specific": "• Sé específico: Los requisitos detallados producen mejores datos",
+        "contexts": "• Usa contextos: Especifica industria, tipo de usuario o contexto del escenario",
+        "edgeCases": "• Incluye casos límite: Pide condiciones de frontera y escenarios de error",
+        "relationships": "• Relaciones realistas: Genera datos conectados que tengan sentido comercial",
+        "async": "• Generación asíncrona: Siempre usa async/await para funciones de generación de datos",
+        "errorHandling": "• Manejo de errores: Incluye datos de respaldo en caso de que la generación con IA falle"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Mejores Prácticas",
+      "description": "Consejos para escribir pruebas efectivas",
+      "uniqueIds": {
+        "title": "Usa IDs de prueba únicos",
+        "description": "Formato: CATEGORÍA-NÚMERO (ej. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Escribe nombres descriptivos",
+        "description": "Nombres de prueba claros y legibles ayudan con la organización"
+      },
+      "meaningfulTags": {
+        "title": "Usa etiquetas significativas",
+        "description": "Agrupa pruebas relacionadas: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Establece prioridad apropiada",
+        "description": "Alta para rutas críticas, Media para características, Baja para casos límite"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Ejemplos Rápidos",
+      "description": "Plantillas de prueba listas para usar",
+      "loginTest": "📧 Ejemplo de Prueba de Login",
+      "cartTest": "🛒 Ejemplo de Prueba de Carrito de Compras",
+      "formTest": "📝 Ejemplo de Prueba de Envío de Formulario"
+    },
+    "nextSteps": {
+      "nextButton": "Siguiente: Consejos de Escritura de Pruebas →",
+      "previousButton": "← Anterior: Configuración del Proyecto"
+    }
+  }
+}

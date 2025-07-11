@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Oeps! Pagina niet gevonden",
+    "returnHome": "Keer Terug naar Home"
+  }
+}

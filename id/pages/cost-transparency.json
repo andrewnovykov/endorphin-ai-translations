@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 Transparansi Biaya AI",
+    "subtitle": "Lacak biaya penggunaan AI secara real-time dengan rincian detail per tes dan langkah",
+    "averageCostPerTest": "Rata-rata biaya per tes",
+    "tokensUsed": "Token yang digunakan",
+    "executionTime": "Waktu eksekusi",
+    "perStepBreakdown": {
+      "title": "🔍 Rincian per langkah",
+      "navigate": "Navigasi",
+      "fillForm": "Isi formulir",
+      "verify": "Verifikasi",
+      "step1": "Langkah 1",
+      "step2": "Langkah 2",
+      "step3": "Langkah 3",
+      "tokensUnit": "token"
+    },
+    "costOptimization": {
+      "title": "📊 Optimisasi biaya",
+      "smartPromptOptimization": "Optimisasi prompt cerdas",
+      "tokenUsageAnalytics": "Analitik penggunaan token",
+      "costAlertsAndBudgets": "Peringatan biaya dan anggaran",
+      "historicalCostTracking": "Pelacakan biaya historis",
+      "costSavingsLabel": "Penghematan biaya",
+      "optimizationDescription": "Optimisasi kami mengurangi biaya hingga 60% dibandingkan dengan tes AI yang tidak dioptimalkan"
+    },
+    "callToAction": {
+      "title": "Siap untuk Happy Vibetesting?",
+      "description": "Bergabunglah dengan revolusi pengujian AI dengan v0.9.0. Struktur tes cerdas, transparansi biaya, dan keandalan tingkat enterprise.",
+      "getStartedFree": "Mulai Gratis",
+      "readDocumentation": "Baca Dokumentasi"
+    }
+  }
+}

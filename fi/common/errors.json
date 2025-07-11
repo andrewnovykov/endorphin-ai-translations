@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Hups! Sivua ei löytynyt",
+    "returnHome": "Palaa kotiin"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Kembali ke Dokumentasi"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Panduan Struktur Tes",
+      "subtitle": "Kuasai struktur tes cerdas v0.9.0 dengan fungsi async setup(), data() dan task()"
+    },
+    "basicStructure": {
+      "title": "📝 Struktur Tes Dasar",
+      "description": "Setiap tes memerlukan field yang wajib ini"
+    },
+    "writingInstructions": {
+      "title": "🎯 Menulis Instruksi Tes",
+      "description": "Format berbeda untuk kompleksitas tes yang berbeda",
+      "simpleFormat": {
+        "title": "Format Sederhana",
+        "description": "Sempurna untuk tes langsung:"
+      },
+      "stepByStepFormat": {
+        "title": "Format Langkah demi Langkah",
+        "description": "Bagus untuk alur kerja yang kompleks:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Format Bahasa Alami",
+        "description": "Tulis seperti Anda menjelaskan kepada seseorang:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Tes Dinamis",
+      "badge": "Fitur v0.9.0",
+      "setupFunctions": {
+        "title": "Menggunakan Fungsi Setup",
+        "description": "Siapkan lingkungan tes Anda:"
+      },
+      "dataFunctions": {
+        "title": "Menggunakan Fungsi Data",
+        "description": "Buat data tes secara real-time:"
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data Gabungan",
+        "description": "Gunakan kedua fungsi setup dan data:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "Pembuatan Data Bertenaga AI",
+      "badge": "Fitur Lanjutan",
+      "description": "Gunakan AI untuk membuat data tes yang realistis secara otomatis",
+      "basicAiGeneration": {
+        "title": "Pembuatan Data AI Dasar",
+        "description": "Gunakan fungsi generateData untuk membuat data tes yang realistis dengan AI:"
+      },
+      "tipsTitle": "💡 Tips Pembuatan Data AI",
+      "tips": {
+        "specific": "• Jadilah spesifik: Persyaratan yang detail menghasilkan data yang lebih baik",
+        "contexts": "• Gunakan konteks: Tentukan industri, jenis pengguna, atau konteks skenario",
+        "edgeCases": "• Sertakan kasus edge: Minta kondisi batas dan skenario kesalahan",
+        "relationships": "• Hubungan realistis: Buat data yang terhubung dan masuk akal secara bisnis",
+        "async": "• Generasi asinkron: Selalu gunakan async/await untuk fungsi pembuatan data",
+        "errorHandling": "• Penanganan kesalahan: Sertakan data cadangan jika pembuatan AI gagal"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Praktik Terbaik",
+      "description": "Tips untuk menulis tes yang efektif",
+      "uniqueIds": {
+        "title": "Gunakan ID tes yang unik",
+        "description": "Format: CATEGORY-NUMBER (misalnya LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Tulis nama yang deskriptif",
+        "description": "Nama tes yang jelas dan mudah dibaca manusia membantu pengorganisasian"
+      },
+      "meaningfulTags": {
+        "title": "Gunakan tag yang bermakna",
+        "description": "Kelompokkan tes terkait: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Tetapkan prioritas yang tepat",
+        "description": "Tinggi untuk jalur kritis, Medium untuk fitur, Rendah untuk kasus edge"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Contoh Cepat",
+      "description": "Template tes siap pakai",
+      "loginTest": "📧 Contoh Tes Login",
+      "cartTest": "🛒 Contoh Tes Keranjang Belanja",
+      "formTest": "📝 Contoh Tes Pengiriman Form"
+    },
+    "nextSteps": {
+      "nextButton": "Selanjutnya: Tips Menulis Tes →",
+      "previousButton": "← Sebelumnya: Pengaturan Proyek"
+    }
+  }
+}

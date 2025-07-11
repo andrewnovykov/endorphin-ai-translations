@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "AI로 재창조된 E2E 테스팅",
+    "subtitle": "한국어로 테스트를 작성하세요. AI가 자동으로 생성, 검증, 수정합니다. 엔드투엔드 테스팅의 미래.",
+    "getStarted": "시작하기",
+    "watchDemo": "데모 보기",
+    "learnMore": "더 알아보기",
+    "socialProof": {
+      "stars": "스타",
+      "license": "AGPLv3 라이선스",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "개발자들이 우리 프레임워크를 사랑하는 이유",
+    "subtitle": "AI를 핵심으로 하는 현대적인 개발 워크플로우를 위해 구축",
+    "aiPowered": {
+      "title": "🧠 AI 기반 테스트 작성",
+      "description": "한국어로 사용자 행동을 설명"
+    },
+    "selfHealing": {
+      "title": "🔁 자가 치유 테스트",
+      "description": "UI 변경에 자동으로 적응"
+    },
+    "smartValidation": {
+      "title": "🕵️ 지능형 검증 에이전트",
+      "description": "시각적 및 논리적 오류 감지"
+    },
+    "costTracking": {
+      "title": "💰 비용 및 토큰 추적",
+      "description": "AI 사용 비용과 토큰 소비 모니터링"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI 통합",
+      "description": "파이프라인에 원활하게 연결"
+    },
+    "insightfulReports": {
+      "title": "📊 통찰력 있는 리포트",
+      "description": "AI 생성 읽기 쉬운 리포트 획득"
+    }
+  },
+  "codeExample": {
+    "title": "간단하고 직관적인 테스트 작성",
+    "description": "문서처럼 읽히는 테스트를 작성하세요. 프레임워크가 뒤에서 복잡성을 처리합니다."
+  },
+  "whyChoose": {
+    "title": "왜 우리 프레임워크를 선택해야 할까요?",
+    "subtitle": "경쟁업체보다 앞서는 고급 기능",
+    "smartTestStructure": {
+      "title": "� 스마트 테스트 구조",
+      "description": "강력한 테스트 준비를 위한 동적 비동기 setup(), data(), task() 함수"
+    },
+    "costTokenTracking": {
+      "title": "💰 비용 및 토큰 추적",
+      "description": "상세한 가격 분석으로 테스트 및 단계별 AI 사용 비용 모니터링"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI 결정 기록",
+      "description": "AI가 테스트 지시사항을 어떻게 분석, 추론, 실행하는지 정확히 확인"
+    },
+    "builtInTools": {
+      "title": "🔧 내장 도구 시스템",
+      "description": "12개의 포괄적인 브라우저 자동화 도구 내장 - 사용자 정의 도구 불필요"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 테스트 레코더",
+      "description": "인터랙티브 테스트 레코더로 실시간 프롬프트 시도 - 테스트 아이디어를 즉시 실험하고 검증"
+    },
+    "enhancedReports": {
+      "title": "📊 향상된 HTML 리포트",
+      "description": "비용 추적, AI 결정, 스크린샷 갤러리가 포함된 인터랙티브 리포트"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 빠른 시작",
+    "step1": "프레임워크 설치",
+    "step2": "OpenAI API 키 설정",
+    "step3": "첫 번째 테스트 작성",
+    "step4": "실행하고 마법을 체험!",
+    "startNow": "지금 시작하기 →"
+  }
+}

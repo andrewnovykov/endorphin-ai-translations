@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Torna alla Documentazione"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Guida alla Struttura dei Test",
+      "subtitle": "Padroneggia la struttura di test intelligente v0.9.0 con funzioni async setup(), data() e task()"
+    },
+    "basicStructure": {
+      "title": "📝 Struttura Base del Test",
+      "description": "Ogni test richiede questi campi obbligatori"
+    },
+    "writingInstructions": {
+      "title": "🎯 Scrittura delle Istruzioni di Test",
+      "description": "Diversi formati per diversi livelli di complessità del test",
+      "simpleFormat": {
+        "title": "Formato Semplice",
+        "description": "Perfetto per test diretti:"
+      },
+      "stepByStepFormat": {
+        "title": "Formato Passo per Passo",
+        "description": "Ideale per workflow complessi:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Formato in Linguaggio Naturale",
+        "description": "Scrivi come se stessi spiegando a una persona:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Test Dinamici",
+      "badge": "Funzionalità v0.9.0",
+      "setupFunctions": {
+        "title": "Utilizzo delle Funzioni Setup",
+        "description": "Prepara il tuo ambiente di test:"
+      },
+      "dataFunctions": {
+        "title": "Utilizzo delle Funzioni Data",
+        "description": "Genera dati di test al volo:"
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data Combinati",
+        "description": "Utilizza insieme funzioni setup e data:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "Generazione Dati Alimentata da IA",
+      "badge": "Funzionalità Avanzata",
+      "description": "Usa l'IA per generare automaticamente dati di test realistici",
+      "basicAiGeneration": {
+        "title": "Generazione Dati IA di Base",
+        "description": "Usa la funzione generateData per creare dati di test realistici con l'IA:"
+      },
+      "tipsTitle": "💡 Suggerimenti per la Generazione Dati IA",
+      "tips": {
+        "specific": "• Sii specifico: Requisiti dettagliati producono dati migliori",
+        "contexts": "• Usa contesti: Specifica settore, tipo di utente o contesto dello scenario",
+        "edgeCases": "• Includi casi limite: Richiedi condizioni limite e scenari di errore",
+        "relationships": "• Relazioni realistiche: Genera dati connessi che abbiano senso dal punto di vista aziendale",
+        "async": "• Generazione asincrona: Usa sempre async/await per le funzioni di generazione dati",
+        "errorHandling": "• Gestione errori: Includi dati di fallback in caso di fallimento della generazione IA"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Migliori Pratiche",
+      "description": "Suggerimenti per scrivere test efficaci",
+      "uniqueIds": {
+        "title": "Usa ID test unici",
+        "description": "Formato: CATEGORIA-NUMERO (es. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Scrivi nomi descrittivi",
+        "description": "Nomi di test chiari e leggibili aiutano nell'organizzazione"
+      },
+      "meaningfulTags": {
+        "title": "Usa tag significativi",
+        "description": "Raggruppa test correlati: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Imposta priorità appropriate",
+        "description": "Alta per percorsi critici, Media per funzionalità, Bassa per casi limite"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Esempi Rapidi",
+      "description": "Template di test pronti all'uso",
+      "loginTest": "📧 Esempio Test di Login",
+      "cartTest": "🛒 Esempio Test del Carrello",
+      "formTest": "📝 Esempio Test di Invio Modulo"
+    },
+    "nextSteps": {
+      "nextButton": "Avanti: Suggerimenti per Scrivere Test →",
+      "previousButton": "← Precedente: Configurazione Progetto"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E Testen Opnieuw Uitgevonden met AI",
+    "subtitle": "Schrijf tests in gewoon Nederlands. Laat AI ze automatisch genereren, valideren en repareren. De toekomst van end-to-end testen.",
+    "getStarted": "Aan de Slag",
+    "watchDemo": "Bekijk Demo",
+    "learnMore": "Meer Informatie",
+    "socialProof": {
+      "stars": "sterren",
+      "license": "AGPLv3 Licentie",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Waarom Ontwikkelaars van Ons Framework Houden",
+    "subtitle": "Gebouwd voor moderne ontwikkelworkflows met AI als kern",
+    "aiPowered": {
+      "title": "🧠 AI-Aangedreven Test Schrijven",
+      "description": "Beschrijf gebruikersacties in gewoon Nederlands"
+    },
+    "selfHealing": {
+      "title": "🔁 Zelfherstellende Tests",
+      "description": "Past zich automatisch aan UI-wijzigingen aan"
+    },
+    "smartValidation": {
+      "title": "🕵️ Slimme Validatie Agent",
+      "description": "Detecteert visuele en logische bugs"
+    },
+    "costTracking": {
+      "title": "💰 Kosten & Token Tracking",
+      "description": "Monitor AI-gebruikskosten en tokenconsumptie"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI Integratie",
+      "description": "Naadloze verbinding met uw pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Inzichtelijke Rapporten",
+      "description": "Krijg door mensen leesbare, AI-gegenereerde rapporten"
+    }
+  },
+  "codeExample": {
+    "title": "Eenvoudig, Intuïtief Test Schrijven",
+    "description": "Schrijf tests die lezen als documentatie. Ons framework handelt de complexiteit achter de schermen af."
+  },
+  "whyChoose": {
+    "title": "Waarom Ons Framework Kiezen?",
+    "subtitle": "Geavanceerde functies die u een voorsprong geven op concurrenten",
+    "smartTestStructure": {
+      "title": "🧩 Slimme Test Structuur",
+      "description": "Dynamische async setup(), data() en task() functies voor krachtige test voorbereiding"
+    },
+    "costTokenTracking": {
+      "title": "💰 Kosten & Token Tracking",
+      "description": "Monitor AI-gebruikskosten voor tests en stappen met gedetailleerde prijsuitsplitsing"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI Beslissingsgeschiedenis",
+      "description": "Zie precies hoe AI testinstructies heeft geanalyseerd, beredeneerd en uitgevoerd"
+    },
+    "builtInTools": {
+      "title": "🔧 Ingebouwd Tool Systeem",
+      "description": "12 uitgebreide browser automatiseringstools ingebouwd - geen aangepaste tools nodig"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Test Recorder",
+      "description": "Interactieve test recorder om prompts in real-time uit te proberen - experimenteer en valideer testideeën onmiddellijk"
+    },
+    "enhancedReports": {
+      "title": "📊 Verbeterde HTML Rapporten",
+      "description": "Interactieve rapporten met kostentracering, AI-beslissingen en screenshot galerijen"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Snelle Start",
+    "step1": "Installeer het framework",
+    "step2": "Stel uw OpenAI API sleutel in",
+    "step3": "Schrijf uw eerste test",
+    "step4": "Run en bekijk de magie gebeuren!",
+    "startNow": "Start Nu →"
+  }
+}

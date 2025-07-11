@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Hoppla! Seite nicht gefunden",
+    "returnHome": "Zurück zur Startseite"
+  }
+}

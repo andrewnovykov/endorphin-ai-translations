@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "完全なドキュメント",
+    "subtitle": "Endorphin AIでAIを活用したテストをマスターするために必要なすべて。クイックスタートから高度なテクニックまで。",
+    "versionBadge": "v0.9.0 ドキュメント",
+    "startQuickGuide": "クイックガイドで始める",
+    "browseAllDocs": "すべてのドキュメントを参照",
+    "readGuide": "ガイドを読む",
+    "badges": {
+      "5min": "5分",
+      "essential": "必須",
+      "v090": "v0.9.0",
+      "examples": "例",
+      "advanced": "高度",
+      "proTips": "プロのヒント",
+      "reports": "レポート",
+      "interactive": "インタラクティブ",
+      "config": "設定",
+      "automation": "自動化",
+      "patterns": "パターン"
+    },
+    "gettingStarted": {
+      "title": "始める",
+      "description": "Endorphin AIでの旅を始めましょう。これらのガイドで素早く立ち上げることができます。",
+      "quickStart": "クイックスタート",
+      "quickStartDesc": "5分でEndorphin AIを始める",
+      "projectSetup": "プロジェクト設定",
+      "projectSetupDesc": "プロジェクトの設定と構成の完全ガイド",
+      "testStructure": "テスト構造",
+      "testStructureDesc": "setup/data/task関数を使用したv0.9スマートテスト構造"
+    },
+    "advanced": {
+      "title": "高度なトピック",
+      "description": "エンタープライズレベルのテストのための高度な機能とテクニックをマスターしましょう。",
+      "testWritingTips": "テスト作成のコツ",
+      "testWritingTipsDesc": "エンタープライズと小規模アプリの例とベストプラクティス",
+      "promptGuide": "プロンプトガイド",
+      "promptGuideDesc": "高度なAIプロンプティング技術と最適化",
+      "vscodeDebugging": "VS Codeデバッグ",
+      "vscodeDebuggingDesc": "ブレークポイントとデバッグオブジェクトを使用したプロフェッショナルデバッグ"
+    },
+    "tools": {
+      "title": "ツールと統合",
+      "description": "テストワークフローを強化する強力なツールとレポート機能。",
+      "htmlReporter": "HTMLレポーター",
+      "htmlReporterDesc": "コスト追跡とAI決定を含むインタラクティブレポート",
+      "testRecorder": "テストレコーダー",
+      "testRecorderDesc": "ブラウザ記録によるインタラクティブなテスト作成",
+      "environmentSetup": "環境設定",
+      "environmentSetupDesc": "環境変数と構成ガイド"
+    },
+    "deployment": {
+      "title": "デプロイとCI/CD",
+      "description": "テストをデプロイし、自動テストのための継続的インテグレーションを設定します。",
+      "cicdSetup": "CI/CD設定",
+      "cicdSetupDesc": "GitHub Actions統合と自動化ワークフロー",
+      "globalSetup": "グローバル設定",
+      "globalSetupDesc": "グローバルセットアップ関数と再利用可能なパターン"
+    },
+    "quickLinks": {
+      "title": "人気のクイックリンク",
+      "subtitle": "最も頻繁に必要とされるドキュメントに直接ジャンプします。",
+      "helpText": "ヘルプが必要ですか？包括的な例とトラブルシューティングガイドをご覧ください。",
+      "buttons": {
+        "viewExamples": "例を見る",
+        "troubleshooting": "トラブルシューティング",
+        "joinCommunity": "コミュニティに参加"
+      },
+      "quickStart": {
+        "title": "5分間クイックスタート",
+        "description": "最速のセットアップガイドで5分以内に最初のテストを実行しましょう。",
+        "button": "今すぐ始める →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 テスト構造",
+        "description": "非同期のsetup()、data()、task()関数を使用した新しいスマートテスト構造を学びます。",
+        "button": "詳細を見る →"
+      }
+    }
+  }
+}

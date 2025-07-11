@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Terug naar Documentatie"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Test Structuur Gids",
+      "subtitle": "Beheers de slimme test structuur v0.9.0 met async setup(), data() en task() functies"
+    },
+    "basicStructure": {
+      "title": "📝 Basis Test Structuur",
+      "description": "Elke test heeft deze vereiste velden nodig"
+    },
+    "writingInstructions": {
+      "title": "🎯 Test Instructies Schrijven",
+      "description": "Verschillende formaten voor verschillende test complexiteiten",
+      "simpleFormat": {
+        "title": "Eenvoudig Formaat",
+        "description": "Perfect voor directe tests:"
+      },
+      "stepByStepFormat": {
+        "title": "Stap-voor-Stap Formaat",
+        "description": "Geweldig voor complexe workflows:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Natuurlijke Taal Formaat",
+        "description": "Schrijf alsof je het aan een persoon uitlegt:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynamische Tests",
+      "badge": "v0.9.0 Functie",
+      "setupFunctions": {
+        "title": "Setup Functies Gebruiken",
+        "description": "Bereid je test omgeving voor:"
+      },
+      "dataFunctions": {
+        "title": "Data Functies Gebruiken",
+        "description": "Genereer test data on-the-fly:"
+      },
+      "combinedSetupData": {
+        "title": "Gecombineerde Setup + Data",
+        "description": "Gebruik beide setup en data functies:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI-Aangedreven Data Generatie",
+      "badge": "Geavanceerde Functie",
+      "description": "Gebruik AI om automatisch realistische test data te genereren",
+      "basicAiGeneration": {
+        "title": "Basis AI Data Generatie",
+        "description": "Gebruik de generateData functie om realistische test data te maken met AI:"
+      },
+      "tipsTitle": "💡 AI Data Generatie Tips",
+      "tips": {
+        "specific": "• Wees specifiek: Gedetailleerde vereisten produceren betere data",
+        "contexts": "• Gebruik contexten: Specificeer industrie, gebruikerstype, of scenario context",
+        "edgeCases": "• Voeg edge cases toe: Vraag om grensvoorwaarden en foutscenario's",
+        "relationships": "• Realistische relaties: Genereer verbonden data die zakelijk logisch is",
+        "async": "• Asynchrone generatie: Gebruik altijd async/await voor data generatie functies",
+        "errorHandling": "• Foutafhandeling: Voeg fallback data toe voor het geval AI generatie faalt"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Beste Praktijken",
+      "description": "Tips voor het schrijven van effectieve tests",
+      "uniqueIds": {
+        "title": "Gebruik unieke test ID's",
+        "description": "Formaat: CATEGORY-NUMBER (bijv. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Schrijf beschrijvende namen",
+        "description": "Duidelijke, mensen-leesbare test namen helpen bij organisatie"
+      },
+      "meaningfulTags": {
+        "title": "Gebruik betekenisvolle tags",
+        "description": "Groepeer gerelateerde tests: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Stel juiste prioriteit in",
+        "description": "Hoog voor kritieke paden, Medium voor functies, Laag voor edge cases"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Snelle Voorbeelden",
+      "description": "Klaar-voor-gebruik test templates",
+      "loginTest": "📧 Login Test Voorbeeld",
+      "cartTest": "🛒 Winkelwagen Test Voorbeeld",
+      "formTest": "📝 Formulier Indiening Test Voorbeeld"
+    },
+    "nextSteps": {
+      "nextButton": "Volgende: Test Schrijf Tips →",
+      "previousButton": "← Vorige: Project Setup"
+    }
+  }
+}

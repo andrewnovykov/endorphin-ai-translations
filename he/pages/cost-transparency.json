@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 שקיפות עלויות AI",
+    "subtitle": "עקוב אחר עלויות שימוש ב-AI בזמן אמת עם פירוטים מפורטים לכל בדיקה ושלב",
+    "averageCostPerTest": "עלות ממוצעת לבדיקה",
+    "tokensUsed": "טוקנים בשימוש",
+    "executionTime": "זמן ביצוע",
+    "perStepBreakdown": {
+      "title": "🔍 פירוט לפי שלב",
+      "navigate": "נווט",
+      "fillForm": "מלא טופס",
+      "verify": "אמת",
+      "step1": "שלב 1",
+      "step2": "שלב 2",
+      "step3": "שלב 3",
+      "tokensUnit": "טוקנים"
+    },
+    "costOptimization": {
+      "title": "📊 אופטימיזציית עלויות",
+      "smartPromptOptimization": "אופטימיזציית prompts חכמה",
+      "tokenUsageAnalytics": "אנליטיקת שימוש טוקנים",
+      "costAlertsAndBudgets": "התראות עלויות ותקציבים",
+      "historicalCostTracking": "מעקב עלויות היסטורי",
+      "costSavingsLabel": "חיסכון עלויות",
+      "optimizationDescription": "האופטימיזציה שלנו מפחיתה עלויות עד 60% בהשווה לבדיקות AI לא מאופטמות"
+    },
+    "callToAction": {
+      "title": "מוכן ל-Happy Vibetesting?",
+      "description": "הצטרף למהפכת בדיקות ה-AI עם v0.9.0. מבנה בדיקה חכם, שקיפות עלויות ואמינות ברמת ארגון.",
+      "getStartedFree": "התחל בחינם",
+      "readDocumentation": "קרא תיעוד"
+    }
+  }
+}

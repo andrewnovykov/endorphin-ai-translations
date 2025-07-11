@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E-testning Genopfundet med AI",
+    "subtitle": "Skriv tests på almindeligt dansk. Lad AI generere, validere og rette dem automatisk. Fremtiden for end-to-end testning.",
+    "getStarted": "Kom i Gang",
+    "watchDemo": "Se Demo",
+    "learnMore": "Læs Mere",
+    "socialProof": {
+      "stars": "stjerner",
+      "license": "AGPLv3-licens",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Hvorfor Udviklere Elsker Vores Framework",
+    "subtitle": "Bygget til moderne udviklingsworkflows med AI i kernen",
+    "aiPowered": {
+      "title": "🧠 AI-drevet Testskrivning",
+      "description": "Beskriv brugerhandlinger på almindeligt dansk"
+    },
+    "selfHealing": {
+      "title": "🔁 Selvhelende Tests",
+      "description": "Tilpasser sig automatisk til UI-ændringer"
+    },
+    "smartValidation": {
+      "title": "🕵️ Smart Valideringsagent",
+      "description": "Opdager visuelle og logiske fejl"
+    },
+    "costTracking": {
+      "title": "💰 Omkostnings- og Token-sporing",
+      "description": "Overvåg AI-brugsomkostninger og tokenforbrug"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI-integration",
+      "description": "Problemfri forbindelse til din pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Indsigtsfulde Rapporter",
+      "description": "Få læsbare, AI-genererede rapporter"
+    }
+  },
+  "codeExample": {
+    "title": "Simpel, Intuitiv Testskrivning",
+    "description": "Skriv tests, der læses som dokumentation. Vores framework håndterer kompleksiteten bag kulisserne."
+  },
+  "whyChoose": {
+    "title": "Hvorfor Vælge Vores Framework?",
+    "subtitle": "Avancerede funktioner, der giver dig fordel over konkurrenter",
+    "smartTestStructure": {
+      "title": "🧩 Smart Teststruktur",
+      "description": "Dynamiske async setup(), data() og task() funktioner til kraftfuld testforberedelse"
+    },
+    "costTokenTracking": {
+      "title": "💰 Omkostnings- og Token-sporing",
+      "description": "Overvåg AI-brugsomkostninger for tests og trin med detaljeret prisfordeling"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI-beslutningshistorik",
+      "description": "Se præcis, hvordan AI analyserede, ræsonnerede og udførte testinstruktioner"
+    },
+    "builtInTools": {
+      "title": "🔧 Indbygget Værktøjssystem",
+      "description": "12 omfattende browserautomatiseringsværktøjer indbygget - ingen tilpassede værktøjer nødvendige"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Testoptager",
+      "description": "Interaktiv testoptager til at afprøve prompts i realtid - eksperimenter og valider testideer øjeblikkeligt"
+    },
+    "enhancedReports": {
+      "title": "📊 Forbedrede HTML-rapporter",
+      "description": "Interaktive rapporter med omkostningssporing, AI-beslutninger og skærmbilledgallerier"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Hurtig Start",
+    "step1": "Installer frameworket",
+    "step2": "Opsæt din OpenAI API-nøgle",
+    "step3": "Skriv din første test",
+    "step4": "Kør og se magien ske!",
+    "startNow": "Start Nu →"
+  }
+}

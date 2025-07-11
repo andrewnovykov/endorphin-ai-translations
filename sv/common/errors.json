@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Hoppsan! Sidan hittades inte",
+    "returnHome": "Återgå till Startsidan"
+  }
+}

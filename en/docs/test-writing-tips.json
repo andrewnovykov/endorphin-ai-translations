@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "Back to Documentation"
+    },
+    "header": {
+      "badge": "Best Practices",
+      "title": "Test Writing Tips",
+      "subtitle": "Enterprise and small app examples with best practices for effective AI-powered testing"
+    },
+    "introduction": {
+      "title": "Master Test Writing",
+      "description": "Learn how to write effective tests for different scenarios, from simple applications to complex enterprise workflows.",
+      "coverage": "This guide covers:",
+      "coverageList": {
+        "patterns": "✅ Common testing patterns and anti-patterns",
+        "enterprise": "✅ Enterprise-scale testing strategies",
+        "smallApps": "✅ Optimized approaches for small applications",
+        "maintenance": "✅ Long-term test maintenance strategies",
+        "debugging": "✅ Debugging and troubleshooting techniques"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "Enterprise Testing Patterns",
+      "description": "Best practices for large-scale applications:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "Data Isolation",
+          "description": "Separate test data from production data with proper isolation strategies"
+        },
+        "pageObjects": {
+          "title": "Page Object Integration",
+          "description": "Combine AI testing with traditional page object patterns"
+        },
+        "workflows": {
+          "title": "Business Workflow Testing",
+          "description": "Test complex multi-step business processes end-to-end"
+        },
+        "parallelization": {
+          "title": "Parallel Test Execution",
+          "description": "Design tests for parallel execution and CI/CD pipelines"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "Small Application Tips",
+      "description": "Optimized strategies for smaller projects:",
+      "tips": {
+        "simplicity": {
+          "title": "Keep It Simple",
+          "description": "Focus on core user journeys and critical functionality"
+        },
+        "costOptimization": {
+          "title": "Cost Optimization",
+          "description": "Minimize AI token usage while maintaining test coverage"
+        },
+        "quickFeedback": {
+          "title": "Quick Feedback Loops",
+          "description": "Structure tests for fast development cycles"
+        },
+        "essential": {
+          "title": "Essential Tests Only",
+          "description": "Prioritize high-impact tests that catch critical bugs"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "Common Testing Patterns",
+      "description": "Proven patterns that work across different application types:",
+      "authentication": {
+        "title": "Authentication Flows",
+        "description": "Login, logout, password reset, and multi-factor authentication"
+      },
+      "forms": {
+        "title": "Form Testing",
+        "description": "Validation, submission, error handling, and dynamic forms"
+      },
+      "navigation": {
+        "title": "Navigation Testing",
+        "description": "Menu navigation, breadcrumbs, and deep linking"
+      },
+      "dataVisualization": {
+        "title": "Data Visualization",
+        "description": "Testing charts, graphs, and interactive data displays"
+      }
+    },
+    "antiPatterns": {
+      "title": "Anti-Patterns to Avoid",
+      "description": "Common mistakes that lead to flaky or unmaintainable tests:",
+      "patterns": {
+        "overSpecification": "❌ Over-specifying UI elements (use semantic descriptions)",
+        "hardcoding": "❌ Hard-coding dynamic values (use data functions)",
+        "chainedTests": "❌ Creating long chains of dependent tests",
+        "noValidation": "❌ Missing proper validation and assertions",
+        "duplicateLogic": "❌ Duplicating test logic across multiple tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "Next: Prompt Guide →",
+      "backButton": "Back to Documentation"
+    }
+  }
+}
