@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Pruebas E2E reinventadas con IA",
-    "subtitle": "Escribe pruebas en español simple. Deja que la IA las genere, valide y corrija automáticamente. El futuro de las pruebas end-to-end.",
+    "subtitle": "Escribe pruebas en inglés simple. Deja que la IA las genere, valide y corrija automáticamente. El futuro de las pruebas end-to-end.",
     "getStarted": "Comenzar",
     "watchDemo": "Ver demo",
     "learnMore": "Saber más",
@@ -16,7 +16,7 @@
     "subtitle": "Construido para flujos de trabajo de desarrollo modernos con IA en su núcleo",
     "aiPowered": {
       "title": "🧠 Escritura de pruebas potenciada por IA",
-      "description": "Describe acciones del usuario en español simple"
+      "description": "Describe acciones del usuario en inglés simple"
     },
     "selfHealing": {
       "title": "🔁 Pruebas auto-reparadoras",

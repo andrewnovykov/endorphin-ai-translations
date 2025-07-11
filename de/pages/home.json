@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "E2E-Tests neu erfunden mit KI",
-    "subtitle": "Schreiben Sie Tests in einfachem Deutsch. Lassen Sie KI sie automatisch generieren, validieren und reparieren. Die Zukunft des End-to-End-Testens.",
+    "subtitle": "Schreiben Sie Tests in einfachem Englisch. Lassen Sie KI sie automatisch generieren, validieren und reparieren. Die Zukunft des End-to-End-Testens.",
     "getStarted": "Loslegen",
     "watchDemo": "Demo ansehen",
     "learnMore": "Mehr erfahren",
@@ -16,7 +16,7 @@
     "subtitle": "Entwickelt für moderne Entwicklungsworkflows mit KI im Kern",
     "aiPowered": {
       "title": "🧠 KI-gestützte Testentwicklung",
-      "description": "Beschreiben Sie Benutzeraktionen in einfachem Deutsch"
+      "description": "Beschreiben Sie Benutzeraktionen in einfachem Englisch"
     },
     "selfHealing": {
       "title": "🔁 Selbstheilende Tests",
