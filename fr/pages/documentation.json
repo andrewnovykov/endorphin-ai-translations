@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Documentation complète",
+    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les tests alimentés par l'IA avec Endorphin AI. Du démarrage rapide aux techniques avancées.",
+    "versionBadge": "Documentation v0.9.0",
+    "startQuickGuide": "Commencer avec le guide rapide",
+    "browseAllDocs": "Parcourir tous les documents",
+    "readGuide": "Lire le guide",
+    "badges": {
+      "5min": "5 min",
+      "essential": "Essentiel",
+      "v090": "v0.9.0",
+      "examples": "Exemples",
+      "advanced": "Avancé",
+      "proTips": "Conseils pro",
+      "reports": "Rapports",
+      "interactive": "Interactif",
+      "config": "Config",
+      "automation": "Automatisation",
+      "patterns": "Modèles"
+    },
+    "gettingStarted": {
+      "title": "Premiers pas",
+      "description": "Commencez votre voyage avec Endorphin AI. Ces guides vous permettront de démarrer rapidement.",
+      "quickStart": "Démarrage rapide",
+      "quickStartDesc": "Soyez opérationnel avec Endorphin AI en 5 minutes",
+      "projectSetup": "Configuration du projet",
+      "projectSetupDesc": "Guide complet de configuration et d'installation du projet",
+      "testStructure": "Structure des tests",
+      "testStructureDesc": "Structure de test intelligente v0.9 avec fonctions setup/data/task"
+    },
+    "advanced": {
+      "title": "Sujets avancés",
+      "description": "Maîtrisez les fonctionnalités avancées et les techniques pour les tests de niveau entreprise.",
+      "testWritingTips": "Conseils d'écriture de tests",
+      "testWritingTipsDesc": "Exemples d'entreprise et de petites applications avec les meilleures pratiques",
+      "promptGuide": "Guide des prompts",
+      "promptGuideDesc": "Techniques avancées de prompts IA et optimisation",
+      "vscodeDebugging": "Débogage VS Code",
+      "vscodeDebuggingDesc": "Débogage professionnel avec points d'arrêt et objet de débogage"
+    },
+    "tools": {
+      "title": "Outils et intégrations",
+      "description": "Outils puissants et fonctionnalités de rapports pour améliorer votre flux de travail de test.",
+      "htmlReporter": "Rapporteur HTML",
+      "htmlReporterDesc": "Rapports interactifs avec suivi des coûts et décisions IA",
+      "testRecorder": "Enregistreur de tests",
+      "testRecorderDesc": "Création interactive de tests avec enregistrement du navigateur",
+      "environmentSetup": "Configuration de l'environnement",
+      "environmentSetupDesc": "Variables d'environnement et guide de configuration"
+    },
+    "deployment": {
+      "title": "Déploiement et CI/CD",
+      "description": "Déployez vos tests et configurez l'intégration continue pour les tests automatisés.",
+      "cicdSetup": "Configuration CI/CD",
+      "cicdSetupDesc": "Intégration GitHub Actions et workflows d'automatisation",
+      "globalSetup": "Configuration globale",
+      "globalSetupDesc": "Fonctions de configuration globale et modèles réutilisables"
+    },
+    "quickLinks": {
+      "title": "Liens rapides populaires",
+      "subtitle": "Accédez directement à la documentation la plus fréquemment consultée.",
+      "helpText": "Besoin d'aide ? Consultez nos exemples complets et nos guides de dépannage.",
+      "buttons": {
+        "viewExamples": "Voir les exemples",
+        "troubleshooting": "Dépannage",
+        "joinCommunity": "Rejoindre la communauté"
+      },
+      "quickStart": {
+        "title": "Démarrage rapide en 5 minutes",
+        "description": "Faites fonctionner votre premier test en moins de 5 minutes avec notre guide de configuration le plus rapide.",
+        "button": "Commencer maintenant →"
+      },
+      "testStructure": {
+        "title": "Structure de test v0.9.0",
+        "description": "Apprenez la nouvelle structure de test intelligente avec les fonctions async setup(), data() et task().",
+        "button": "En savoir plus →"
+      }
+    }
+  }
+}

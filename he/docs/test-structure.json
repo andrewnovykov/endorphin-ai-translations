@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "חזור לתיעוד"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "מדריך מבנה בדיקות",
+      "subtitle": "שלוט במבנה בדיקות חכם v0.9.0 עם פונקציות async setup(), data() ו-task()"
+    },
+    "basicStructure": {
+      "title": "📝 מבנה בדיקה בסיסי",
+      "description": "כל בדיקה זקוקה לשדות הנדרשים הללו"
+    },
+    "writingInstructions": {
+      "title": "🎯 כתיבת הוראות בדיקה",
+      "description": "פורמטים שונים לרמות מורכבות שונות של בדיקות",
+      "simpleFormat": {
+        "title": "פורמט פשוט",
+        "description": "מושלם לבדיקות ישירות:"
+      },
+      "stepByStepFormat": {
+        "title": "פורמט צעד אחר צעד",
+        "description": "מעולה לזרימות עבודה מורכבות:"
+      },
+      "naturalLanguageFormat": {
+        "title": "פורמט שפה טבעית",
+        "description": "כתוב כאילו אתה מסביר לאדם:"
+      }
+    },
+    "dynamicTests": {
+      "title": "בדיקות דינמיות",
+      "badge": "תכונת v0.9.0",
+      "setupFunctions": {
+        "title": "שימוש בפונקציות הגדרה",
+        "description": "הכן את סביבת הבדיקה שלך:"
+      },
+      "dataFunctions": {
+        "title": "שימוש בפונקציות נתונים",
+        "description": "צור נתוני בדיקה בזמן אמת:"
+      },
+      "combinedSetupData": {
+        "title": "הגדרה + נתונים משולבים",
+        "description": "השתמש בשתי פונקציות הגדרה ונתונים:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "יצירת נתונים מופעלת AI",
+      "badge": "תכונה מתקדמת",
+      "description": "השתמש ב-AI ליצירת נתוני בדיקה מציאותיים באופן אוטומטי",
+      "basicAiGeneration": {
+        "title": "יצירת נתונים בסיסית עם AI",
+        "description": "השתמש בפונקציית generateData ליצירת נתוני בדיקה מציאותיים עם AI:"
+      },
+      "tipsTitle": "💡 טיפים ליצירת נתונים עם AI",
+      "tips": {
+        "specific": "• היה ספציפי: דרישות מפורטות מייצרות נתונים טובים יותר",
+        "contexts": "• השתמש בהקשרים: ציין תעשייה, סוג משתמש או הקשר תרחיש",
+        "edgeCases": "• כלול מקרי קיצון: בקש תנאי גבול ותרחישי שגיאה",
+        "relationships": "• קשרים מציאותיים: צור נתונים מחוברים שהגיוניים מבחינה עסקית",
+        "async": "• יצירה אסינכרונית: השתמש תמיד ב-async/await לפונקציות יצירת נתונים",
+        "errorHandling": "• טיפול בשגיאות: כלול נתוני גיבוי במקרה של כשל ביצירת AI"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 שיטות עבודה מומלצות",
+      "description": "טיפים לכתיבת בדיקות יעילות",
+      "uniqueIds": {
+        "title": "השתמש במזהי בדיקה ייחודיים",
+        "description": "פורמט: CATEGORY-NUMBER (למשל LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "כתוב שמות תיאוריים",
+        "description": "שמות בדיקה ברורים וקריאים לאדם עוזרים בארגון"
+      },
+      "meaningfulTags": {
+        "title": "השתמש בתגים משמעותיים",
+        "description": "קבץ בדיקות קשורות: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "קבע עדיפות מתאימה",
+        "description": "גבוה לנתיבים קריטיים, בינוני לתכונות, נמוך למקרי קיצון"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 דוגמאות מהירות",
+      "description": "תבניות בדיקה מוכנות לשימוש",
+      "loginTest": "📧 דוגמה לבדיקת כניסה",
+      "cartTest": "🛒 דוגמה לבדיקת עגלת קניות",
+      "formTest": "📝 דוגמה לבדיקת שליחת טופס"
+    },
+    "nextSteps": {
+      "nextButton": "הבא: טיפים לכתיבת בדיקות →",
+      "previousButton": "← הקודם: הגדרת פרויקט"
+    }
+  }
+}

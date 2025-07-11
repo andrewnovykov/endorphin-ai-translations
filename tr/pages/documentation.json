@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Tam Dokümantasyon",
+    "subtitle": "Endorphin AI ile yapay zeka destekli testlerde ustalaşmak için ihtiyacınız olan her şey. Hızlı başlangıçtan gelişmiş tekniklere.",
+    "versionBadge": "v0.9.0 Dokümantasyonu",
+    "startQuickGuide": "Hızlı Kılavuz ile Başla",
+    "browseAllDocs": "Tüm Dokümanlara Göz At",
+    "readGuide": "Kılavuzu Oku",
+    "badges": {
+      "5min": "5 dk",
+      "essential": "Temel",
+      "v090": "v0.9.0",
+      "examples": "Örnekler",
+      "advanced": "Gelişmiş",
+      "proTips": "Pro İpuçları",
+      "reports": "Raporlar",
+      "interactive": "Etkileşimli",
+      "config": "Yapılandırma",
+      "automation": "Otomasyon",
+      "patterns": "Kalıplar"
+    },
+    "gettingStarted": {
+      "title": "Başlarken",
+      "description": "Endorphin AI ile yolculuğunuza başlayın. Bu kılavuzlar sizi hızla çalışır hale getirecek.",
+      "quickStart": "Hızlı Başlangıç",
+      "quickStartDesc": "Endorphin AI ile 5 dakikada çalışmaya başlayın",
+      "projectSetup": "Proje Kurulumu",
+      "projectSetupDesc": "Tam proje kurulumu ve yapılandırma kılavuzu",
+      "testStructure": "Test Yapısı",
+      "testStructureDesc": "v0.9 setup/data/task fonksiyonları ile akıllı test yapısı"
+    },
+    "advanced": {
+      "title": "Gelişmiş Konular",
+      "description": "Kurumsal düzeyde test için gelişmiş özelliklerde ve tekniklerde ustalaşın.",
+      "testWritingTips": "Test Yazma İpuçları",
+      "testWritingTipsDesc": "En iyi uygulamalarla kurumsal ve küçük uygulama örnekleri",
+      "promptGuide": "Komut Kılavuzu",
+      "promptGuideDesc": "Gelişmiş yapay zeka komutlama teknikleri ve optimizasyon",
+      "vscodeDebugging": "VS Code Hata Ayıklama",
+      "vscodeDebuggingDesc": "Kesme noktaları ve hata ayıklama nesnesi ile profesyonel hata ayıklama"
+    },
+    "tools": {
+      "title": "Araçlar ve Entegrasyonlar",
+      "description": "Test iş akışınızı geliştirmek için güçlü araçlar ve raporlama özellikleri.",
+      "htmlReporter": "HTML Raporcusu",
+      "htmlReporterDesc": "Maliyet takibi ve yapay zeka kararları ile etkileşimli raporlar",
+      "testRecorder": "Test Kaydedici",
+      "testRecorderDesc": "Tarayıcı kaydı ile etkileşimli test oluşturma",
+      "environmentSetup": "Ortam Kurulumu",
+      "environmentSetupDesc": "Ortam değişkenleri ve yapılandırma kılavuzu"
+    },
+    "deployment": {
+      "title": "Dağıtım ve CI/CD",
+      "description": "Testlerinizi dağıtın ve otomatik test için sürekli entegrasyon kurun.",
+      "cicdSetup": "CI/CD Kurulumu",
+      "cicdSetupDesc": "GitHub Actions entegrasyonu ve otomasyon iş akışları",
+      "globalSetup": "Global Kurulum",
+      "globalSetupDesc": "Global kurulum fonksiyonları ve yeniden kullanılabilir kalıplar"
+    },
+    "quickLinks": {
+      "title": "Popüler Hızlı Bağlantılar",
+      "subtitle": "En çok ihtiyaç duyulan dokümantasyona doğrudan gidin.",
+      "helpText": "Yardıma mı ihtiyacınız var? Kapsamlı örneklerimize ve sorun giderme kılavuzlarımıza göz atın.",
+      "buttons": {
+        "viewExamples": "Örnekleri Görüntüle",
+        "troubleshooting": "Sorun Giderme",
+        "joinCommunity": "Topluluğa Katıl"
+      },
+      "quickStart": {
+        "title": "5 Dakikalık Hızlı Başlangıç",
+        "description": "En hızlı kurulum kılavuzumuz ile ilk testinizi 5 dakikadan kısa sürede çalıştırın.",
+        "button": "Şimdi Başla →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 Test Yapısı",
+        "description": "Async setup(), data() ve task() fonksiyonları ile yeni akıllı test yapısını öğrenin.",
+        "button": "Daha Fazla Bilgi →"
+      }
+    }
+  }
+}

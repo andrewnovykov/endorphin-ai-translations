@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "תיעוד מקיף",
+    "subtitle": "כל מה שאתה צריך כדי לשלוט בבדיקות מופעלות AI עם Endorphin AI. מהתחלה מהירה לטכניקות מתקדמות.",
+    "versionBadge": "תיעוד v0.9.0",
+    "startQuickGuide": "התחל עם המדריך המהיר",
+    "browseAllDocs": "עיין בכל המסמכים",
+    "readGuide": "קרא מדריך",
+    "badges": {
+      "5min": "5 דק'",
+      "essential": "חיוני",
+      "v090": "v0.9.0",
+      "examples": "דוגמאות",
+      "advanced": "מתקדם",
+      "proTips": "טיפים מקצועיים",
+      "reports": "דוחות",
+      "interactive": "אינטראקטיבי",
+      "config": "הגדרות",
+      "automation": "אוטומציה",
+      "patterns": "דפוסים"
+    },
+    "gettingStarted": {
+      "title": "צעדים ראשונים",
+      "description": "התחל את המסע שלך עם Endorphin AI. המדריכים האלה יפעילו אותך במהירות.",
+      "quickStart": "התחלה מהירה",
+      "quickStartDesc": "הפעל את Endorphin AI ב-5 דקות",
+      "projectSetup": "הגדרת פרויקט",
+      "projectSetupDesc": "מדריך מקיף להגדרה והתקנת פרויקט",
+      "testStructure": "מבנה בדיקות",
+      "testStructureDesc": "מבנה בדיקה חכם v0.9 עם פונקציות setup/data/task"
+    },
+    "advanced": {
+      "title": "נושאים מתקדמים",
+      "description": "שלוט בתכונות וטכניקות מתקדמות לבדיקות ברמת ארגון.",
+      "testWritingTips": "טיפים לכתיבת בדיקות",
+      "testWritingTipsDesc": "דוגמאות ארגוניות ואפליקציות קטנות עם שיטות עבודה מומלצות",
+      "promptGuide": "מדריך Prompts",
+      "promptGuideDesc": "טכניקות prompts AI מתקדמות ואופטימיזציה",
+      "vscodeDebugging": "דיבוג VS Code",
+      "vscodeDebuggingDesc": "דיבוג מקצועי עם נקודות עצירה ואובייקט דיבוג"
+    },
+    "tools": {
+      "title": "כלים ואינטגרציות",
+      "description": "כלים עוצמתיים ותכונות דוחות לשיפור זרימת העבודה של הבדיקות שלך.",
+      "htmlReporter": "מדווח HTML",
+      "htmlReporterDesc": "דוחות אינטראקטיביים עם מעקב עלויות והחלטות AI",
+      "testRecorder": "מקליט בדיקות",
+      "testRecorderDesc": "יצירת בדיקות אינטראקטיבית עם הקלטת דפדפן",
+      "environmentSetup": "הגדרת סביבה",
+      "environmentSetupDesc": "משתני סביבה ומדריך הגדרות"
+    },
+    "deployment": {
+      "title": "פריסה ו-CI/CD",
+      "description": "פרוס את הבדיקות שלך והגדר אינטגרציה רציפה לבדיקות אוטומטיות.",
+      "cicdSetup": "הגדרת CI/CD",
+      "cicdSetupDesc": "אינטגרציית GitHub Actions וזרימות עבודה אוטומטיות",
+      "globalSetup": "הגדרה גלובלית",
+      "globalSetupDesc": "פונקציות הגדרה גלובליות ודפוסים לשימוש חוזר"
+    },
+    "quickLinks": {
+      "title": "קישורים מהירים פופולריים",
+      "subtitle": "קפוץ ישירות לתיעוד הנדרש ביותר.",
+      "helpText": "צריך עזרה? עיין בדוגמאות המקיפות שלנו ומדריכי פתרון בעיות.",
+      "buttons": {
+        "viewExamples": "צפה בדוגמאות",
+        "troubleshooting": "פתרון בעיות",
+        "joinCommunity": "הצטרף לקהילה"
+      },
+      "quickStart": {
+        "title": "התחלה מהירה של 5 דקות",
+        "description": "הפעל את הבדיקה הראשונה שלך תוך פחות מ-5 דקות עם מדריך ההגדרה המהיר ביותר שלנו.",
+        "button": "התחל עכשיו →"
+      },
+      "testStructure": {
+        "title": "מבנה בדיקות v0.9.0",
+        "description": "למד את מבנה הבדיקה החכם החדש עם פונקציות async setup(), data() ו-task().",
+        "button": "למד עוד →"
+      }
+    }
+  }
+}

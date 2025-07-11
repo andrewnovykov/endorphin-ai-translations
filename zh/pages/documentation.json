@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "完整文档",
+    "subtitle": "掌握Endorphin AI的AI驱动测试所需的一切。从快速入门到高级技术。",
+    "versionBadge": "文档 v0.9.0",
+    "startQuickGuide": "从快速指南开始",
+    "browseAllDocs": "浏览所有文档",
+    "readGuide": "阅读指南",
+    "badges": {
+      "5min": "5分钟",
+      "essential": "必需",
+      "v090": "v0.9.0",
+      "examples": "示例",
+      "advanced": "高级",
+      "proTips": "专业技巧",
+      "reports": "报告",
+      "interactive": "交互式",
+      "config": "配置",
+      "automation": "自动化",
+      "patterns": "模式"
+    },
+    "gettingStarted": {
+      "title": "入门",
+      "description": "开始您的Endorphin AI之旅。这些指南将帮您快速上手。",
+      "quickStart": "快速开始",
+      "quickStartDesc": "5分钟内启动Endorphin AI",
+      "projectSetup": "项目设置",
+      "projectSetupDesc": "完整的项目设置和安装指南",
+      "testStructure": "测试结构",
+      "testStructureDesc": "具有setup/data/task函数的v0.9智能测试结构"
+    },
+    "advanced": {
+      "title": "高级主题",
+      "description": "掌握企业级测试的高级功能和技术。",
+      "testWritingTips": "测试编写技巧",
+      "testWritingTipsDesc": "企业和小应用示例及最佳实践",
+      "promptGuide": "Prompt指南",
+      "promptGuideDesc": "高级AI prompt技术和优化",
+      "vscodeDebugging": "VS Code调试",
+      "vscodeDebuggingDesc": "使用断点和调试对象进行专业调试"
+    },
+    "tools": {
+      "title": "工具和集成",
+      "description": "强大的工具和报告功能，增强您的测试工作流程。",
+      "htmlReporter": "HTML报告器",
+      "htmlReporterDesc": "具有成本跟踪和AI决策的交互式报告",
+      "testRecorder": "测试录制器",
+      "testRecorderDesc": "具有浏览器录制功能的交互式测试创建",
+      "environmentSetup": "环境设置",
+      "environmentSetupDesc": "环境变量和配置指南"
+    },
+    "deployment": {
+      "title": "部署和CI/CD",
+      "description": "部署您的测试并设置持续集成以进行自动测试。",
+      "cicdSetup": "CI/CD设置",
+      "cicdSetupDesc": "GitHub Actions集成和自动化工作流程",
+      "globalSetup": "全局设置",
+      "globalSetupDesc": "全局设置函数和可重用模式"
+    },
+    "quickLinks": {
+      "title": "热门快速链接",
+      "subtitle": "直接跳转到最需要的文档。",
+      "helpText": "需要帮助？查看我们的完整示例和故障排除指南。",
+      "buttons": {
+        "viewExamples": "查看示例",
+        "troubleshooting": "故障排除",
+        "joinCommunity": "加入社区"
+      },
+      "quickStart": {
+        "title": "5分钟快速开始",
+        "description": "使用我们最快的设置指南在不到5分钟内运行您的第一个测试。",
+        "button": "立即开始 →"
+      },
+      "testStructure": {
+        "title": "测试结构 v0.9.0",
+        "description": "学习带有async setup()、data()和task()函数的新智能测试结构。",
+        "button": "了解更多 →"
+      }
+    }
+  }
+}

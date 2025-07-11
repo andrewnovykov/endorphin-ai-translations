@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Tests E2E réinventés avec l'IA",
+    "subtitle": "Écrivez des tests en français simple. Laissez l'IA les générer, valider et corriger automatiquement. L'avenir des tests end-to-end.",
+    "getStarted": "Commencer",
+    "watchDemo": "Voir la démo",
+    "learnMore": "En savoir plus",
+    "socialProof": {
+      "stars": "étoiles",
+      "license": "Licence AGPLv3",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Pourquoi les développeurs adorent notre framework",
+    "subtitle": "Conçu pour les workflows de développement modernes avec l'IA au cœur",
+    "aiPowered": {
+      "title": "🧠 Écriture de tests alimentée par l'IA",
+      "description": "Décrivez les actions utilisateur en français simple"
+    },
+    "selfHealing": {
+      "title": "🔁 Tests auto-réparateurs",
+      "description": "S'adaptent automatiquement aux changements d'interface"
+    },
+    "smartValidation": {
+      "title": "🕵️ Agent de validation intelligent",
+      "description": "Détecte les bugs visuels et logiques"
+    },
+    "costTracking": {
+      "title": "💰 Suivi des coûts et tokens",
+      "description": "Surveillez les coûts d'utilisation de l'IA et la consommation de tokens"
+    },
+    "ciIntegration": {
+      "title": "🚀 Intégration CI",
+      "description": "Se connecte parfaitement à votre pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Rapports perspicaces",
+      "description": "Obtenez des rapports lisibles générés par l'IA"
+    }
+  },
+  "codeExample": {
+    "title": "Écriture de tests simple et intuitive",
+    "description": "Écrivez des tests qui se lisent comme de la documentation. Notre framework gère la complexité en arrière-plan."
+  },
+  "whyChoose": {
+    "title": "Pourquoi choisir notre framework ?",
+    "subtitle": "Fonctionnalités avancées qui nous distinguent de la concurrence",
+    "smartTestStructure": {
+      "title": "🧠 Structure de test intelligente",
+      "description": "Fonctions async setup(), data(), task() dynamiques pour une préparation de test robuste"
+    },
+    "costTokenTracking": {
+      "title": "💰 Suivi des coûts et tokens",
+      "description": "Surveillez les coûts d'utilisation de l'IA par test et étape avec décomposition détaillée des prix"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 Historique des décisions IA",
+      "description": "Voyez exactement comment l'IA analyse, raisonne et exécute les instructions de test"
+    },
+    "builtInTools": {
+      "title": "🔧 Système d'outils intégré",
+      "description": "12 outils d'automatisation de navigateur complets intégrés - aucun outil personnalisé requis"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Enregistreur de tests",
+      "description": "Enregistreur de tests interactif pour essayer les prompts en temps réel - expérimentez et validez instantanément les idées de test"
+    },
+    "enhancedReports": {
+      "title": "📊 Rapports HTML améliorés",
+      "description": "Rapports interactifs avec suivi des coûts, décisions IA et galerie de captures d'écran"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Démarrage rapide",
+    "step1": "Installer le framework",
+    "step2": "Configurer votre clé API OpenAI",
+    "step3": "Écrire votre premier test",
+    "step4": "Exécuter et voir la magie opérer !",
+    "startNow": "Commencer maintenant →"
+  }
+}

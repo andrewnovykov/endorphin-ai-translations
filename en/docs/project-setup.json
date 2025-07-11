@@ -1,0 +1,63 @@
+{
+  "projectSetupPage": {
+    "navigation": {
+      "backToDocumentation": "Back to Documentation"
+    },
+    "header": {
+      "badge": "Essential",
+      "title": "Project Setup Guide",
+      "subtitle": "Complete project setup and configuration guide for professional testing workflows"
+    },
+    "installation": {
+      "title": "Installation",
+      "description": "Get started with Endorphin AI using one of these methods:",
+      "option1": "Option 1: Quick Setup",
+      "option2": "Option 2: Manual Installation"
+    },
+    "projectSetup": {
+      "title": "Project Setup",
+      "description": "Initialize your project with the proper structure and configuration files.",
+      "quickSetup": "Quick Setup with Init",
+      "thisCreates": "This creates:",
+      "configFile": "Configuration file",
+      "testsFolder": "Your test files",
+      "envTemplate": "Environment variables template",
+      "exampleTest": "Example test file",
+      "manualSetup": "Manual Setup",
+      "manualDescription": "For more control over your setup:",
+      "step1": "1. Create endorphin.config.ts:",
+      "step2": "2. Create .env file:",
+      "step3": "3. Create tests folder:"
+    },
+    "openaiSetup": {
+      "title": "OpenAI Setup",
+      "description": "Configure your OpenAI API key for AI-powered testing:",
+      "step1": "1. Get your API key from",
+      "step2": "2. Add to your .env file:"
+    },
+    "firstTest": {
+      "title": "Create Your First Test",
+      "description": "Create a test file to verify your setup is working correctly.",
+      "createFile": "Create a file called google-test.js in your tests folder:"
+    },
+    "runTest": {
+      "title": "Running Tests",
+      "listTests": "List all tests:",
+      "runSpecific": "Run specific test:",
+      "runAll": "Run all tests:"
+    },
+    "viewResults": {
+      "title": "View Results",
+      "generateReport": "Generate report:",
+      "openBrowser": "Open in browser:"
+    },
+    "success": {
+      "title": "Setup Complete!",
+      "description": "Your project is now configured and ready for AI-powered testing. You can start writing tests using natural language descriptions."
+    },
+    "nextSteps": {
+      "nextButton": "Next: Test Structure →",
+      "backButton": "Back to Documentation"
+    }
+  }
+}

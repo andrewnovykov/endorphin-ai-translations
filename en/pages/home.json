@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "E2E Testing Reinvented with AI",
+    "subtitle": "Write tests in plain English. Let AI generate, validate, and fix them automatically. The future of end-to-end testing.",
+    "getStarted": "Get Started",
+    "watchDemo": "Watch Demo",
+    "learnMore": "Learn More",
+    "socialProof": {
+      "stars": "stars",
+      "license": "AGPLv3 License",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Why Developers Love Our Framework",
+    "subtitle": "Built for modern development workflows with AI at its core",
+    "aiPowered": {
+      "title": "🧠 AI-Powered Test Writing",
+      "description": "Describe user actions in plain English"
+    },
+    "selfHealing": {
+      "title": "🔁 Self-Healing Tests",
+      "description": "Automatically adapt to UI changes"
+    },
+    "smartValidation": {
+      "title": "🕵️ Smart Validation Agent",
+      "description": "Detect visual and logic bugs"
+    },
+    "costTracking": {
+      "title": "💰 Cost & Token Tracking",
+      "description": "Monitor AI usage costs and token consumption"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI Integration",
+      "description": "Seamlessly connects to your pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Insightful Reports",
+      "description": "Get human-readable, AI-generated reports"
+    }
+  },
+  "codeExample": {
+    "title": "Simple, Intuitive Test Writing",
+    "description": "Write tests that read like documentation. Our framework handles the complexity behind the scenes."
+  },
+  "whyChoose": {
+    "title": "Why Choose Our Framework?",
+    "subtitle": "Advanced features that give you the edge over competitors",
+    "smartTestStructure": {
+      "title": "🧩 Smart Test Structure",
+      "description": "Dynamic async setup(), data(), and task() functions for powerful test preparation"
+    },
+    "costTokenTracking": {
+      "title": "💰 Cost & Token Tracking",
+      "description": "Monitor AI usage costs for tests and steps with detailed pricing breakdown"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 AI Decision History",
+      "description": "See exactly how AI analyzed, reasoned, and executed test instructions"
+    },
+    "builtInTools": {
+      "title": "🔧 Built-in Tools System",
+      "description": "12 comprehensive browser automation tools built-in - no custom tools needed"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Test Recorder",
+      "description": "Interactive test recorder to try prompts in real-time - instantly experiment and validate test ideas"
+    },
+    "enhancedReports": {
+      "title": "📊 Enhanced HTML Reports",
+      "description": "Interactive reports with cost tracking, AI decisions, and screenshot galleries"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Quick Start",
+    "step1": "Install the framework",
+    "step2": "Set up your OpenAI API key",
+    "step3": "Write your first test",
+    "step4": "Run and watch the magic happen!",
+    "startNow": "Start Now →"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Tilbage til Dokumentation"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Teststruktur Guide",
+      "subtitle": "Mestre den smarte teststruktur v0.9.0 med async setup(), data() og task() funktioner"
+    },
+    "basicStructure": {
+      "title": "📝 Grundlæggende Teststruktur",
+      "description": "Hver test har brug for disse påkrævede felter"
+    },
+    "writingInstructions": {
+      "title": "🎯 Skrivning af Testinstruktioner",
+      "description": "Forskellige formater til forskellige test kompleksiteter",
+      "simpleFormat": {
+        "title": "Simpelt Format",
+        "description": "Perfekt til ligetil tests:"
+      },
+      "stepByStepFormat": {
+        "title": "Trin-for-Trin Format",
+        "description": "Fantastisk til komplekse workflows:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Naturligt Sprog Format",
+        "description": "Skriv som om du forklarer til en person:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynamiske Tests",
+      "badge": "v0.9.0 Funktion",
+      "setupFunctions": {
+        "title": "Brug af Setup Funktioner",
+        "description": "Forbered dit testmiljø:"
+      },
+      "dataFunctions": {
+        "title": "Brug af Data Funktioner",
+        "description": "Generer testdata on-the-fly:"
+      },
+      "combinedSetupData": {
+        "title": "Kombineret Setup + Data",
+        "description": "Brug både setup og data funktioner:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI-Drevet Datagenerering",
+      "badge": "Avanceret Funktion",
+      "description": "Brug AI til automatisk at generere realistisk testdata",
+      "basicAiGeneration": {
+        "title": "Grundlæggende AI Datagenerering",
+        "description": "Brug generateData funktionen til at skabe realistisk testdata med AI:"
+      },
+      "tipsTitle": "💡 AI Datagenerering Tips",
+      "tips": {
+        "specific": "• Vær specifik: Detaljerede krav producerer bedre data",
+        "contexts": "• Brug kontekster: Specificer industri, brugertype eller scenarie kontekst",
+        "edgeCases": "• Inkluder edge cases: Bed om grænsevilkår og fejlscenarier",
+        "relationships": "• Realistiske relationer: Generer forbundet data der giver forretningsmæssig mening",
+        "async": "• Asynkron generering: Brug altid async/await til datagenerering funktioner",
+        "errorHandling": "• Fejlhåndtering: Inkluder fallback data i tilfælde af AI generering fejl"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Bedste Praksis",
+      "description": "Tips til at skrive effektive tests",
+      "uniqueIds": {
+        "title": "Brug unikke test ID'er",
+        "description": "Format: CATEGORY-NUMBER (f.eks. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Skriv beskrivende navne",
+        "description": "Klare, menneskelæsbare testnavne hjælper med organisering"
+      },
+      "meaningfulTags": {
+        "title": "Brug meningsfulde tags",
+        "description": "Gruppér relaterede tests: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Sæt passende prioritet",
+        "description": "Høj for kritiske stier, Medium for funktioner, Lav for edge cases"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Hurtige Eksempler",
+      "description": "Klar-til-brug test skabeloner",
+      "loginTest": "📧 Login Test Eksempel",
+      "cartTest": "🛒 Indkøbskurv Test Eksempel",
+      "formTest": "📝 Formular Indsendelse Test Eksempel"
+    },
+    "nextSteps": {
+      "nextButton": "Næste: Test Skrivning Tips →",
+      "previousButton": "← Forrige: Projekt Setup"
+    }
+  }
+}

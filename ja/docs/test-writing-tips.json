@@ -1,0 +1,103 @@
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "ドキュメントに戻る"
+    },
+    "header": {
+      "badge": "ベストプラクティス",
+      "title": "テスト作成のコツ",
+      "subtitle": "効果的なAI駆動テストのためのエンタープライズと小規模アプリの例とベストプラクティス"
+    },
+    "introduction": {
+      "title": "テスト作成をマスターする",
+      "description": "シンプルなアプリケーションから複雑なエンタープライズワークフローまで、さまざまなシナリオで効果的なテストを書く方法を学びます。",
+      "coverage": "このガイドがカバーする内容：",
+      "coverageList": {
+        "patterns": "✅ 一般的なテストパターンとアンチパターン",
+        "enterprise": "✅ エンタープライズスケールのテスト戦略",
+        "smallApps": "✅ 小規模アプリケーション向けの最適化アプローチ",
+        "maintenance": "✅ 長期的なテストメンテナンス戦略",
+        "debugging": "✅ デバッグとトラブルシューティング技術"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "エンタープライズテストパターン",
+      "description": "大規模アプリケーションのベストプラクティス：",
+      "patterns": {
+        "dataIsolation": {
+          "title": "データ分離",
+          "description": "適切な分離戦略でテストデータを本番データから分離"
+        },
+        "pageObjects": {
+          "title": "Page Object統合",
+          "description": "AIテストと従来のpage objectパターンを組み合わせ"
+        },
+        "workflows": {
+          "title": "ビジネスワークフローテスト",
+          "description": "複雑なマルチステップビジネスプロセスのエンドツーエンドテスト"
+        },
+        "parallelization": {
+          "title": "並列テスト実行",
+          "description": "並列実行とCI/CDパイプライン向けのテスト設計"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "小規模アプリケーションのコツ",
+      "description": "小さなプロジェクト向けの最適化戦略：",
+      "tips": {
+        "simplicity": {
+          "title": "シンプルに保つ",
+          "description": "コアユーザージャーニーと重要な機能に焦点を当てる"
+        },
+        "costOptimization": {
+          "title": "コスト最適化",
+          "description": "テストカバレッジを維持しながらAIトークン使用を最小化"
+        },
+        "quickFeedback": {
+          "title": "高速フィードバックループ",
+          "description": "高速開発サイクル向けのテスト構造"
+        },
+        "essential": {
+          "title": "必須テストのみ",
+          "description": "重要なバグをキャッチする高インパクトテストを優先"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "一般的なテストパターン",
+      "description": "さまざまなアプリケーションタイプで機能する実証済みパターン：",
+      "authentication": {
+        "title": "認証フロー",
+        "description": "ログイン、ログアウト、パスワードリセット、多要素認証"
+      },
+      "forms": {
+        "title": "フォームテスト",
+        "description": "バリデーション、送信、エラーハンドリング、動的フォーム"
+      },
+      "navigation": {
+        "title": "ナビゲーションテスト",
+        "description": "メニューナビゲーション、パンくずリスト、ディープリンク"
+      },
+      "dataVisualization": {
+        "title": "データ可視化",
+        "description": "チャート、グラフ、インタラクティブデータ表示のテスト"
+      }
+    },
+    "antiPatterns": {
+      "title": "避けるべきアンチパターン",
+      "description": "不安定で保守できないテストにつながる一般的な間違い：",
+      "patterns": {
+        "overSpecification": "❌ UI要素の過度な指定（セマンティックな説明を使用）",
+        "hardcoding": "❌ 動的値のハードコーディング（data関数を使用）",
+        "chainedTests": "❌ 依存テストの長いチェーンの作成",
+        "noValidation": "❌ 適切なバリデーションとアサーションの欠如",
+        "duplicateLogic": "❌ 複数のテストでテストロジックの重複"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "次：プロンプトガイド →",
+      "backButton": "ドキュメントに戻る"
+    }
+  }
+}

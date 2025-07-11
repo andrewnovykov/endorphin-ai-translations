@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Üzgünüz! Sayfa bulunamadı",
+    "returnHome": "Ana Sayfaya Dön"
+  }
+}

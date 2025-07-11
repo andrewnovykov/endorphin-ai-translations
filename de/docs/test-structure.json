@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Zurück zur Dokumentation"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Test-Struktur-Leitfaden",
+      "subtitle": "Meistern Sie die intelligente Test-Struktur v0.9.0 mit async setup(), data() und task() Funktionen"
+    },
+    "basicStructure": {
+      "title": "📝 Grundlegende Test-Struktur",
+      "description": "Jeder Test benötigt diese erforderlichen Felder"
+    },
+    "writingInstructions": {
+      "title": "🎯 Test-Anweisungen schreiben",
+      "description": "Verschiedene Formate für verschiedene Test-Komplexität",
+      "simpleFormat": {
+        "title": "Einfaches Format",
+        "description": "Perfekt für unkomplizierte Tests:"
+      },
+      "stepByStepFormat": {
+        "title": "Schritt-für-Schritt-Format",
+        "description": "Großartig für komplexe Workflows:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Natürlich-sprachiges Format",
+        "description": "Schreiben Sie, als würden Sie es einer Person erklären:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynamische Tests",
+      "badge": "v0.9.0 Feature",
+      "setupFunctions": {
+        "title": "Setup-Funktionen verwenden",
+        "description": "Bereiten Sie Ihre Testumgebung vor:"
+      },
+      "dataFunctions": {
+        "title": "Data-Funktionen verwenden",
+        "description": "Generieren Sie Testdaten dynamisch:"
+      },
+      "combinedSetupData": {
+        "title": "Kombiniertes Setup + Data",
+        "description": "Verwenden Sie sowohl Setup- als auch Data-Funktionen:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "KI-gestützte Datengenerierung",
+      "badge": "Erweiterte Funktion",
+      "description": "Verwenden Sie KI, um automatisch realistische Testdaten zu generieren",
+      "basicAiGeneration": {
+        "title": "Grundlegende KI-Datengenerierung",
+        "description": "Verwenden Sie die generateData-Funktion, um realistische Testdaten mit KI zu erstellen:"
+      },
+      "tipsTitle": "💡 Tipps für KI-Datengenerierung",
+      "tips": {
+        "specific": "• Seien Sie spezifisch: Detaillierte Anforderungen produzieren bessere Daten",
+        "contexts": "• Verwenden Sie Kontexte: Geben Sie Branche, Benutzertyp oder Szenario-Kontext an",
+        "edgeCases": "• Grenzfälle einbeziehen: Fragen Sie nach Randbedingungen und Fehlerszenarien",
+        "relationships": "• Realistische Beziehungen: Generieren Sie verbundene Daten, die geschäftlich sinnvoll sind",
+        "async": "• Asynchrone Generierung: Verwenden Sie immer async/await für Datengenerierungsfunktionen",
+        "errorHandling": "• Fehlerbehandlung: Fallback-Daten einbeziehen für den Fall, dass die KI-Generierung fehlschlägt"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Best Practices",
+      "description": "Tipps für das Schreiben effektiver Tests",
+      "uniqueIds": {
+        "title": "Eindeutige Test-IDs verwenden",
+        "description": "Format: KATEGORIE-NUMMER (z.B. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Beschreibende Namen schreiben",
+        "description": "Klare, lesbare Test-Namen helfen bei der Organisation"
+      },
+      "meaningfulTags": {
+        "title": "Bedeutungsvolle Tags verwenden",
+        "description": "Verwandte Tests gruppieren: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Angemessene Priorität setzen",
+        "description": "Hoch für kritische Pfade, Mittel für Features, Niedrig für Grenzfälle"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Schnelle Beispiele",
+      "description": "Einsatzbereite Test-Vorlagen",
+      "loginTest": "📧 Login-Test-Beispiel",
+      "cartTest": "🛒 Warenkorb-Test-Beispiel",
+      "formTest": "📝 Formular-Übermittlungs-Test-Beispiel"
+    },
+    "nextSteps": {
+      "nextButton": "Weiter: Test-Schreib-Tipps →",
+      "previousButton": "← Zurück: Projekt-Setup"
+    }
+  }
+}

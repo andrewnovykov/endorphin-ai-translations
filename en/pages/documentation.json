@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Complete Documentation",
+    "subtitle": "Everything you need to master AI-powered testing with Endorphin AI. From quick start to advanced techniques.",
+    "versionBadge": "v0.9.0 Documentation",
+    "startQuickGuide": "Start with Quick Guide",
+    "browseAllDocs": "Browse All Docs",
+    "readGuide": "Read Guide",
+    "badges": {
+      "5min": "5 min",
+      "essential": "Essential",
+      "v090": "v0.9.0",
+      "examples": "Examples",
+      "advanced": "Advanced",
+      "proTips": "Pro Tips",
+      "reports": "Reports",
+      "interactive": "Interactive",
+      "config": "Config",
+      "automation": "Automation",
+      "patterns": "Patterns"
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "description": "Start your journey with Endorphin AI. These guides will get you up and running quickly.",
+      "quickStart": "Quick Start",
+      "quickStartDesc": "Get up and running with Endorphin AI in 5 minutes",
+      "projectSetup": "Project Setup",
+      "projectSetupDesc": "Complete project setup and configuration guide",
+      "testStructure": "Test Structure",
+      "testStructureDesc": "v0.9 smart test structure with setup/data/task functions"
+    },
+    "advanced": {
+      "title": "Advanced Topics",
+      "description": "Master advanced features and techniques for enterprise-grade testing.",
+      "testWritingTips": "Test Writing Tips",
+      "testWritingTipsDesc": "Enterprise and small app examples with best practices",
+      "promptGuide": "Prompt Guide",
+      "promptGuideDesc": "Advanced AI prompting techniques and optimization",
+      "vscodeDebugging": "VS Code Debugging",
+      "vscodeDebuggingDesc": "Professional debugging with breakpoints and debug object"
+    },
+    "tools": {
+      "title": "Tools & Integrations",
+      "description": "Powerful tools and reporting features to enhance your testing workflow.",
+      "htmlReporter": "HTML Reporter",
+      "htmlReporterDesc": "Interactive reports with cost tracking and AI decisions",
+      "testRecorder": "Test Recorder",
+      "testRecorderDesc": "Interactive test creation with browser recording",
+      "environmentSetup": "Environment Setup",
+      "environmentSetupDesc": "Environment variables and configuration guide"
+    },
+    "deployment": {
+      "title": "Deployment & CI/CD",
+      "description": "Deploy your tests and set up continuous integration for automated testing.",
+      "cicdSetup": "CI/CD Setup",
+      "cicdSetupDesc": "GitHub Actions integration and automation workflows",
+      "globalSetup": "Global Setup",
+      "globalSetupDesc": "Global setup functions and reusable patterns"
+    },
+    "quickLinks": {
+      "title": "Popular Quick Links",
+      "subtitle": "Jump straight to the most commonly needed documentation.",
+      "quickStart": {
+        "title": "5-Minute Quick Start",
+        "description": "Get your first test running in under 5 minutes with our fastest setup guide.",
+        "button": "Start Now →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 Test Structure",
+        "description": "Learn the new smart test structure with async setup(), data(), and task() functions.",
+        "button": "Learn More →"
+      },
+      "helpText": "Need help? Check out our comprehensive examples and troubleshooting guides.",
+      "buttons": {
+        "viewExamples": "View Examples",
+        "troubleshooting": "Troubleshooting",
+        "joinCommunity": "Join Community"
+      }
+    }
+  }
+}

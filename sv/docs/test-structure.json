@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Tillbaka till Dokumentation"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Teststruktur Guide",
+      "subtitle": "Bemästra den smarta teststrukturen v0.9.0 med async setup(), data() och task() funktioner"
+    },
+    "basicStructure": {
+      "title": "📝 Grundläggande Teststruktur",
+      "description": "Varje test behöver dessa obligatoriska fält"
+    },
+    "writingInstructions": {
+      "title": "🎯 Skriva Testinstruktioner",
+      "description": "Olika format för olika testkomplexiteter",
+      "simpleFormat": {
+        "title": "Enkelt Format",
+        "description": "Perfekt för raka tester:"
+      },
+      "stepByStepFormat": {
+        "title": "Steg-för-Steg Format",
+        "description": "Bra för komplexa arbetsflöden:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Naturligt Språk Format",
+        "description": "Skriv som om du förklarar för en person:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynamiska Tester",
+      "badge": "v0.9.0 Funktion",
+      "setupFunctions": {
+        "title": "Använda Setup Funktioner",
+        "description": "Förbered din testmiljö:"
+      },
+      "dataFunctions": {
+        "title": "Använda Data Funktioner",
+        "description": "Generera testdata i farten:"
+      },
+      "combinedSetupData": {
+        "title": "Kombinerad Setup + Data",
+        "description": "Använd både setup- och data-funktioner:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI-Driven Datagenerering",
+      "badge": "Avancerad Funktion",
+      "description": "Använd AI för att automatiskt generera realistisk testdata",
+      "basicAiGeneration": {
+        "title": "Grundläggande AI Datagenerering",
+        "description": "Använd generateData funktionen för att skapa realistisk testdata med AI:"
+      },
+      "tipsTitle": "💡 AI Datagenerering Tips",
+      "tips": {
+        "specific": "• Var specifik: Detaljerade krav producerar bättre data",
+        "contexts": "• Använd kontext: Specificera bransch, användartyp eller scenariokontext",
+        "edgeCases": "• Inkludera edge cases: Be om gränsvillkor och felscenarier",
+        "relationships": "• Realistiska relationer: Generera ansluten data som är affärsmässigt vettig",
+        "async": "• Asynkron generering: Använd alltid async/await för datagenerering funktioner",
+        "errorHandling": "• Felhantering: Inkludera fallback data ifall AI generering misslyckas"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Bästa Praxis",
+      "description": "Tips för att skriva effektiva tester",
+      "uniqueIds": {
+        "title": "Använd unika test ID:n",
+        "description": "Format: CATEGORY-NUMBER (t.ex. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Skriv beskrivande namn",
+        "description": "Tydliga, mänskligt läsbara testnamn hjälper med organisation"
+      },
+      "meaningfulTags": {
+        "title": "Använd meningsfulla taggar",
+        "description": "Gruppera relaterade tester: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Sätt lämplig prioritet",
+        "description": "Hög för kritiska vägar, Medium för funktioner, Låg för edge cases"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Snabba Exempel",
+      "description": "Färdiga testmallar",
+      "loginTest": "📧 Inloggning Test Exempel",
+      "cartTest": "🛒 Kundvagn Test Exempel",
+      "formTest": "📝 Formulärinlämning Test Exempel"
+    },
+    "nextSteps": {
+      "nextButton": "Nästa: Testskrivning Tips →",
+      "previousButton": "← Föregående: Projektinställning"
+    }
+  }
+}

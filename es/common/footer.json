@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "El framework de pruebas E2E de próxima generación que combina el poder de la IA con la simplicidad del lenguaje natural.",
+    "quickLinks": "Enlaces rápidos",
+    "gettingStarted": "Primeros pasos",
+    "documentation": "Documentación",
+    "examples": "Ejemplos",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "github": "GitHub",
+    "support": "Soporte",
+    "contributing": "Contribuir",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

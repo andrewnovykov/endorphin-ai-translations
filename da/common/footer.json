@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "Næste generations E2E-testframework, der kombinerer kraften i AI med enkelheden i naturligt sprog.",
+    "quickLinks": "Hurtige Links",
+    "gettingStarted": "Kom i Gang",
+    "documentation": "Dokumentation",
+    "examples": "Eksempler",
+    "resources": "Ressourcer",
+    "community": "Fællesskab",
+    "github": "GitHub",
+    "support": "Support",
+    "contributing": "Bidrag",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

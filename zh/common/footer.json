@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "下一代E2E测试框架，结合了AI的力量和自然语言的简单性。",
+    "quickLinks": "快速链接",
+    "gettingStarted": "入门指南",
+    "documentation": "文档",
+    "examples": "示例",
+    "resources": "资源",
+    "community": "社区",
+    "github": "GitHub",
+    "support": "支持",
+    "contributing": "贡献",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "Фреймворк E2E тестування нового покоління, який поєднує силу ШІ з простотою природної мови.",
+    "quickLinks": "Швидкі посилання",
+    "gettingStarted": "Початок роботи",
+    "documentation": "Документація",
+    "examples": "Приклади",
+    "resources": "Ресурси",
+    "community": "Спільнота",
+    "github": "GitHub",
+    "support": "Підтримка",
+    "contributing": "Внесок",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

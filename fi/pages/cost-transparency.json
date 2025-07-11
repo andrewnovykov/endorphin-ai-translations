@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 AI-kustannusten läpinäkyvyys",
+    "subtitle": "Seuraa AI:n käyttökustannuksia reaaliajassa yksityiskohtaisilla erittelyillä testiä ja askelta kohden",
+    "averageCostPerTest": "Keskimääräinen kustannus per testi",
+    "tokensUsed": "Käytettyjä tokeneja",
+    "executionTime": "Suoritusaika",
+    "perStepBreakdown": {
+      "title": "🔍 Askelittainen erittely",
+      "navigate": "Navigoi",
+      "fillForm": "Täytä lomake",
+      "verify": "Varmista",
+      "step1": "Askel 1",
+      "step2": "Askel 2",
+      "step3": "Askel 3",
+      "tokensUnit": "tokenia"
+    },
+    "costOptimization": {
+      "title": "📊 Kustannusoptimointi",
+      "smartPromptOptimization": "Älykäs prompt-optimointi",
+      "tokenUsageAnalytics": "Token-käytön analytiikka",
+      "costAlertsAndBudgets": "Kustannushälytykset ja budjetit",
+      "historicalCostTracking": "Historiallinen kustannusseuranta",
+      "costSavingsLabel": "Kustannussäästöt",
+      "optimizationDescription": "Optimointimme vähentää kustannuksia jopa 60% verrattuna optimoimattomiin AI-testeihin"
+    },
+    "callToAction": {
+      "title": "Valmiina Happy Vibetesting-kokemukseen?",
+      "description": "Liity AI-testauksen vallankumoukseen v0.9.0:lla. Älykäs testirakenne, kustannusten läpinäkyvyys ja yritystason luotettavuus.",
+      "getStartedFree": "Aloita ilmaiseksi",
+      "readDocumentation": "Lue dokumentaatio"
+    }
+  }
+}

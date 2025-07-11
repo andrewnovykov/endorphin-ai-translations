@@ -1,0 +1,37 @@
+{
+  "name": "endorphin-ai-website-translations",
+  "version": "1.0.0",
+  "description": "Community translations for the Endorphin AI website",
+  "scripts": {
+    "validate": "node build-translations.cjs validate",
+    "build": "node build-translations.cjs build",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "translations",
+    "i18n",
+    "endorphin-ai",
+    "internationalization",
+    "community"
+  ],
+  "author": "Endorphin AI Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endorphin-ai/endorphin-ai-translations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endorphin-ai/endorphin-ai-translations/issues"
+  },
+  "homepage": "https://github.com/endorphin-ai/endorphin-ai-translations#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "*/",
+    "*.json",
+    "*.md",
+    "build-translations.cjs"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Retour à la Documentation"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Guide de Structure des Tests",
+      "subtitle": "Maîtrisez la structure de test intelligente v0.9.0 avec les fonctions async setup(), data() et task()"
+    },
+    "basicStructure": {
+      "title": "📝 Structure de Test de Base",
+      "description": "Chaque test nécessite ces champs obligatoires"
+    },
+    "writingInstructions": {
+      "title": "🎯 Rédaction des Instructions de Test",
+      "description": "Différents formats pour différents niveaux de complexité de test",
+      "simpleFormat": {
+        "title": "Format Simple",
+        "description": "Parfait pour les tests simples :"
+      },
+      "stepByStepFormat": {
+        "title": "Format Étape par Étape",
+        "description": "Idéal pour les workflows complexes :"
+      },
+      "naturalLanguageFormat": {
+        "title": "Format en Langage Naturel",
+        "description": "Écrivez comme si vous expliquiez à une personne :"
+      }
+    },
+    "dynamicTests": {
+      "title": "Tests Dynamiques",
+      "badge": "Fonctionnalité v0.9.0",
+      "setupFunctions": {
+        "title": "Utilisation des Fonctions Setup",
+        "description": "Préparez votre environnement de test :"
+      },
+      "dataFunctions": {
+        "title": "Utilisation des Fonctions Data",
+        "description": "Générez des données de test à la volée :"
+      },
+      "combinedSetupData": {
+        "title": "Setup + Data Combiné",
+        "description": "Utilisez les fonctions setup et data ensemble :"
+      }
+    },
+    "aiPoweredData": {
+      "title": "Génération de Données Alimentée par l'IA",
+      "badge": "Fonctionnalité Avancée",
+      "description": "Utilisez l'IA pour générer automatiquement des données de test réalistes",
+      "basicAiGeneration": {
+        "title": "Génération de Données IA de Base",
+        "description": "Utilisez la fonction generateData pour créer des données de test réalistes avec l'IA :"
+      },
+      "tipsTitle": "💡 Conseils pour la Génération de Données IA",
+      "tips": {
+        "specific": "• Soyez spécifique : Des exigences détaillées produisent de meilleures données",
+        "contexts": "• Utilisez des contextes : Spécifiez l'industrie, le type d'utilisateur ou le contexte du scénario",
+        "edgeCases": "• Incluez les cas limites : Demandez des conditions limites et des scénarios d'erreur",
+        "relationships": "• Relations réalistes : Générez des données connectées qui ont un sens commercial",
+        "async": "• Génération asynchrone : Utilisez toujours async/await pour les fonctions de génération de données",
+        "errorHandling": "• Gestion d'erreurs : Incluez des données de secours en cas d'échec de la génération IA"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Meilleures Pratiques",
+      "description": "Conseils pour écrire des tests efficaces",
+      "uniqueIds": {
+        "title": "Utilisez des IDs de test uniques",
+        "description": "Format : CATÉGORIE-NUMÉRO (ex. LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Rédigez des noms descriptifs",
+        "description": "Des noms de test clairs et lisibles aident à l'organisation"
+      },
+      "meaningfulTags": {
+        "title": "Utilisez des tags significatifs",
+        "description": "Groupez les tests liés : ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Définissez une priorité appropriée",
+        "description": "Élevée pour les chemins critiques, Moyenne pour les fonctionnalités, Faible pour les cas limites"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Exemples Rapides",
+      "description": "Modèles de test prêts à l'emploi",
+      "loginTest": "📧 Exemple de Test de Connexion",
+      "cartTest": "🛒 Exemple de Test de Panier",
+      "formTest": "📝 Exemple de Test de Soumission de Formulaire"
+    },
+    "nextSteps": {
+      "nextButton": "Suivant: Conseils d'Écriture de Tests →",
+      "previousButton": "← Précédent: Configuration du Projet"
+    }
+  }
+}

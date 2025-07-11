@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Komplett Dokumentasjon",
+    "subtitle": "Alt du trenger for å mestre AI-dreven testing med Endorphin AI. Fra hurtigstart til avanserte teknikker.",
+    "versionBadge": "v0.9.0 Dokumentasjon",
+    "startQuickGuide": "Start med Hurtigguide",
+    "browseAllDocs": "Bla Gjennom All Dokumentasjon",
+    "readGuide": "Les Guide",
+    "badges": {
+      "5min": "5 min",
+      "essential": "Grunnleggende",
+      "v090": "v0.9.0",
+      "examples": "Eksempler",
+      "advanced": "Avansert",
+      "proTips": "Pro Tips",
+      "reports": "Rapporter",
+      "interactive": "Interaktiv",
+      "config": "Konfigurasjon",
+      "automation": "Automatisering",
+      "patterns": "Mønstre"
+    },
+    "gettingStarted": {
+      "title": "Kom i Gang",
+      "description": "Start din reise med Endorphin AI. Disse guidene hjelper deg å komme raskt i gang.",
+      "quickStart": "Hurtigstart",
+      "quickStartDesc": "Kom i gang med Endorphin AI på 5 minutter",
+      "projectSetup": "Prosjektoppsett",
+      "projectSetupDesc": "Komplett prosjektoppsett og konfigurasjonsguide",
+      "testStructure": "Teststruktur",
+      "testStructureDesc": "v0.9 smart teststruktur med setup/data/task funksjoner"
+    },
+    "advanced": {
+      "title": "Avanserte Emner",
+      "description": "Mestre avanserte funksjoner og teknikker for bedriftsklassetesting.",
+      "testWritingTips": "Testskrivingstips",
+      "testWritingTipsDesc": "Bedrifts- og småappeksempler med beste praksis",
+      "promptGuide": "Ledetekstguide",
+      "promptGuideDesc": "Avanserte AI-ledetekstteknikker og optimalisering",
+      "vscodeDebugging": "VS Code Debugging",
+      "vscodeDebuggingDesc": "Profesjonell debugging med brytepunkter og debug-objekt"
+    },
+    "tools": {
+      "title": "Verktøy og Integrasjoner",
+      "description": "Kraftige verktøy og rapporteringsfunksjoner for å forbedre testarbeidsflyten din.",
+      "htmlReporter": "HTML-reporter",
+      "htmlReporterDesc": "Interaktive rapporter med kostnadssporing og AI-beslutninger",
+      "testRecorder": "Testopptaker",
+      "testRecorderDesc": "Interaktiv testopprettelse med nettleseropptak",
+      "environmentSetup": "Miljøoppsett",
+      "environmentSetupDesc": "Miljøvariabler og konfigurasjonsguide"
+    },
+    "deployment": {
+      "title": "Distribusjon og CI/CD",
+      "description": "Distribuer testene dine og sett opp kontinuerlig integrasjon for automatisert testing.",
+      "cicdSetup": "CI/CD-oppsett",
+      "cicdSetupDesc": "GitHub Actions-integrasjon og automatiseringsarbeidsflyter",
+      "globalSetup": "Globalt Oppsett",
+      "globalSetupDesc": "Globale oppsettsfunksjoner og gjenbrukbare mønstre"
+    },
+    "quickLinks": {
+      "title": "Populære Hurtiglenker",
+      "subtitle": "Hopp direkte til den mest etterspurte dokumentasjonen.",
+      "helpText": "Trenger hjelp? Sjekk ut våre omfattende eksempler og feilsøkingsguider.",
+      "buttons": {
+        "viewExamples": "Vis Eksempler",
+        "troubleshooting": "Feilsøking",
+        "joinCommunity": "Bli Med i Samfunnet"
+      },
+      "quickStart": {
+        "title": "5-Minutters Hurtigstart",
+        "description": "Få din første test kjørende på under 5 minutter med vår raskeste oppsettguide.",
+        "button": "Start Nå →"
+      },
+      "testStructure": {
+        "title": "v0.9.0 Teststruktur",
+        "description": "Lær den nye smarte teststrukturen med async setup(), data() og task() funksjoner.",
+        "button": "Lær Mer →"
+      }
+    }
+  }
+}

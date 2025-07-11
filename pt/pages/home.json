@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Testes E2E reinventados com IA",
+    "subtitle": "Escreva testes em português simples. Deixe a IA gerar, validar e corrigir automaticamente. O futuro dos testes end-to-end.",
+    "getStarted": "Começar",
+    "watchDemo": "Ver demo",
+    "learnMore": "Saber mais",
+    "socialProof": {
+      "stars": "estrelas",
+      "license": "Licença AGPLv3",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Por que os desenvolvedores amam nosso framework",
+    "subtitle": "Construído para fluxos de trabalho de desenvolvimento modernos com IA em seu núcleo",
+    "aiPowered": {
+      "title": "🧠 Escrita de testes potencializada por IA",
+      "description": "Descreva ações do usuário em português simples"
+    },
+    "selfHealing": {
+      "title": "🔁 Testes auto-reparadores",
+      "description": "Adaptam-se automaticamente a mudanças de interface"
+    },
+    "smartValidation": {
+      "title": "🕵️ Agente de validação inteligente",
+      "description": "Detecta erros visuais e lógicos"
+    },
+    "costTracking": {
+      "title": "💰 Rastreamento de custos e tokens",
+      "description": "Monitore custos de uso de IA e consumo de tokens"
+    },
+    "ciIntegration": {
+      "title": "🚀 Integração CI",
+      "description": "Conecta-se perfeitamente ao seu pipeline"
+    },
+    "insightfulReports": {
+      "title": "📊 Relatórios perspicazes",
+      "description": "Obtenha relatórios legíveis gerados por IA"
+    }
+  },
+  "codeExample": {
+    "title": "Escrita de testes simples e intuitiva",
+    "description": "Escreva testes que se leem como documentação. Nosso framework lida com a complexidade nos bastidores."
+  },
+  "whyChoose": {
+    "title": "Por que escolher nosso framework?",
+    "subtitle": "Recursos avançados que dão vantagem sobre a concorrência",
+    "smartTestStructure": {
+      "title": "🧠 Estrutura inteligente de testes",
+      "description": "Funções dinâmicas async setup(), data(), task() para preparação robusta de testes"
+    },
+    "costTokenTracking": {
+      "title": "💰 Rastreamento de custos e tokens",
+      "description": "Monitore custos de uso de IA por teste e etapa com detalhamento de preços"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 Histórico de decisões da IA",
+      "description": "Veja exatamente como a IA analisa, raciocina e executa suas instruções de teste"
+    },
+    "builtInTools": {
+      "title": "🔧 Sistema de ferramentas integrado",
+      "description": "12 ferramentas abrangentes de automação do navegador incluídas - não precisa de ferramentas personalizadas"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Gravador de testes",
+      "description": "Gravador de testes interativo para testar prompts em tempo real - experimente e valide ideias de teste instantaneamente"
+    },
+    "enhancedReports": {
+      "title": "📊 Relatórios HTML aprimorados",
+      "description": "Relatórios interativos com rastreamento de custos, decisões da IA e galeria de capturas de tela"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Início rápido",
+    "step1": "Instalar o framework",
+    "step2": "Configurar sua chave API do OpenAI",
+    "step3": "Escrever seu primeiro teste",
+    "step4": "Executar e ver a mágica acontecer!",
+    "startNow": "Começar agora →"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "testStructurePage": {
+    "navigation": {
+      "backToDocumentation": "Back to Documentation"
+    },
+    "header": {
+      "badge": "v0.9.0",
+      "title": "Test Structure Guide",
+      "subtitle": "Master the v0.9.0 smart test structure with async setup(), data(), and task() functions"
+    },
+    "basicStructure": {
+      "title": "📝 Basic Test Structure",
+      "description": "Every test needs these required fields"
+    },
+    "writingInstructions": {
+      "title": "🎯 Writing Test Instructions",
+      "description": "Different formats for different test complexity",
+      "simpleFormat": {
+        "title": "Simple Format",
+        "description": "Perfect for straightforward tests:"
+      },
+      "stepByStepFormat": {
+        "title": "Step-by-Step Format",
+        "description": "Great for complex workflows:"
+      },
+      "naturalLanguageFormat": {
+        "title": "Natural Language Format",
+        "description": "Write like you're explaining to a person:"
+      }
+    },
+    "dynamicTests": {
+      "title": "Dynamic Tests",
+      "badge": "v0.9.0 Feature",
+      "setupFunctions": {
+        "title": "Using Setup Functions",
+        "description": "Prepare your test environment:"
+      },
+      "dataFunctions": {
+        "title": "Using Data Functions",
+        "description": "Generate test data on the fly:"
+      },
+      "combinedSetupData": {
+        "title": "Combined Setup + Data",
+        "description": "Use both setup and data functions:"
+      }
+    },
+    "aiPoweredData": {
+      "title": "AI-Powered Data Generation",
+      "badge": "Advanced Feature",
+      "description": "Use AI to generate realistic test data automatically",
+      "basicAiGeneration": {
+        "title": "Basic AI Data Generation",
+        "description": "Use the generateData function to create realistic test data with AI:"
+      },
+      "tipsTitle": "💡 AI Data Generation Tips",
+      "tips": {
+        "specific": "• Be specific: Detailed requirements produce better data",
+        "contexts": "• Use contexts: Specify industry, user type, or scenario context",
+        "edgeCases": "• Include edge cases: Ask for boundary conditions and error scenarios",
+        "relationships": "• Realistic relationships: Generate connected data that makes business sense",
+        "async": "• Async generation: Always use async/await for data generation functions",
+        "errorHandling": "• Error handling: Include fallback data in case AI generation fails"
+      }
+    },
+    "bestPractices": {
+      "title": "💡 Best Practices",
+      "description": "Tips for writing effective tests",
+      "uniqueIds": {
+        "title": "Use unique test IDs",
+        "description": "Format: CATEGORY-NUMBER (e.g., LOGIN-001, CART-002)"
+      },
+      "descriptiveNames": {
+        "title": "Write descriptive names",
+        "description": "Clear, human-readable test names help with organization"
+      },
+      "meaningfulTags": {
+        "title": "Use meaningful tags",
+        "description": "Group related tests: ['auth', 'critical'], ['checkout', 'payment']"
+      },
+      "appropriatePriority": {
+        "title": "Set appropriate priority",
+        "description": "High for critical paths, Medium for features, Low for edge cases"
+      }
+    },
+    "quickExamples": {
+      "title": "🎯 Quick Examples",
+      "description": "Ready-to-use test templates",
+      "loginTest": "📧 Login Test Example",
+      "cartTest": "🛒 Shopping Cart Test Example",
+      "formTest": "📝 Form Submission Test Example"
+    },
+    "nextSteps": {
+      "nextButton": "Next: Test Writing Tips →",
+      "previousButton": "← Previous: Project Setup"
+    }
+  }
+}

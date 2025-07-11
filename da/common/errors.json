@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Siden blev ikke fundet",
+    "returnHome": "Vend Tilbage til Hjem"
+  }
+}

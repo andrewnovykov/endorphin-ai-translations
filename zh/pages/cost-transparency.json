@@ -1,0 +1,34 @@
+{
+  "costTransparency": {
+    "title": "💰 AI成本透明度",
+    "subtitle": "实时跟踪AI使用成本，提供每个测试和步骤的详细明细",
+    "averageCostPerTest": "每个测试的平均成本",
+    "tokensUsed": "使用的令牌",
+    "executionTime": "执行时间",
+    "perStepBreakdown": {
+      "title": "🔍 按步骤明细",
+      "navigate": "导航",
+      "fillForm": "填写表单",
+      "verify": "验证",
+      "step1": "步骤1",
+      "step2": "步骤2",
+      "step3": "步骤3",
+      "tokensUnit": "令牌"
+    },
+    "costOptimization": {
+      "title": "📊 成本优化",
+      "smartPromptOptimization": "智能prompt优化",
+      "tokenUsageAnalytics": "令牌使用分析",
+      "costAlertsAndBudgets": "成本警报和预算",
+      "historicalCostTracking": "历史成本跟踪",
+      "costSavingsLabel": "成本节省",
+      "optimizationDescription": "我们的优化可将成本降低多达60%，相比未优化的AI测试"
+    },
+    "callToAction": {
+      "title": "准备好Happy Vibetesting了吗？",
+      "description": "加入v0.9.0的AI测试革命。智能测试结构、成本透明度和企业级可靠性。",
+      "getStartedFree": "免费开始",
+      "readDocumentation": "阅读文档"
+    }
+  }
+}

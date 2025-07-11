@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "التوثيق الشامل",
+    "subtitle": "كل ما تحتاجه لإتقان الاختبارات المدعومة بالذكاء الاصطناعي مع Endorphin AI. من البدء السريع إلى التقنيات المتقدمة.",
+    "versionBadge": "التوثيق v0.9.0",
+    "startQuickGuide": "ابدأ بالدليل السريع",
+    "browseAllDocs": "تصفح جميع المستندات",
+    "readGuide": "اقرأ الدليل",
+    "badges": {
+      "5min": "5 دقائق",
+      "essential": "أساسي",
+      "v090": "v0.9.0",
+      "examples": "أمثلة",
+      "advanced": "متقدم",
+      "proTips": "نصائح محترفة",
+      "reports": "تقارير",
+      "interactive": "تفاعلي",
+      "config": "إعداد",
+      "automation": "أتمتة",
+      "patterns": "أنماط"
+    },
+    "gettingStarted": {
+      "title": "البدء",
+      "description": "ابدأ رحلتك مع Endorphin AI. هذه الأدلة ستشغلك بسرعة.",
+      "quickStart": "البدء السريع",
+      "quickStartDesc": "شغل Endorphin AI في 5 دقائق",
+      "projectSetup": "إعداد المشروع",
+      "projectSetupDesc": "دليل شامل لإعداد وتثبيت المشروع",
+      "testStructure": "هيكل الاختبارات",
+      "testStructureDesc": "هيكل اختبار ذكي v0.9 مع وظائف setup/data/task"
+    },
+    "advanced": {
+      "title": "مواضيع متقدمة",
+      "description": "أتقن الميزات والتقنيات المتقدمة للاختبارات على مستوى المؤسسات.",
+      "testWritingTips": "نصائح كتابة الاختبارات",
+      "testWritingTipsDesc": "أمثلة المؤسسات والتطبيقات الصغيرة مع أفضل الممارسات",
+      "promptGuide": "دليل الـ Prompts",
+      "promptGuideDesc": "تقنيات prompts الذكاء الاصطناعي المتقدمة والتحسين",
+      "vscodeDebugging": "تصحيح VS Code",
+      "vscodeDebuggingDesc": "تصحيح احترافي مع نقاط التوقف وكائن التصحيح"
+    },
+    "tools": {
+      "title": "الأدوات والتكاملات",
+      "description": "أدوات قوية وميزات تقارير لتحسين سير عمل الاختبارات الخاص بك.",
+      "htmlReporter": "مولد تقارير HTML",
+      "htmlReporterDesc": "تقارير تفاعلية مع تتبع التكاليف وقرارات الذكاء الاصطناعي",
+      "testRecorder": "مسجل الاختبارات",
+      "testRecorderDesc": "إنشاء اختبارات تفاعلي مع تسجيل المتصفح",
+      "environmentSetup": "إعداد البيئة",
+      "environmentSetupDesc": "متغيرات البيئة ودليل الإعدادات"
+    },
+    "deployment": {
+      "title": "النشر و CI/CD",
+      "description": "انشر اختباراتك وأعد التكامل المستمر للاختبار التلقائي.",
+      "cicdSetup": "إعداد CI/CD",
+      "cicdSetupDesc": "تكامل GitHub Actions وسير عمل الأتمتة",
+      "globalSetup": "الإعداد العام",
+      "globalSetupDesc": "وظائف الإعداد العامة والأنماط القابلة لإعادة الاستخدام"
+    },
+    "quickLinks": {
+      "title": "الروابط السريعة الشائعة",
+      "subtitle": "انتقل مباشرة إلى التوثيق الأكثر احتياجاً.",
+      "helpText": "تحتاج مساعدة؟ راجع أمثلتنا الشاملة وأدلة استكشاف الأخطاء وإصلاحها.",
+      "buttons": {
+        "viewExamples": "عرض الأمثلة",
+        "troubleshooting": "استكشاف الأخطاء وإصلاحها",
+        "joinCommunity": "انضم للمجتمع"
+      },
+      "quickStart": {
+        "title": "البدء السريع في 5 دقائق",
+        "description": "شغل اختبارك الأول في أقل من 5 دقائق مع أسرع دليل إعداد لدينا.",
+        "button": "ابدأ الآن →"
+      },
+      "testStructure": {
+        "title": "هيكل الاختبارات v0.9.0",
+        "description": "تعلم هيكل الاختبار الذكي الجديد مع وظائف async setup() و data() و task().",
+        "button": "تعلم المزيد →"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Testowanie E2E Odkryte na Nowo z AI",
+    "subtitle": "Pisz testy w prostym języku polskim. Pozwól AI automatycznie je generować, walidować i naprawiać. Przyszłość testowania end-to-end.",
+    "getStarted": "Rozpocznij",
+    "watchDemo": "Zobacz Demo",
+    "learnMore": "Dowiedz się Więcej",
+    "socialProof": {
+      "stars": "gwiazdek",
+      "license": "Licencja AGPLv3",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Dlaczego Programiści Kochają Nasz Framework",
+    "subtitle": "Stworzony dla nowoczesnych przepływów pracy z AI w centrum",
+    "aiPowered": {
+      "title": "🧠 Pisanie Testów Wspierane przez AI",
+      "description": "Opisz działania użytkownika w prostym języku polskim"
+    },
+    "selfHealing": {
+      "title": "🔁 Samoleczące się Testy",
+      "description": "Automatycznie dostosowują się do zmian w interfejsie"
+    },
+    "smartValidation": {
+      "title": "🕵️ Inteligentny Agent Walidacji",
+      "description": "Wykrywa błędy wizualne i logiczne"
+    },
+    "costTracking": {
+      "title": "💰 Śledzenie Kosztów i Tokenów",
+      "description": "Monitoruj koszty użycia AI i zużycie tokenów"
+    },
+    "ciIntegration": {
+      "title": "🚀 Integracja CI",
+      "description": "Bezproblemowe połączenie z twoim pipeline'em"
+    },
+    "insightfulReports": {
+      "title": "📊 Wnikliwe Raporty",
+      "description": "Otrzymuj czytelne, generowane przez AI raporty"
+    }
+  },
+  "codeExample": {
+    "title": "Proste i intuicyjne pisanie testów",
+    "description": "Pisz testy, które czytają się jak dokumentacja. Nasz framework obsługuje złożoność w tle."
+  },
+  "whyChoose": {
+    "title": "Dlaczego wybrać nasz framework?",
+    "subtitle": "Zaawansowane funkcje, które dają przewagę nad konkurencją",
+    "smartTestStructure": {
+      "title": "🧠 Inteligentna struktura testów",
+      "description": "Dynamiczne funkcje async setup(), data(), task() dla solidnego przygotowania testów"
+    },
+    "costTokenTracking": {
+      "title": "💰 Śledzenie kosztów i tokenów",
+      "description": "Monitoruj koszty użycia AI na test i krok ze szczegółowym podziałem cen"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 Historia decyzji AI",
+      "description": "Zobacz dokładnie, jak AI analizuje, rozumuje i wykonuje twoje instrukcje testowe"
+    },
+    "builtInTools": {
+      "title": "🔧 Wbudowany system narzędzi",
+      "description": "12 kompleksowych narzędzi automatyzacji przeglądarki w zestawie - nie potrzebujesz niestandardowych narzędzi"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Rejestrator testów",
+      "description": "Interaktywny rejestrator testów do testowania promptów w czasie rzeczywistym - eksperymentuj i waliduj pomysły testowe natychmiast"
+    },
+    "enhancedReports": {
+      "title": "📊 Ulepszone raporty HTML",
+      "description": "Interaktywne raporty ze śledzeniem kosztów, decyzjami AI i galerią zrzutów ekranu"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Szybki start",
+    "step1": "Zainstaluj framework",
+    "step2": "Skonfiguruj klucz API OpenAI",
+    "step3": "Napisz swój pierwszy test",
+    "step4": "Uruchom i zobacz magię!",
+    "startNow": "Zacznij teraz →"
+  }
+}

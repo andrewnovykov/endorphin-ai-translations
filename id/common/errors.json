@@ -1,0 +1,7 @@
+{
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Halaman tidak ditemukan",
+    "returnHome": "Kembali ke Beranda"
+  }
+}

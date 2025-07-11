@@ -1,0 +1,81 @@
+{
+  "documentation": {
+    "title": "Täydellinen dokumentaatio",
+    "subtitle": "Kaikki mitä tarvitset hallitaksesi AI-voimaiset testit Endorphin AI:lla. Pika-aloituksesta edistyneisiin tekniikoihin.",
+    "versionBadge": "Dokumentaatio v0.9.0",
+    "startQuickGuide": "Aloita pika-oppaalla",
+    "browseAllDocs": "Selaa kaikkia dokumentteja",
+    "readGuide": "Lue opas",
+    "badges": {
+      "5min": "5 min",
+      "essential": "Oleellinen",
+      "v090": "v0.9.0",
+      "examples": "Esimerkit",
+      "advanced": "Edistynyt",
+      "proTips": "Pro-vinkit",
+      "reports": "Raportit",
+      "interactive": "Interaktiivinen",
+      "config": "Konf.",
+      "automation": "Automaatio",
+      "patterns": "Mallit"
+    },
+    "gettingStarted": {
+      "title": "Aloittaminen",
+      "description": "Aloita matkasi Endorphin AI:n kanssa. Nämä oppaat saavat sinut käyntiin nopeasti.",
+      "quickStart": "Pikaloitus",
+      "quickStartDesc": "Ota Endorphin AI käyttöön 5 minuutissa",
+      "projectSetup": "Projektin asennus",
+      "projectSetupDesc": "Täydellinen projektin asennuksen ja asetuksen opas",
+      "testStructure": "Testirakenne",
+      "testStructureDesc": "Älykäs testirakenne v0.9 setup/data/task -funktioilla"
+    },
+    "advanced": {
+      "title": "Edistyneet aiheet",
+      "description": "Hallitse edistyneet ominaisuudet ja tekniikat yritystason testaukseen.",
+      "testWritingTips": "Testien kirjoitusvinkit",
+      "testWritingTipsDesc": "Yritys- ja piensovellusesimerkit parhailla käytännöillä",
+      "promptGuide": "Prompt-opas",
+      "promptGuideDesc": "Edistyneet AI-prompt-tekniikat ja optimointi",
+      "vscodeDebugging": "VS Code -debuggaus",
+      "vscodeDebuggingDesc": "Ammattimainen debuggaus keskeytyspisteiden ja debug-objektin kanssa"
+    },
+    "tools": {
+      "title": "Työkalut ja integraatiot",
+      "description": "Tehokkaita työkaluja ja raportointiominaisuuksia parantamaan testiworkflow-aasi.",
+      "htmlReporter": "HTML-raportoija",
+      "htmlReporterDesc": "Interaktiiviset raportit kustannusseurannalla ja AI:n päätöksillä",
+      "testRecorder": "Testin tallentaja",
+      "testRecorderDesc": "Interaktiivinen testien luonti selaimen tallennuksella",
+      "environmentSetup": "Ympäristön asennus",
+      "environmentSetupDesc": "Ympäristömuuttujat ja konfiguraatio-opas"
+    },
+    "deployment": {
+      "title": "Käyttöönotto ja CI/CD",
+      "description": "Ota testisi käyttöön ja aseta jatkuva integraatio automaattista testausta varten.",
+      "cicdSetup": "CI/CD-asennus",
+      "cicdSetupDesc": "GitHub Actions -integraatio ja automaatioworkflow-t",
+      "globalSetup": "Globaali asennus",
+      "globalSetupDesc": "Globaalit asennusfunktiot ja uudelleenkäytettävät mallit"
+    },
+    "quickLinks": {
+      "title": "Suositut pikalinkit",
+      "subtitle": "Hyppää suoraan tarvituimpaan dokumentaatioon.",
+      "helpText": "Tarvitsetko apua? Tutustu täydellisiin esimerkkeihin ja vianmääritysoppaisiin.",
+      "buttons": {
+        "viewExamples": "Katso esimerkkejä",
+        "troubleshooting": "Vianmääritys",
+        "joinCommunity": "Liity yhteisöön"
+      },
+      "quickStart": {
+        "title": "5 minuutin pikaloitus",
+        "description": "Saa ensimmäinen testisi toimimaan alle 5 minuutissa nopeimmalla asennusoppaallamme.",
+        "button": "Aloita nyt →"
+      },
+      "testStructure": {
+        "title": "Testirakenne v0.9.0",
+        "description": "Opi uusi älykäs testirakenne async setup(), data() ja task() -funktioilla.",
+        "button": "Lue lisää →"
+      }
+    }
+  }
+}

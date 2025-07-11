@@ -1,0 +1,16 @@
+{
+  "footer": {
+    "description": "Seuraavan sukupolven E2E-testikehys, joka yhdistää AI:n voiman luonnollisen kielen yksinkertaisuuteen.",
+    "quickLinks": "Pikalinkit",
+    "gettingStarted": "Aloittaminen",
+    "documentation": "Dokumentaatio",
+    "examples": "Esimerkit",
+    "resources": "Resurssit",
+    "community": "Yhteisö",
+    "github": "GitHub",
+    "support": "Tuki",
+    "contributing": "Osallistuminen",
+    "youtube": "YouTube",
+    "tiktok": "TikTok"
+  }
+}

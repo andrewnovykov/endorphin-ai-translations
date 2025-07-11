@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "title": "Yapay Zeka ile Yeniden Tanımlanan E2E Testleri",
+    "subtitle": "Testleri sade Türkçe ile yazın. Yapay zekanın otomatik olarak oluşturmasına, doğrulamasına ve düzeltmesine izin verin. Uçtan uca testlerin geleceği.",
+    "getStarted": "Başlayın",
+    "watchDemo": "Demo İzle",
+    "learnMore": "Daha Fazla Bilgi",
+    "socialProof": {
+      "stars": "yıldız",
+      "license": "AGPLv3 Lisansı",
+      "typescript": "TypeScript"
+    }
+  },
+  "features": {
+    "title": "Geliştiriciler Neden Framework'ümüzü Seviyor",
+    "subtitle": "Yapay zeka merkezli modern geliştirme iş akışları için tasarlandı",
+    "aiPowered": {
+      "title": "🧠 Yapay Zeka Destekli Test Yazımı",
+      "description": "Kullanıcı eylemlerini sade Türkçe ile açıklayın"
+    },
+    "selfHealing": {
+      "title": "🔁 Kendini İyileştiren Testler",
+      "description": "UI değişikliklerine otomatik olarak uyum sağlar"
+    },
+    "smartValidation": {
+      "title": "🕵️ Akıllı Doğrulama Ajanı",
+      "description": "Görsel ve mantık hatalarını tespit eder"
+    },
+    "costTracking": {
+      "title": "💰 Maliyet ve Token Takibi",
+      "description": "Yapay zeka kullanım maliyetlerini ve token tüketimini izleyin"
+    },
+    "ciIntegration": {
+      "title": "🚀 CI Entegrasyonu",
+      "description": "Pipeline'ınıza sorunsuz bağlanır"
+    },
+    "insightfulReports": {
+      "title": "📊 Ayrıntılı Raporlar",
+      "description": "İnsan tarafından okunabilir, yapay zeka tarafından oluşturulan raporlar alın"
+    }
+  },
+  "codeExample": {
+    "title": "Basit, Sezgisel Test Yazımı",
+    "description": "Dokümantasyon gibi okunan testler yazın. Framework'ümüz karmaşıklığı arka planda halleder."
+  },
+  "whyChoose": {
+    "title": "Neden Framework'ümüzü Seçmelisiniz?",
+    "subtitle": "Rakiplerinize karşı size avantaj sağlayan gelişmiş özellikler",
+    "smartTestStructure": {
+      "title": "🧩 Akıllı Test Yapısı",
+      "description": "Güçlü test hazırlığı için dinamik async setup(), data() ve task() fonksiyonları"
+    },
+    "costTokenTracking": {
+      "title": "💰 Maliyet ve Token Takibi",
+      "description": "Detaylı fiyatlandırma dökümü ile test ve adımlar için yapay zeka kullanım maliyetlerini izleyin"
+    },
+    "aiDecisionHistory": {
+      "title": "🧠 Yapay Zeka Karar Geçmişi",
+      "description": "Yapay zekanın test talimatlarını nasıl analiz ettiğini, yorumladığını ve uyguladığını tam olarak görün"
+    },
+    "builtInTools": {
+      "title": "🔧 Yerleşik Araç Sistemi",
+      "description": "12 kapsamlı tarayıcı otomasyon aracı yerleşik - özel araçlara gerek yok"
+    },
+    "testRecorderInteractive": {
+      "title": "🎬 Test Kaydedici",
+      "description": "Gerçek zamanlı komut denemek için etkileşimli test kaydedici - test fikirlerini anında deneyin ve doğrulayın"
+    },
+    "enhancedReports": {
+      "title": "📊 Gelişmiş HTML Raporları",
+      "description": "Maliyet takibi, yapay zeka kararları ve ekran görüntüsü galerileri ile etkileşimli raporlar"
+    }
+  },
+  "quickStart": {
+    "title": "🚀 Hızlı Başlangıç",
+    "step1": "Framework'ü yükleyin",
+    "step2": "OpenAI API anahtarınızı ayarlayın",
+    "step3": "İlk testinizi yazın",
+    "step4": "Çalıştırın ve sihri izleyin!",
+    "startNow": "Şimdi Başla →"
+  }
+}
