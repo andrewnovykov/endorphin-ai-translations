@@ -1,82 +1,82 @@
 {
   "hero": {
-    "title": "Pruebas E2E reinventadas con IA",
-    "subtitle": "Escribe pruebas en español simple. Deja que la IA las genere, valide y corrija automáticamente. El futuro de las pruebas end-to-end.",
-    "getStarted": "Comenzar",
-    "watchDemo": "Ver demo",
-    "learnMore": "Saber más",
+    "title": "Test E2E reinventati con IA",
+    "subtitle": "Scrivi test in inglese semplice. Lascia che l'IA li generi, validi e corregga automaticamente. Il futuro dei test end-to-end.",
+    "getStarted": "Inizia",
+    "watchDemo": "Guarda demo",
+    "learnMore": "Scopri di più",
     "socialProof": {
-      "stars": "estrellas",
-      "license": "Licencia AGPLv3",
+      "stars": "stelle",
+      "license": "Licenza AGPLv3",
       "typescript": "TypeScript"
     }
   },
   "features": {
-    "title": "Por qué los desarrolladores aman nuestro framework",
-    "subtitle": "Construido para flujos de trabajo de desarrollo modernos con IA en su núcleo",
+    "title": "Perché gli sviluppatori amano il nostro framework",
+    "subtitle": "Costruito per i flussi di lavoro di sviluppo moderni con IA al centro",
     "aiPowered": {
-      "title": "🧠 Escritura de pruebas potenciada por IA",
-      "description": "Describe acciones del usuario en español simple"
+      "title": "🧠 Scrittura di test potenziata da IA",
+      "description": "Descrivi le azioni dell'utente in inglese semplice"
     },
     "selfHealing": {
-      "title": "🔁 Pruebas auto-reparadoras",
-      "description": "Se adaptan automáticamente a cambios de interfaz"
+      "title": "🔁 Test auto-riparanti",
+      "description": "Si adattano automaticamente ai cambiamenti dell'interfaccia"
     },
     "smartValidation": {
-      "title": "🕵️ Agente de validación inteligente",
-      "description": "Detecta errores visuales y lógicos"
+      "title": "🕵️ Agente di validazione intelligente",
+      "description": "Rileva errori visivi e logici"
     },
     "costTracking": {
-      "title": "💰 Seguimiento de costos y tokens",
-      "description": "Monitorea costos de uso de IA y consumo de tokens"
+      "title": "💰 Monitoraggio costi e token",
+      "description": "Monitora i costi di utilizzo dell'IA e il consumo di token"
     },
     "ciIntegration": {
-      "title": "🚀 Integración CI",
-      "description": "Se conecta perfectamente a tu pipeline"
+      "title": "🚀 Integrazione CI",
+      "description": "Si integra perfettamente nella tua pipeline"
     },
     "insightfulReports": {
-      "title": "📊 Informes perspicaces",
-      "description": "Obtén informes legibles generados por IA"
+      "title": "📊 Report dettagliati",
+      "description": "Ottieni report leggibili generati dall'IA"
     }
   },
   "codeExample": {
-    "title": "Escritura de pruebas simple e intuitiva",
-    "description": "Escribe pruebas que se lean como documentación. Nuestro framework maneja la complejidad en segundo plano."
+    "title": "Scrittura di test semplice e intuitiva",
+    "description": "Scrivi test che si leggano come documentazione. Il nostro framework gestisce la complessità in background."
   },
   "whyChoose": {
-    "title": "¿Por qué elegir nuestro framework?",
-    "subtitle": "Características avanzadas que te dan ventaja sobre la competencia",
+    "title": "Perché scegliere il nostro framework?",
+    "subtitle": "Funzionalità avanzate che ti danno un vantaggio sulla concorrenza",
     "smartTestStructure": {
-      "title": "🧠 Estructura de pruebas inteligente",
-      "description": "Funciones dinámicas async setup(), data(), task() para preparación robusta de pruebas"
+      "title": "🧠 Struttura di test intelligente",
+      "description": "Funzioni dinamiche async setup(), data(), task() per una preparazione robusta dei test"
     },
     "costTokenTracking": {
-      "title": "💰 Seguimiento de costos y tokens",
-      "description": "Monitorea costos de uso de IA por prueba y paso con desglose detallado de precios"
+      "title": "💰 Monitoraggio costi e token",
+      "description": "Monitora i costi di utilizzo dell'IA per test e passaggio con dettaglio prezzi completo"
     },
     "aiDecisionHistory": {
-      "title": "🧠 Historial de decisiones de IA",
-      "description": "Ve exactamente cómo la IA analiza, razona y ejecuta tus instrucciones de prueba"
+      "title": "🧠 Cronologia decisioni IA",
+      "description": "Vedi esattamente come l'IA analizza, ragiona ed esegue le tue istruzioni di test"
     },
     "builtInTools": {
-      "title": "🔧 Sistema de herramientas integrado",
-      "description": "12 herramientas comprehensivas de automatización del navegador incluidas - no necesitas herramientas personalizadas"
+      "title": "🔧 Sistema strumenti integrato",
+      "description": "12 strumenti completi di automazione browser inclusi - non hai bisogno di strumenti personalizzati"
     },
     "testRecorderInteractive": {
-      "title": "🎬 Grabador de pruebas",
-      "description": "Grabador de pruebas interactivo para probar prompts en tiempo real - experimenta y valida ideas de prueba al instante"
+      "title": "🎬 Registratore di test",
+      "description": "Registratore di test interattivo per testare prompt in tempo reale - sperimenta e valida idee di test istantaneamente"
     },
     "enhancedReports": {
-      "title": "📊 Reportes HTML mejorados",
-      "description": "Reportes interactivos con seguimiento de costos, decisiones de IA y galería de capturas de pantalla"
+      "title": "📊 Report HTML migliorati",
+      "description": "Report interattivi con monitoraggio costi, decisioni IA e galleria screenshot"
     }
   },
   "quickStart": {
-    "title": "🚀 Inicio rápido",
-    "step1": "Instalar el framework",
-    "step2": "Configurar tu clave API de OpenAI",
-    "step3": "Escribir tu primera prueba",
-    "step4": "¡Ejecutar y ver la magia!",
-    "startNow": "Comenzar ahora →"
+    "title": "🚀 Avvio rapido",
+    "step1": "Installa il framework",
+    "step2": "Configura la tua chiave API OpenAI",
+    "step3": "Scrivi il tuo primo test",
+    "step4": "Esegui e guarda la magia!",
+    "startNow": "Inizia ora →"
   }
 }

@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Testes E2E reinventados com IA",
-    "subtitle": "Escreva testes em português simples. Deixe a IA gerar, validar e corrigir automaticamente. O futuro dos testes end-to-end.",
+    "subtitle": "Escreva testes em inglês simples. Deixe a IA gerar, validar e corrigir automaticamente. O futuro dos testes end-to-end.",
     "getStarted": "Começar",
     "watchDemo": "Ver demo",
     "learnMore": "Saber mais",
@@ -13,10 +13,10 @@
   },
   "features": {
     "title": "Por que os desenvolvedores amam nosso framework",
-    "subtitle": "Construído para fluxos de trabalho de desenvolvimento modernos com IA em seu núcleo",
+    "subtitle": "Construído para fluxos de trabalho de desenvolvimento modernos com IA no centro",
     "aiPowered": {
-      "title": "🧠 Escrita de testes potencializada por IA",
-      "description": "Descreva ações do usuário em português simples"
+      "title": "🧠 Escrita de testes alimentada por IA",
+      "description": "Descreva ações do usuário em inglês simples"
     },
     "selfHealing": {
       "title": "🔁 Testes auto-reparadores",
