@@ -1,1 +1,103 @@
-{}
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "[ID] Back to Documentation"
+    },
+    "header": {
+      "badge": "[ID] Best Practices",
+      "title": "[ID] Test Writing Tips",
+      "subtitle": "[ID] Enterprise and small app examples with best practices for effective AI-powered testing"
+    },
+    "introduction": {
+      "title": "[ID] Master Test Writing",
+      "description": "[ID] Learn how to write effective tests for different scenarios, from simple applications to complex enterprise workflows.",
+      "coverage": "[ID] This guide covers:",
+      "coverageList": {
+        "patterns": "[ID] ✅ Common testing patterns and anti-patterns",
+        "enterprise": "[ID] ✅ Enterprise-scale testing strategies",
+        "smallApps": "[ID] ✅ Optimized approaches for small applications",
+        "maintenance": "[ID] ✅ Long-term test maintenance strategies",
+        "debugging": "[ID] ✅ Debugging and troubleshooting techniques"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "[ID] Enterprise Testing Patterns",
+      "description": "[ID] Best practices for large-scale applications:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "[ID] Data Isolation",
+          "description": "[ID] Separate test data from production data with proper isolation strategies"
+        },
+        "pageObjects": {
+          "title": "[ID] Page Object Integration",
+          "description": "[ID] Combine AI testing with traditional page object patterns"
+        },
+        "workflows": {
+          "title": "[ID] Business Workflow Testing",
+          "description": "[ID] Test complex multi-step business processes end-to-end"
+        },
+        "parallelization": {
+          "title": "[ID] Parallel Test Execution",
+          "description": "[ID] Design tests for parallel execution and CI/CD pipelines"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "[ID] Small Application Tips",
+      "description": "[ID] Optimized strategies for smaller projects:",
+      "tips": {
+        "simplicity": {
+          "title": "[ID] Keep It Simple",
+          "description": "[ID] Focus on core user journeys and critical functionality"
+        },
+        "costOptimization": {
+          "title": "[ID] Cost Optimization",
+          "description": "[ID] Minimize AI token usage while maintaining test coverage"
+        },
+        "quickFeedback": {
+          "title": "[ID] Quick Feedback Loops",
+          "description": "[ID] Structure tests for fast development cycles"
+        },
+        "essential": {
+          "title": "[ID] Essential Tests Only",
+          "description": "[ID] Prioritize high-impact tests that catch critical bugs"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "[ID] Common Testing Patterns",
+      "description": "[ID] Proven patterns that work across different application types:",
+      "authentication": {
+        "title": "[ID] Authentication Flows",
+        "description": "[ID] Login, logout, password reset, and multi-factor authentication"
+      },
+      "forms": {
+        "title": "[ID] Form Testing",
+        "description": "[ID] Validation, submission, error handling, and dynamic forms"
+      },
+      "navigation": {
+        "title": "[ID] Navigation Testing",
+        "description": "[ID] Menu navigation, breadcrumbs, and deep linking"
+      },
+      "dataVisualization": {
+        "title": "[ID] Data Visualization",
+        "description": "[ID] Testing charts, graphs, and interactive data displays"
+      }
+    },
+    "antiPatterns": {
+      "title": "[ID] Anti-Patterns to Avoid",
+      "description": "[ID] Common mistakes that lead to flaky or unmaintainable tests:",
+      "patterns": {
+        "overSpecification": "[ID] ❌ Over-specifying UI elements (use semantic descriptions)",
+        "hardcoding": "[ID] ❌ Hard-coding dynamic values (use data functions)",
+        "chainedTests": "[ID] ❌ Creating long chains of dependent tests",
+        "noValidation": "[ID] ❌ Missing proper validation and assertions",
+        "duplicateLogic": "[ID] ❌ Duplicating test logic across multiple tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "[ID] Prompt Guide",
+      "previousButton": "[ID] Test Structure"
+    }
+  }
+}

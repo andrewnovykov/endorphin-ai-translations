@@ -121,7 +121,8 @@
     },
     "nextSteps": {
       "nextButton": "次：VS Codeデバッグ →",
-      "backButton": "ドキュメントに戻る"
+      "backButton": "ドキュメントに戻る",
+      "previousButton": "[JA] Test Writing Tips"
     }
   }
 }

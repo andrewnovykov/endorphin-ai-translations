@@ -121,7 +121,8 @@
     },
     "nextSteps": {
       "nextButton": "Далі: Налагодження VS Code →",
-      "backButton": "Повернутись до Документації"
+      "backButton": "Повернутись до Документації",
+      "previousButton": "[UA] Test Writing Tips"
     }
   }
 }

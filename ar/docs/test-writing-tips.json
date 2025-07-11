@@ -97,7 +97,8 @@
     },
     "nextSteps": {
       "nextButton": "Next: Prompt Guide →",
-      "backButton": "Back to Documentation"
+      "backButton": "Back to Documentation",
+      "previousButton": "[AR] Test Structure"
     }
   }
 }

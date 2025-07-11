@@ -97,7 +97,8 @@
     },
     "nextSteps": {
       "nextButton": "Далі: Посібник з Промптів →",
-      "backButton": "Повернутись до Документації"
+      "backButton": "Повернутись до Документації",
+      "previousButton": "[UA] Test Structure"
     }
   }
 }

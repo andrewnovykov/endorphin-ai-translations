@@ -97,7 +97,8 @@
     },
     "nextSteps": {
       "nextButton": "次：プロンプトガイド →",
-      "backButton": "ドキュメントに戻る"
+      "backButton": "ドキュメントに戻る",
+      "previousButton": "[JA] Test Structure"
     }
   }
 }

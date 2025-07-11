@@ -1,1 +1,103 @@
-{}
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "[TR] Back to Documentation"
+    },
+    "header": {
+      "badge": "[TR] Best Practices",
+      "title": "[TR] Test Writing Tips",
+      "subtitle": "[TR] Enterprise and small app examples with best practices for effective AI-powered testing"
+    },
+    "introduction": {
+      "title": "[TR] Master Test Writing",
+      "description": "[TR] Learn how to write effective tests for different scenarios, from simple applications to complex enterprise workflows.",
+      "coverage": "[TR] This guide covers:",
+      "coverageList": {
+        "patterns": "[TR] ✅ Common testing patterns and anti-patterns",
+        "enterprise": "[TR] ✅ Enterprise-scale testing strategies",
+        "smallApps": "[TR] ✅ Optimized approaches for small applications",
+        "maintenance": "[TR] ✅ Long-term test maintenance strategies",
+        "debugging": "[TR] ✅ Debugging and troubleshooting techniques"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "[TR] Enterprise Testing Patterns",
+      "description": "[TR] Best practices for large-scale applications:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "[TR] Data Isolation",
+          "description": "[TR] Separate test data from production data with proper isolation strategies"
+        },
+        "pageObjects": {
+          "title": "[TR] Page Object Integration",
+          "description": "[TR] Combine AI testing with traditional page object patterns"
+        },
+        "workflows": {
+          "title": "[TR] Business Workflow Testing",
+          "description": "[TR] Test complex multi-step business processes end-to-end"
+        },
+        "parallelization": {
+          "title": "[TR] Parallel Test Execution",
+          "description": "[TR] Design tests for parallel execution and CI/CD pipelines"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "[TR] Small Application Tips",
+      "description": "[TR] Optimized strategies for smaller projects:",
+      "tips": {
+        "simplicity": {
+          "title": "[TR] Keep It Simple",
+          "description": "[TR] Focus on core user journeys and critical functionality"
+        },
+        "costOptimization": {
+          "title": "[TR] Cost Optimization",
+          "description": "[TR] Minimize AI token usage while maintaining test coverage"
+        },
+        "quickFeedback": {
+          "title": "[TR] Quick Feedback Loops",
+          "description": "[TR] Structure tests for fast development cycles"
+        },
+        "essential": {
+          "title": "[TR] Essential Tests Only",
+          "description": "[TR] Prioritize high-impact tests that catch critical bugs"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "[TR] Common Testing Patterns",
+      "description": "[TR] Proven patterns that work across different application types:",
+      "authentication": {
+        "title": "[TR] Authentication Flows",
+        "description": "[TR] Login, logout, password reset, and multi-factor authentication"
+      },
+      "forms": {
+        "title": "[TR] Form Testing",
+        "description": "[TR] Validation, submission, error handling, and dynamic forms"
+      },
+      "navigation": {
+        "title": "[TR] Navigation Testing",
+        "description": "[TR] Menu navigation, breadcrumbs, and deep linking"
+      },
+      "dataVisualization": {
+        "title": "[TR] Data Visualization",
+        "description": "[TR] Testing charts, graphs, and interactive data displays"
+      }
+    },
+    "antiPatterns": {
+      "title": "[TR] Anti-Patterns to Avoid",
+      "description": "[TR] Common mistakes that lead to flaky or unmaintainable tests:",
+      "patterns": {
+        "overSpecification": "[TR] ❌ Over-specifying UI elements (use semantic descriptions)",
+        "hardcoding": "[TR] ❌ Hard-coding dynamic values (use data functions)",
+        "chainedTests": "[TR] ❌ Creating long chains of dependent tests",
+        "noValidation": "[TR] ❌ Missing proper validation and assertions",
+        "duplicateLogic": "[TR] ❌ Duplicating test logic across multiple tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "[TR] Prompt Guide",
+      "previousButton": "[TR] Test Structure"
+    }
+  }
+}

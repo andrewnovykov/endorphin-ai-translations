@@ -121,7 +121,8 @@
     },
     "nextSteps": {
       "nextButton": "Siguiente: Depuración VS Code →",
-      "backButton": "Volver a la Documentación"
+      "backButton": "Volver a la Documentación",
+      "previousButton": "[ES] Test Writing Tips"
     }
   }
 }
