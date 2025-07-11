@@ -6,6 +6,9 @@
     "validate": "node build-translations.cjs validate",
     "build": "node build-translations.cjs build",
     "check-keys": "bash validate-translations.sh",
+    "sync-check": "node check-translation-keys.js",
+    "sync-keys": "node sync-translation-keys.js",
+    "analyze-english": "node analyze-english-completeness.js",
     "test": "npm run validate && npm run check-keys"
   },
   "keywords": [

@@ -1,176 +1,336 @@
 {
+  "navigation": {
+    "backToDocumentation": "Back to Documentation"
+  },
+  "header": {
+    "title": "VS Code Debugging",
+    "badge": "Pro Tips",
+    "description": "Professional debugging with breakpoints and debug object. Master VS Code debugging for Endorphin AI tests with comprehensive debugging tools."
+  },
+  "quickSetup": {
+    "title": "Quick Setup",
+    "description": "Get debugging up and running in 3 steps",
+    "step1": {
+      "title": "1. Enable Debug Mode",
+      "description": "Add to your .env file:",
+      "code": "ENDORPHIN_DEBUG=true"
+    },
+    "step2": {
+      "title": "2. VS Code Launch Configuration",
+      "description": "Create .vscode/launch.json in your project:"
+    },
+    "step3": {
+      "title": "3. Run Your Test in Debug Mode",
+      "instructions": [
+        "1. Set a breakpoint anywhere in your test file",
+        "2. Press F5 or select \"Debug Endorphin Test\"",
+        "3. When execution pauses, open the Debug Console",
+        "4. You now have access to the endorphinDebug object!"
+      ]
+    }
+  },
+  "debugObject": {
+    "title": "The Debug Object",
+    "description": "Comprehensive test information at your fingertips",
+    "intro": "When ENDORPHIN_DEBUG=true, Endorphin AI creates a global debug object with comprehensive test information:",
+    "quickOverview": "Quick Overview",
+    "quickOverviewComment": "In VS Code Debug Console:",
+    "availableProperties": "Available Properties:",
+    "properties": {
+      "framework": "Framework instance",
+      "session": "Current test session data",
+      "config": "Framework configuration",
+      "tools": "Available automation tools",
+      "utils": "Debug utility functions"
+    }
+  },
+  "debugUtilities": {
+    "title": "Debug Utilities",
+    "description": "Powerful debugging functions for test inspection",
+    "sessionInformation": {
+      "title": "Session Information",
+      "functions": {
+        "getSessionData": "Get current test session summary",
+        "getSetupResult": "Get test setup result (v0.9 smart tests)",
+        "getDataGenerationResult": "Get data generation result (v0.9 smart tests)",
+        "clearSession": "Clear current session"
+      }
+    },
+    "toolInspection": {
+      "title": "Tool Inspection",
+      "functions": {
+        "inspectTools": "List all available tools with details",
+        "getToolStats": "Get tool usage statistics",
+        "getLastToolResult": "Get result of last tool execution"
+      }
+    },
+    "pageInspection": {
+      "title": "Page Inspection",
+      "functions": {
+        "getCurrentPage": "Get current page URL and title",
+        "getPageElements": "List interactive elements on page",
+        "takeDebugScreenshot": "Capture screenshot for debugging"
+      }
+    },
+    "costPerformance": {
+      "title": "Cost & Performance",
+      "functions": {
+        "getTokenUsage": "Current session token consumption",
+        "getCostBreakdown": "Detailed cost analysis",
+        "getPerformanceMetrics": "Test execution performance data"
+      }
+    }
+  },
+  "practicalExamples": {
+    "title": "Practical Debug Examples",
+    "description": "Real debugging scenarios and solutions",
+    "example1": {
+      "title": "Example 1: Test Stuck on Loading",
+      "problem": "Problem: Test seems stuck waiting for page to load",
+      "console": "In Debug Console:",
+      "solution": "Solution: Page is genuinely stuck, investigate application issue"
+    },
+    "example2": {
+      "title": "Example 2: Button Click Failing",
+      "problem": "Problem: \"Click Login button\" action failing",
+      "console": "In Debug Console:",
+      "checkNote": "Check what's actually on the page",
+      "maybeNote": "Maybe we're on wrong page or button text changed"
+    },
+    "example3": {
+      "title": "Example 3: High Token Usage Investigation",
+      "problem": "Problem: Test consuming too many tokens",
+      "console": "In Debug Console:",
+      "optimization": "Optimization: Simplify prompts or break into smaller tests"
+    },
+    "example4": {
+      "title": "Example 4: v0.9.0 Setup/Data Debugging",
+      "problem": "Problem: Dynamic test data not working as expected",
+      "console": "In Debug Console:",
+      "verification": "Verify your setup/data functions returned correct values"
+    }
+  },
+  "advancedDebugging": {
+    "title": "Advanced Debugging Techniques",
+    "conditionalBreakpoints": {
+      "title": "Conditional Breakpoints",
+      "description": "Set breakpoints that only trigger under specific conditions:",
+      "comment": "Right-click breakpoint → Edit Breakpoint → Condition",
+      "onlyBreaksNote": "Only breaks when token usage exceeds 10,000",
+      "usefulNote": "Useful for catching expensive operations"
+    },
+    "logPoints": {
+      "title": "Log Points",
+      "description": "Log information without stopping execution:",
+      "comment": "Right-click line → Add Logpoint",
+      "logsNote": "Logs to Debug Console without pausing"
+    },
+    "watchExpressions": {
+      "title": "Watch Expressions",
+      "description": "Monitor values continuously:",
+      "comment": "Add to Watch panel:",
+      "valuesNote": "Values update automatically as test runs"
+    },
+    "stepByStep": {
+      "title": "Step-by-Step Tool Execution",
+      "comment": "Manual tool execution for testing",
+      "console": "In Debug Console:",
+      "testClick": "Test a click action manually",
+      "testForm": "Test form filling",
+      "testElement": "Test element verification"
+    }
+  },
+  "commonIssues": {
+    "title": "Common Debugging Issues",
+    "issue1": {
+      "title": "Issue: Debug Object Not Available",
+      "solution": "Solution:",
+      "steps": [
+        "Ensure ENDORPHIN_DEBUG=true in .env",
+        "Check you're in debug mode (F5)",
+        "Verify execution is paused at breakpoint"
+      ]
+    },
+    "issue2": {
+      "title": "Issue: Breakpoints Not Hitting",
+      "solution": "Solution:",
+      "steps": [
+        "Check launch.json configuration",
+        "Ensure test ID matches in args",
+        "Verify file paths are correct"
+      ]
+    },
+    "issue3": {
+      "title": "Issue: Browser Not Visible",
+      "solution": "Solution:",
+      "steps": [
+        "Set \"HEADLESS\": \"false\" in launch.json",
+        "Or add HEADLESS=false to .env"
+      ]
+    }
+  },
+  "nextSteps": {
+    "next": "Next: HTML Reporter →",
+    "previous": "← Previous: Prompt Guide"
+  },
+  "vsCodeDebuggingPage": {
     "navigation": {
-        "backToDocumentation": "Back to Documentation"
+      "backToDocumentation": "[FI] Back to Documentation"
     },
     "header": {
-        "title": "VS Code Debugging",
-        "badge": "Pro Tips",
-        "description": "Professional debugging with breakpoints and debug object. Master VS Code debugging for Endorphin AI tests with comprehensive debugging tools."
+      "title": "[FI] VS Code Debugging",
+      "badge": "[FI] Pro Tips",
+      "description": "[FI] Professional debugging with breakpoints and debug object. Master VS Code debugging for Endorphin AI tests with comprehensive debugging tools."
     },
     "quickSetup": {
-        "title": "Quick Setup",
-        "description": "Get debugging up and running in 3 steps",
-        "step1": {
-            "title": "1. Enable Debug Mode",
-            "description": "Add to your .env file:",
-            "code": "ENDORPHIN_DEBUG=true"
-        },
-        "step2": {
-            "title": "2. VS Code Launch Configuration",
-            "description": "Create .vscode/launch.json in your project:"
-        },
-        "step3": {
-            "title": "3. Run Your Test in Debug Mode",
-            "instructions": [
-                "1. Set a breakpoint anywhere in your test file",
-                "2. Press F5 or select \"Debug Endorphin Test\"",
-                "3. When execution pauses, open the Debug Console",
-                "4. You now have access to the endorphinDebug object!"
-            ]
-        }
+      "title": "[FI] Quick Setup",
+      "description": "[FI] Get debugging up and running in 3 steps",
+      "step1": {
+        "title": "[FI] 1. Enable Debug Mode",
+        "description": "[FI] Add to your .env file:",
+        "code": "[FI] ENDORPHIN_DEBUG=true"
+      },
+      "step2": {
+        "title": "[FI] 2. VS Code Launch Configuration",
+        "description": "[FI] Create .vscode/launch.json in your project:"
+      },
+      "step3": {
+        "title": "[FI] 3. Run Your Test in Debug Mode",
+        "instructions": "[FI] 1. Set a breakpoint anywhere in your test file,2. Press F5 or select \"Debug Endorphin Test\",3. When execution pauses, open the Debug Console,4. You now have access to the endorphinDebug object!"
+      }
     },
     "debugObject": {
-        "title": "The Debug Object",
-        "description": "Comprehensive test information at your fingertips",
-        "intro": "When ENDORPHIN_DEBUG=true, Endorphin AI creates a global debug object with comprehensive test information:",
-        "quickOverview": "Quick Overview",
-        "quickOverviewComment": "In VS Code Debug Console:",
-        "availableProperties": "Available Properties:",
-        "properties": {
-            "framework": "Framework instance",
-            "session": "Current test session data",
-            "config": "Framework configuration",
-            "tools": "Available automation tools",
-            "utils": "Debug utility functions"
-        }
+      "title": "[FI] The Debug Object",
+      "description": "[FI] Comprehensive test information at your fingertips",
+      "intro": "[FI] When ENDORPHIN_DEBUG=true, Endorphin AI creates a global debug object with comprehensive test information:",
+      "quickOverview": "[FI] Quick Overview",
+      "quickOverviewComment": "[FI] In VS Code Debug Console:",
+      "availableProperties": "[FI] Available Properties:",
+      "properties": {
+        "framework": "[FI] Framework instance",
+        "session": "[FI] Current test session data",
+        "config": "[FI] Framework configuration",
+        "tools": "[FI] Available automation tools",
+        "utils": "[FI] Debug utility functions"
+      }
     },
     "debugUtilities": {
-        "title": "Debug Utilities",
-        "description": "Powerful debugging functions for test inspection",
-        "sessionInformation": {
-            "title": "Session Information",
-            "functions": {
-                "getSessionData": "Get current test session summary",
-                "getSetupResult": "Get test setup result (v0.9 smart tests)",
-                "getDataGenerationResult": "Get data generation result (v0.9 smart tests)",
-                "clearSession": "Clear current session"
-            }
-        },
-        "toolInspection": {
-            "title": "Tool Inspection",
-            "functions": {
-                "inspectTools": "List all available tools with details",
-                "getToolStats": "Get tool usage statistics",
-                "getLastToolResult": "Get result of last tool execution"
-            }
-        },
-        "pageInspection": {
-            "title": "Page Inspection",
-            "functions": {
-                "getCurrentPage": "Get current page URL and title",
-                "getPageElements": "List interactive elements on page",
-                "takeDebugScreenshot": "Capture screenshot for debugging"
-            }
-        },
-        "costPerformance": {
-            "title": "Cost & Performance",
-            "functions": {
-                "getTokenUsage": "Current session token consumption",
-                "getCostBreakdown": "Detailed cost analysis",
-                "getPerformanceMetrics": "Test execution performance data"
-            }
+      "title": "[FI] Debug Utilities",
+      "description": "[FI] Powerful debugging functions for test inspection",
+      "sessionInformation": {
+        "title": "[FI] Session Information",
+        "functions": {
+          "getSessionData": "[FI] Get current test session summary",
+          "getSetupResult": "[FI] Get test setup result (v0.9 smart tests)",
+          "getDataGenerationResult": "[FI] Get data generation result (v0.9 smart tests)",
+          "clearSession": "[FI] Clear current session"
         }
+      },
+      "toolInspection": {
+        "title": "[FI] Tool Inspection",
+        "functions": {
+          "inspectTools": "[FI] List all available tools with details",
+          "getToolStats": "[FI] Get tool usage statistics",
+          "getLastToolResult": "[FI] Get result of last tool execution"
+        }
+      },
+      "pageInspection": {
+        "title": "[FI] Page Inspection",
+        "functions": {
+          "getCurrentPage": "[FI] Get current page URL and title",
+          "getPageElements": "[FI] List interactive elements on page",
+          "takeDebugScreenshot": "[FI] Capture screenshot for debugging"
+        }
+      },
+      "costPerformance": {
+        "title": "[FI] Cost & Performance",
+        "functions": {
+          "getTokenUsage": "[FI] Current session token consumption",
+          "getCostBreakdown": "[FI] Detailed cost analysis",
+          "getPerformanceMetrics": "[FI] Test execution performance data"
+        }
+      }
     },
     "practicalExamples": {
-        "title": "Practical Debug Examples",
-        "description": "Real debugging scenarios and solutions",
-        "example1": {
-            "title": "Example 1: Test Stuck on Loading",
-            "problem": "Problem: Test seems stuck waiting for page to load",
-            "console": "In Debug Console:",
-            "solution": "Solution: Page is genuinely stuck, investigate application issue"
-        },
-        "example2": {
-            "title": "Example 2: Button Click Failing",
-            "problem": "Problem: \"Click Login button\" action failing",
-            "console": "In Debug Console:",
-            "checkNote": "Check what's actually on the page",
-            "maybeNote": "Maybe we're on wrong page or button text changed"
-        },
-        "example3": {
-            "title": "Example 3: High Token Usage Investigation",
-            "problem": "Problem: Test consuming too many tokens",
-            "console": "In Debug Console:",
-            "optimization": "Optimization: Simplify prompts or break into smaller tests"
-        },
-        "example4": {
-            "title": "Example 4: v0.9.0 Setup/Data Debugging",
-            "problem": "Problem: Dynamic test data not working as expected",
-            "console": "In Debug Console:",
-            "verification": "Verify your setup/data functions returned correct values"
-        }
+      "title": "[FI] Practical Debug Examples",
+      "description": "[FI] Real debugging scenarios and solutions",
+      "example1": {
+        "title": "[FI] Example 1: Test Stuck on Loading",
+        "problem": "[FI] Problem: Test seems stuck waiting for page to load",
+        "console": "[FI] In Debug Console:",
+        "solution": "[FI] Solution: Page is genuinely stuck, investigate application issue"
+      },
+      "example2": {
+        "title": "[FI] Example 2: Button Click Failing",
+        "problem": "[FI] Problem: \"Click Login button\" action failing",
+        "console": "[FI] In Debug Console:",
+        "checkNote": "[FI] Check what's actually on the page",
+        "maybeNote": "[FI] Maybe we're on wrong page or button text changed"
+      },
+      "example3": {
+        "title": "[FI] Example 3: High Token Usage Investigation",
+        "problem": "[FI] Problem: Test consuming too many tokens",
+        "console": "[FI] In Debug Console:",
+        "optimization": "[FI] Optimization: Simplify prompts or break into smaller tests"
+      },
+      "example4": {
+        "title": "[FI] Example 4: v0.9.0 Setup/Data Debugging",
+        "problem": "[FI] Problem: Dynamic test data not working as expected",
+        "console": "[FI] In Debug Console:",
+        "verification": "[FI] Verify your setup/data functions returned correct values"
+      }
     },
     "advancedDebugging": {
-        "title": "Advanced Debugging Techniques",
-        "conditionalBreakpoints": {
-            "title": "Conditional Breakpoints",
-            "description": "Set breakpoints that only trigger under specific conditions:",
-            "comment": "Right-click breakpoint → Edit Breakpoint → Condition",
-            "onlyBreaksNote": "Only breaks when token usage exceeds 10,000",
-            "usefulNote": "Useful for catching expensive operations"
-        },
-        "logPoints": {
-            "title": "Log Points",
-            "description": "Log information without stopping execution:",
-            "comment": "Right-click line → Add Logpoint",
-            "logsNote": "Logs to Debug Console without pausing"
-        },
-        "watchExpressions": {
-            "title": "Watch Expressions",
-            "description": "Monitor values continuously:",
-            "comment": "Add to Watch panel:",
-            "valuesNote": "Values update automatically as test runs"
-        },
-        "stepByStep": {
-            "title": "Step-by-Step Tool Execution",
-            "comment": "Manual tool execution for testing",
-            "console": "In Debug Console:",
-            "testClick": "Test a click action manually",
-            "testForm": "Test form filling",
-            "testElement": "Test element verification"
-        }
+      "title": "[FI] Advanced Debugging Techniques",
+      "conditionalBreakpoints": {
+        "title": "[FI] Conditional Breakpoints",
+        "description": "[FI] Set breakpoints that only trigger under specific conditions:",
+        "comment": "[FI] Right-click breakpoint → Edit Breakpoint → Condition",
+        "onlyBreaksNote": "[FI] Only breaks when token usage exceeds 10,000",
+        "usefulNote": "[FI] Useful for catching expensive operations"
+      },
+      "logPoints": {
+        "title": "[FI] Log Points",
+        "description": "[FI] Log information without stopping execution:",
+        "comment": "[FI] Right-click line → Add Logpoint",
+        "logsNote": "[FI] Logs to Debug Console without pausing"
+      },
+      "watchExpressions": {
+        "title": "[FI] Watch Expressions",
+        "description": "[FI] Monitor values continuously:",
+        "comment": "[FI] Add to Watch panel:",
+        "valuesNote": "[FI] Values update automatically as test runs"
+      },
+      "stepByStep": {
+        "title": "[FI] Step-by-Step Tool Execution",
+        "comment": "[FI] Manual tool execution for testing",
+        "console": "[FI] In Debug Console:",
+        "testClick": "[FI] Test a click action manually",
+        "testForm": "[FI] Test form filling",
+        "testElement": "[FI] Test element verification"
+      }
     },
     "commonIssues": {
-        "title": "Common Debugging Issues",
-        "issue1": {
-            "title": "Issue: Debug Object Not Available",
-            "solution": "Solution:",
-            "steps": [
-                "Ensure ENDORPHIN_DEBUG=true in .env",
-                "Check you're in debug mode (F5)",
-                "Verify execution is paused at breakpoint"
-            ]
-        },
-        "issue2": {
-            "title": "Issue: Breakpoints Not Hitting",
-            "solution": "Solution:",
-            "steps": [
-                "Check launch.json configuration",
-                "Ensure test ID matches in args",
-                "Verify file paths are correct"
-            ]
-        },
-        "issue3": {
-            "title": "Issue: Browser Not Visible",
-            "solution": "Solution:",
-            "steps": [
-                "Set \"HEADLESS\": \"false\" in launch.json",
-                "Or add HEADLESS=false to .env"
-            ]
-        }
+      "title": "[FI] Common Debugging Issues",
+      "issue1": {
+        "title": "[FI] Issue: Debug Object Not Available",
+        "solution": "[FI] Solution:",
+        "steps": "[FI] Ensure ENDORPHIN_DEBUG=true in .env,Check you're in debug mode (F5),Verify execution is paused at breakpoint"
+      },
+      "issue2": {
+        "title": "[FI] Issue: Breakpoints Not Hitting",
+        "solution": "[FI] Solution:",
+        "steps": "[FI] Check launch.json configuration,Ensure test ID matches in args,Verify file paths are correct"
+      },
+      "issue3": {
+        "title": "[FI] Issue: Browser Not Visible",
+        "solution": "[FI] Solution:",
+        "steps": "[FI] Set \"HEADLESS\": \"false\" in launch.json,Or add HEADLESS=false to .env"
+      }
     },
     "nextSteps": {
-        "next": "Next: HTML Reporter →",
-        "previous": "← Previous: Prompt Guide"
+      "next": "[FI] HTML Reporter",
+      "previous": "[FI] Prompt Guide"
     }
+  }
 }

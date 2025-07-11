@@ -1,203 +1,203 @@
 {
-    "htmlReporterPage": {
-        "navigation": {
-            "backToDocumentation": "Back to Documentation"
+  "htmlReporterPage": {
+    "navigation": {
+      "backToDocumentation": "Back to Documentation"
+    },
+    "header": {
+      "badge": "Reports",
+      "title": "HTML Reporter",
+      "description": "Interactive reports with cost tracking and AI decisions. Beautiful, interactive test reports that make debugging easy."
+    },
+    "whatAreReports": {
+      "title": "🎯 What are HTML Reports?",
+      "description": "After running tests, Endorphin AI creates interactive web reports that provide comprehensive insights into your test execution.",
+      "features": {
+        "passedFailed": "Which tests passed or failed",
+        "screenshots": "Screenshots of every step",
+        "executionLogs": "Detailed execution logs",
+        "statistics": "Success rates and statistics"
+      }
+    },
+    "quickStart": {
+      "title": "🚀 Quick Start",
+      "description": "Generate your first HTML report in 3 simple steps",
+      "step1": {
+        "title": "1. Run tests first:",
+        "command": "npx endorphin run test HEALTH-001"
+      },
+      "step2": {
+        "title": "2. Generate the report:",
+        "command": "npx endorphin generate report"
+      },
+      "step3": {
+        "title": "3. Open it:",
+        "command": "npx endorphin open report"
+      },
+      "thatsIt": {
+        "title": "✨ That's it!",
+        "description": "Your report opens in the browser automatically."
+      }
+    },
+    "features": {
+      "title": "📋 Report Features",
+      "description": "Comprehensive insights into your test execution",
+      "dashboard": {
+        "title": "Dashboard View",
+        "description": "When you open a report, you'll see:",
+        "summaryCards": "Summary Cards: Total tests, passes, failures",
+        "successRate": "Success Rate: Visual progress bar",
+        "testList": "Test List: All your test results"
+      },
+      "interactive": {
+        "title": "Interactive Features",
+        "searchTests": {
+          "title": "Search Tests",
+          "description": "Type in the search box to find tests instantly - by ID, name, or any content"
         },
-        "header": {
-            "badge": "Reports",
-            "title": "HTML Reporter",
-            "description": "Interactive reports with cost tracking and AI decisions. Beautiful, interactive test reports that make debugging easy."
+        "filterStatus": {
+          "title": "Filter by Status",
+          "description": "Click tabs to filter: All, Passed, Failed tests"
         },
-        "whatAreReports": {
-            "title": "🎯 What are HTML Reports?",
-            "description": "After running tests, Endorphin AI creates interactive web reports that provide comprehensive insights into your test execution.",
-            "features": {
-                "passedFailed": "Which tests passed or failed",
-                "screenshots": "Screenshots of every step",
-                "executionLogs": "Detailed execution logs",
-                "statistics": "Success rates and statistics"
-            }
-        },
-        "quickStart": {
-            "title": "🚀 Quick Start",
-            "description": "Generate your first HTML report in 3 simple steps",
-            "step1": {
-                "title": "1. Run tests first:",
-                "command": "npx endorphin run test HEALTH-001"
-            },
-            "step2": {
-                "title": "2. Generate the report:",
-                "command": "npx endorphin generate report"
-            },
-            "step3": {
-                "title": "3. Open it:",
-                "command": "npx endorphin open report"
-            },
-            "thatsIt": {
-                "title": "✨ That's it!",
-                "description": "Your report opens in the browser automatically."
-            }
-        },
-        "features": {
-            "title": "📋 Report Features",
-            "description": "Comprehensive insights into your test execution",
-            "dashboard": {
-                "title": "Dashboard View",
-                "description": "When you open a report, you'll see:",
-                "summaryCards": "Summary Cards: Total tests, passes, failures",
-                "successRate": "Success Rate: Visual progress bar",
-                "testList": "Test List: All your test results"
-            },
-            "interactive": {
-                "title": "Interactive Features",
-                "searchTests": {
-                    "title": "Search Tests",
-                    "description": "Type in the search box to find tests instantly - by ID, name, or any content"
-                },
-                "filterStatus": {
-                    "title": "Filter by Status",
-                    "description": "Click tabs to filter: All, Passed, Failed tests"
-                },
-                "viewScreenshots": {
-                    "title": "View Screenshots",
-                    "description": "Click any screenshot to see full-size, zoom, and navigate between steps"
-                }
-            },
-            "testDetails": {
-                "title": "Test Details",
-                "description": "Click \"View Details\" on any test to see:",
-                "items": [
-                    "Step-by-step execution",
-                    "Timing for each step",
-                    "Screenshots at each step",
-                    "Error messages (if failed)"
-                ]
-            }
-        },
-        "advancedFeatures": {
-            "title": "Advanced Features",
-            "badge": "v0.9.0",
-            "description": "Enhanced reporting with AI insights and cost tracking",
-            "costTracking": {
-                "title": "Cost & Token Tracking",
-                "description": "Each test shows detailed AI usage information:",
-                "items": [
-                    "Total cost - How much the test cost to run",
-                    "Token usage - Input and output tokens consumed",
-                    "AI model used - Which OpenAI model processed the test",
-                    "Cost per step - Breakdown of expenses by test step",
-                    "Session totals - Aggregate costs for the entire test run"
-                ]
-            },
-            "aiDecisionHistory": {
-                "title": "AI Decision History",
-                "description": "See exactly how the AI analyzed and executed your test:",
-                "items": [
-                    "Agent thinking - What the AI was considering at each step",
-                    "Decision process - Why the AI chose specific actions",
-                    "Tool selection - Which browser tools were used and why",
-                    "Error recovery - How the AI handled and fixed issues",
-                    "Context awareness - How previous steps influenced decisions"
-                ]
-            },
-            "stepInformation": {
-                "title": "Detailed Step Information",
-                "description": "For each test step, view:",
-                "items": [
-                    "Action taken - What the AI did (click, fill, verify, etc.)",
-                    "Target elements - Which page elements were interacted with",
-                    "Tool arguments - Parameters passed to automation tools",
-                    "Execution time - How long each step took",
-                    "Token cost - AI processing cost for that specific step",
-                    "Before/after screenshots - Visual proof of what happened"
-                ]
-            }
-        },
-        "keyboardShortcuts": {
-            "title": "⌨️ Keyboard Shortcuts",
-            "searchFocus": "Focus search",
-            "clearSearch": "Clear search or close modal",
-            "showAll": "Show all tests",
-            "showPassed": "Show passed only",
-            "showFailed": "Show failed only",
-            "exportJson": "Export to JSON"
-        },
-        "fileOrganization": {
-            "title": "📁 Where Reports are Saved",
-            "structure": "test-results/\n├── reports/\n│   ├── report-2025-01-04.html    # Today's report\n│   ├── screenshots/               # Images for the report\n│   └── assets/                    # Styles and scripts\n└── HEALTH-001_2025-01-04/         # Raw test data"
-        },
-        "tips": {
-            "title": "💡 Tips & Tricks",
-            "debugFailed": {
-                "title": "Debug Failed Tests",
-                "steps": [
-                    "Filter by \"Failed\" to focus on problems",
-                    "Click \"View Details\" on a failed test",
-                    "Look for the red error step",
-                    "Check the screenshot before failure",
-                    "Review AI thinking - See what the AI was considering when it failed",
-                    "Check tool selection - Verify the AI used the right automation tools"
-                ]
-            },
-            "monitorCosts": {
-                "title": "Monitor Test Costs",
-                "steps": [
-                    "Track spending - See total cost for each test run",
-                    "Optimize expensive tests - Find tests that use too many tokens",
-                    "Compare costs - See which tests are most/least expensive",
-                    "Budget planning - Use cost data for project planning"
-                ]
-            },
-            "shareReports": {
-                "title": "Share Reports",
-                "description": "Reports are self-contained HTML files. You can:",
-                "options": [
-                    "Email them to teammates",
-                    "Upload to shared drives",
-                    "View them anywhere"
-                ]
-            },
-            "exportData": {
-                "title": "Export Data",
-                "description": "Press Ctrl+E to export test data as JSON for:",
-                "uses": [
-                    "Custom analysis",
-                    "Integration with other tools",
-                    "Historical tracking"
-                ]
-            }
-        },
-        "management": {
-            "title": "🧹 Manage Reports",
-            "cleanup": {
-                "title": "Clean Up Old Reports",
-                "remove30Days": {
-                    "description": "Remove reports older than 30 days:",
-                    "command": "npx endorphin cleanup reports"
-                },
-                "keep7Days": {
-                    "description": "Keep only last 7 days:",
-                    "command": "npx endorphin cleanup reports 7"
-                }
-            },
-            "customNames": {
-                "title": "Custom Report Names",
-                "changeName": {
-                    "description": "Change report name:",
-                    "command": "npx endorphin generate report --filename my-custom-report.html"
-                },
-                "multipleReports": {
-                    "description": "Generate multiple reports:",
-                    "smokeComment": "# Smoke test report",
-                    "smokeCommand": "npx endorphin generate report --filename smoke-tests.html",
-                    "regressionComment": "# Full regression report",
-                    "regressionCommand": "npx endorphin generate report --filename regression.html"
-                }
-            }
-        },
-        "nextSteps": {
-            "next": "Next: Test Recorder →",
-            "previous": "← Previous: VS Code Debugging"
+        "viewScreenshots": {
+          "title": "View Screenshots",
+          "description": "Click any screenshot to see full-size, zoom, and navigate between steps"
         }
+      },
+      "testDetails": {
+        "title": "Test Details",
+        "description": "Click \"View Details\" on any test to see:",
+        "items": [
+          "Step-by-step execution",
+          "Timing for each step",
+          "Screenshots at each step",
+          "Error messages (if failed)"
+        ]
+      }
+    },
+    "advancedFeatures": {
+      "title": "Advanced Features",
+      "badge": "v0.9.0",
+      "description": "Enhanced reporting with AI insights and cost tracking",
+      "costTracking": {
+        "title": "Cost & Token Tracking",
+        "description": "Each test shows detailed AI usage information:",
+        "items": [
+          "Total cost - How much the test cost to run",
+          "Token usage - Input and output tokens consumed",
+          "AI model used - Which OpenAI model processed the test",
+          "Cost per step - Breakdown of expenses by test step",
+          "Session totals - Aggregate costs for the entire test run"
+        ]
+      },
+      "aiDecisionHistory": {
+        "title": "AI Decision History",
+        "description": "See exactly how the AI analyzed and executed your test:",
+        "items": [
+          "Agent thinking - What the AI was considering at each step",
+          "Decision process - Why the AI chose specific actions",
+          "Tool selection - Which browser tools were used and why",
+          "Error recovery - How the AI handled and fixed issues",
+          "Context awareness - How previous steps influenced decisions"
+        ]
+      },
+      "stepInformation": {
+        "title": "Detailed Step Information",
+        "description": "For each test step, view:",
+        "items": [
+          "Action taken - What the AI did (click, fill, verify, etc.)",
+          "Target elements - Which page elements were interacted with",
+          "Tool arguments - Parameters passed to automation tools",
+          "Execution time - How long each step took",
+          "Token cost - AI processing cost for that specific step",
+          "Before/after screenshots - Visual proof of what happened"
+        ]
+      }
+    },
+    "keyboardShortcuts": {
+      "title": "⌨️ Keyboard Shortcuts",
+      "searchFocus": "Focus search",
+      "clearSearch": "Clear search or close modal",
+      "showAll": "Show all tests",
+      "showPassed": "Show passed only",
+      "showFailed": "Show failed only",
+      "exportJson": "Export to JSON"
+    },
+    "fileOrganization": {
+      "title": "📁 Where Reports are Saved",
+      "structure": "test-results/\n├── reports/\n│   ├── report-2025-01-04.html    # Today's report\n│   ├── screenshots/               # Images for the report\n│   └── assets/                    # Styles and scripts\n└── HEALTH-001_2025-01-04/         # Raw test data"
+    },
+    "tips": {
+      "title": "💡 Tips & Tricks",
+      "debugFailed": {
+        "title": "Debug Failed Tests",
+        "steps": [
+          "Filter by \"Failed\" to focus on problems",
+          "Click \"View Details\" on a failed test",
+          "Look for the red error step",
+          "Check the screenshot before failure",
+          "Review AI thinking - See what the AI was considering when it failed",
+          "Check tool selection - Verify the AI used the right automation tools"
+        ]
+      },
+      "monitorCosts": {
+        "title": "Monitor Test Costs",
+        "steps": [
+          "Track spending - See total cost for each test run",
+          "Optimize expensive tests - Find tests that use too many tokens",
+          "Compare costs - See which tests are most/least expensive",
+          "Budget planning - Use cost data for project planning"
+        ]
+      },
+      "shareReports": {
+        "title": "Share Reports",
+        "description": "Reports are self-contained HTML files. You can:",
+        "options": [
+          "Email them to teammates",
+          "Upload to shared drives",
+          "View them anywhere"
+        ]
+      },
+      "exportData": {
+        "title": "Export Data",
+        "description": "Press Ctrl+E to export test data as JSON for:",
+        "uses": [
+          "Custom analysis",
+          "Integration with other tools",
+          "Historical tracking"
+        ]
+      }
+    },
+    "management": {
+      "title": "🧹 Manage Reports",
+      "cleanup": {
+        "title": "Clean Up Old Reports",
+        "remove30Days": {
+          "description": "Remove reports older than 30 days:",
+          "command": "npx endorphin cleanup reports"
+        },
+        "keep7Days": {
+          "description": "Keep only last 7 days:",
+          "command": "npx endorphin cleanup reports 7"
+        }
+      },
+      "customNames": {
+        "title": "Custom Report Names",
+        "changeName": {
+          "description": "Change report name:",
+          "command": "npx endorphin generate report --filename my-custom-report.html"
+        },
+        "multipleReports": {
+          "description": "Generate multiple reports:",
+          "smokeComment": "# Smoke test report",
+          "smokeCommand": "npx endorphin generate report --filename smoke-tests.html",
+          "regressionComment": "# Full regression report",
+          "regressionCommand": "npx endorphin generate report --filename regression.html"
+        }
+      }
+    },
+    "nextSteps": {
+      "next": "Next: Test Recorder →",
+      "previous": "← Previous: VS Code Debugging"
     }
+  }
 }

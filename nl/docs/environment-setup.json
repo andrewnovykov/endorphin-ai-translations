@@ -1,133 +1,262 @@
 {
+  "navigation": {
+    "backToDocumentation": "Back to Documentation"
+  },
+  "header": {
+    "badge": "Config",
+    "title": "Environment Setup",
+    "description": "Environment variables and configuration guide. Configure Endorphin AI with simple environment variables for different environments."
+  },
+  "quickSetup": {
+    "title": "Quick Setup",
+    "description": "Get started with minimal configuration",
+    "step1": "1. Create a .env file in your project root:",
+    "sparkle": "✨ That's it!",
+    "ready": "You're ready to go with just your OpenAI API key."
+  },
+  "availableVariables": {
+    "title": "Available Variables",
+    "description": "Complete list of environment variables you can configure",
+    "openaiApiKey": {
+      "title": "OPENAI_API_KEY (Required)",
+      "description": "Your OpenAI API key for AI-powered testing.",
+      "howToGet": "How to get one:",
+      "steps": [
+        "Go to OpenAI API Keys",
+        "Create a new key",
+        "Copy and paste it here"
+      ]
+    },
+    "headless": {
+      "title": "HEADLESS (Optional)",
+      "description": "Run browser with or without UI.",
+      "options": {
+        "false": "HEADLESS=false  # See the browser (good for debugging)",
+        "true": "HEADLESS=true   # No browser window (good for CI/CD)"
+      },
+      "default": "Default: true"
+    },
+    "baseUrl": {
+      "title": "BASE_URL (Optional)",
+      "description": "Default website for your tests.",
+      "default": "Default: https://qafromla.herokuapp.com/"
+    },
+    "slowMo": {
+      "title": "SLOW_MO (Optional)",
+      "description": "Slow down browser actions (milliseconds).",
+      "options": {
+        "0": "SLOW_MO=0     # No delay (fastest)",
+        "500": "SLOW_MO=500   # Half second delay",
+        "1000": "SLOW_MO=1000  # One second delay"
+      },
+      "default": "Default: 0"
+    },
+    "endorphinDebug": {
+      "title": "ENDORPHIN_DEBUG (Optional)",
+      "description": "Enable debug mode for detailed logging.",
+      "options": {
+        "true": "ENDORPHIN_DEBUG=true   # Enable debug mode",
+        "false": "ENDORPHIN_DEBUG=false  # Disable debug mode"
+      },
+      "default": "Default: false"
+    }
+  },
+  "exampleConfigurations": {
+    "title": "Example Configurations",
+    "description": "Ready-to-use configurations for different environments",
+    "localDevelopment": {
+      "title": "Local Development",
+      "description": "Perfect for development and debugging:"
+    },
+    "stagingEnvironment": {
+      "title": "Staging Environment",
+      "description": "For testing against staging servers:"
+    },
+    "productionCi": {
+      "title": "Production/CI",
+      "description": "Optimized for CI/CD pipelines:"
+    },
+    "debugMode": {
+      "title": "Debug Mode",
+      "description": "For troubleshooting test issues:"
+    }
+  },
+  "advancedConfiguration": {
+    "title": "Advanced Configuration",
+    "description": "Additional variables for power users",
+    "modelConfiguration": {
+      "title": "Model Configuration"
+    },
+    "browserSettings": {
+      "title": "Browser Settings"
+    },
+    "outputSettings": {
+      "title": "Output Settings"
+    }
+  },
+  "usingDifferentEnvironments": {
+    "title": "Using Different Environments",
+    "method1": {
+      "title": "Method 1: Multiple .env Files",
+      "description": "Create separate files for each environment:",
+      "loadSpecific": "Load specific environment:"
+    },
+    "method2": {
+      "title": "Method 2: Environment Variables",
+      "description": "Set variables directly in command line:"
+    },
+    "method3": {
+      "title": "Method 3: Package.json Scripts",
+      "description": "Add scripts to your package.json:",
+      "thenRun": "Then run with:"
+    }
+  },
+  "securityBestPractices": {
+    "title": "Security Best Practices",
+    "neverCommit": {
+      "title": "🚨 Never Commit API Keys",
+      "description": "Add .env to your .gitignore:"
+    },
+    "useEnvironmentVariables": {
+      "title": "⚠️ Use Environment Variables in CI",
+      "description": "Set OPENAI_API_KEY as a secret in your CI/CD platform"
+    },
+    "createExample": {
+      "title": "✅ Create .env.example",
+      "description": "Share template without secrets:"
+    }
+  },
+  "nextSteps": {
+    "next": "Next: CI/CD Setup →",
+    "previous": "← Previous: Test Recorder"
+  },
+  "environmentSetupPage": {
     "navigation": {
-        "backToDocumentation": "Back to Documentation"
+      "backToDocumentation": "[NL] Back to Documentation"
     },
     "header": {
-        "badge": "Config",
-        "title": "Environment Setup",
-        "description": "Environment variables and configuration guide. Configure Endorphin AI with simple environment variables for different environments."
+      "badge": "[NL] Config",
+      "title": "[NL] Environment Setup",
+      "description": "[NL] Environment variables and configuration guide. Configure Endorphin AI with simple environment variables for different environments."
     },
     "quickSetup": {
-        "title": "Quick Setup",
-        "description": "Get started with minimal configuration",
-        "step1": "1. Create a .env file in your project root:",
-        "sparkle": "✨ That's it!",
-        "ready": "You're ready to go with just your OpenAI API key."
+      "title": "[NL] Quick Setup",
+      "description": "[NL] Get started with minimal configuration",
+      "step1": "[NL] 1. Create a .env file in your project root:",
+      "sparkle": "[NL] ✨ That's it!",
+      "ready": "[NL] You're ready to go with just your OpenAI API key."
     },
     "availableVariables": {
-        "title": "Available Variables",
-        "description": "Complete list of environment variables you can configure",
-        "openaiApiKey": {
-            "title": "OPENAI_API_KEY (Required)",
-            "description": "Your OpenAI API key for AI-powered testing.",
-            "howToGet": "How to get one:",
-            "steps": [
-                "Go to OpenAI API Keys",
-                "Create a new key",
-                "Copy and paste it here"
-            ]
+      "title": "[NL] Available Variables",
+      "description": "[NL] Complete list of environment variables you can configure",
+      "openaiApiKey": {
+        "title": "[NL] OPENAI_API_KEY (Required)",
+        "description": "[NL] Your OpenAI API key for AI-powered testing.",
+        "howToGet": "[NL] How to get one:",
+        "steps": "[NL] Go to OpenAI API Keys,Create a new key,Copy and paste it here"
+      },
+      "headless": {
+        "title": "[NL] HEADLESS (Optional)",
+        "description": "[NL] Run browser with or without UI.",
+        "options": {
+          "false": "[NL] HEADLESS=false  # See the browser (good for debugging)",
+          "true": "[NL] HEADLESS=true   # No browser window (good for CI/CD)"
         },
-        "headless": {
-            "title": "HEADLESS (Optional)",
-            "description": "Run browser with or without UI.",
-            "options": {
-                "false": "HEADLESS=false  # See the browser (good for debugging)",
-                "true": "HEADLESS=true   # No browser window (good for CI/CD)"
-            },
-            "default": "Default: true"
+        "default": "[NL] Default: true"
+      },
+      "baseUrl": {
+        "title": "[NL] BASE_URL (Optional)",
+        "description": "[NL] Default website for your tests.",
+        "default": "[NL] Default: https://qafromla.herokuapp.com/"
+      },
+      "slowMo": {
+        "title": "[NL] SLOW_MO (Optional)",
+        "description": "[NL] Slow down browser actions (milliseconds).",
+        "options": {
+          "0": "[NL] SLOW_MO=0     # No delay (fastest)",
+          "500": "[NL] SLOW_MO=500   # Half second delay",
+          "1000": "[NL] SLOW_MO=1000  # One second delay"
         },
-        "baseUrl": {
-            "title": "BASE_URL (Optional)",
-            "description": "Default website for your tests.",
-            "default": "Default: https://qafromla.herokuapp.com/"
+        "default": "[NL] Default: 0"
+      },
+      "endorphinDebug": {
+        "title": "[NL] ENDORPHIN_DEBUG (Optional)",
+        "description": "[NL] Enable debug mode for detailed logging.",
+        "options": {
+          "true": "[NL] ENDORPHIN_DEBUG=true   # Enable debug mode",
+          "false": "[NL] ENDORPHIN_DEBUG=false  # Disable debug mode"
         },
-        "slowMo": {
-            "title": "SLOW_MO (Optional)",
-            "description": "Slow down browser actions (milliseconds).",
-            "options": {
-                "0": "SLOW_MO=0     # No delay (fastest)",
-                "500": "SLOW_MO=500   # Half second delay",
-                "1000": "SLOW_MO=1000  # One second delay"
-            },
-            "default": "Default: 0"
-        },
-        "endorphinDebug": {
-            "title": "ENDORPHIN_DEBUG (Optional)",
-            "description": "Enable debug mode for detailed logging.",
-            "options": {
-                "true": "ENDORPHIN_DEBUG=true   # Enable debug mode",
-                "false": "ENDORPHIN_DEBUG=false  # Disable debug mode"
-            },
-            "default": "Default: false"
-        }
+        "default": "[NL] Default: false"
+      }
     },
     "exampleConfigurations": {
-        "title": "Example Configurations",
-        "description": "Ready-to-use configurations for different environments",
-        "localDevelopment": {
-            "title": "Local Development",
-            "description": "Perfect for development and debugging:"
-        },
-        "stagingEnvironment": {
-            "title": "Staging Environment",
-            "description": "For testing against staging servers:"
-        },
-        "productionCi": {
-            "title": "Production/CI",
-            "description": "Optimized for CI/CD pipelines:"
-        },
-        "debugMode": {
-            "title": "Debug Mode",
-            "description": "For troubleshooting test issues:"
-        }
+      "title": "[NL] Example Configurations",
+      "description": "[NL] Ready-to-use configurations for different environments",
+      "localDevelopment": {
+        "title": "[NL] Local Development",
+        "description": "[NL] Perfect for development and debugging:"
+      },
+      "stagingEnvironment": {
+        "title": "[NL] Staging Environment",
+        "description": "[NL] For testing against staging servers:"
+      },
+      "productionCi": {
+        "title": "[NL] Production/CI",
+        "description": "[NL] Optimized for CI/CD pipelines:"
+      },
+      "debugMode": {
+        "title": "[NL] Debug Mode",
+        "description": "[NL] For troubleshooting test issues:"
+      }
     },
     "advancedConfiguration": {
-        "title": "Advanced Configuration",
-        "description": "Additional variables for power users",
-        "modelConfiguration": {
-            "title": "Model Configuration"
-        },
-        "browserSettings": {
-            "title": "Browser Settings"
-        },
-        "outputSettings": {
-            "title": "Output Settings"
-        }
+      "title": "[NL] Advanced Configuration",
+      "description": "[NL] Additional variables for power users",
+      "modelConfiguration": {
+        "title": "[NL] Model Configuration"
+      },
+      "browserSettings": {
+        "title": "[NL] Browser Settings"
+      },
+      "outputSettings": {
+        "title": "[NL] Output Settings"
+      }
     },
     "usingDifferentEnvironments": {
-        "title": "Using Different Environments",
-        "method1": {
-            "title": "Method 1: Multiple .env Files",
-            "description": "Create separate files for each environment:",
-            "loadSpecific": "Load specific environment:"
-        },
-        "method2": {
-            "title": "Method 2: Environment Variables",
-            "description": "Set variables directly in command line:"
-        },
-        "method3": {
-            "title": "Method 3: Package.json Scripts",
-            "description": "Add scripts to your package.json:",
-            "thenRun": "Then run with:"
-        }
+      "title": "[NL] Using Different Environments",
+      "method1": {
+        "title": "[NL] Method 1: Multiple .env Files",
+        "description": "[NL] Create separate files for each environment:",
+        "loadSpecific": "[NL] Load specific environment:"
+      },
+      "method2": {
+        "title": "[NL] Method 2: Environment Variables",
+        "description": "[NL] Set variables directly in command line:"
+      },
+      "method3": {
+        "title": "[NL] Method 3: Package.json Scripts",
+        "description": "[NL] Add scripts to your package.json:",
+        "thenRun": "[NL] Then run with:"
+      }
     },
     "securityBestPractices": {
-        "title": "Security Best Practices",
-        "neverCommit": {
-            "title": "🚨 Never Commit API Keys",
-            "description": "Add .env to your .gitignore:"
-        },
-        "useEnvironmentVariables": {
-            "title": "⚠️ Use Environment Variables in CI",
-            "description": "Set OPENAI_API_KEY as a secret in your CI/CD platform"
-        },
-        "createExample": {
-            "title": "✅ Create .env.example",
-            "description": "Share template without secrets:"
-        }
+      "title": "[NL] Security Best Practices",
+      "neverCommit": {
+        "title": "[NL] 🚨 Never Commit API Keys",
+        "description": "[NL] Add .env to your .gitignore:"
+      },
+      "useEnvironmentVariables": {
+        "title": "[NL] ⚠️ Use Environment Variables in CI",
+        "description": "[NL] Set OPENAI_API_KEY as a secret in your CI/CD platform"
+      },
+      "createExample": {
+        "title": "[NL] ✅ Create .env.example",
+        "description": "[NL] Share template without secrets:"
+      }
     },
     "nextSteps": {
-        "next": "Next: CI/CD Setup →",
-        "previous": "← Previous: Test Recorder"
+      "next": "[NL] CI/CD Setup",
+      "previous": "[NL] Test Recorder"
     }
+  }
 }

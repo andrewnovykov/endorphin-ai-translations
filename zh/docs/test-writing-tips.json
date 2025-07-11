@@ -1,1 +1,103 @@
-{}
+{
+  "testWritingTipsPage": {
+    "navigation": {
+      "backToDocumentation": "[ZH] Back to Documentation"
+    },
+    "header": {
+      "badge": "[ZH] Best Practices",
+      "title": "[ZH] Test Writing Tips",
+      "subtitle": "[ZH] Enterprise and small app examples with best practices for effective AI-powered testing"
+    },
+    "introduction": {
+      "title": "[ZH] Master Test Writing",
+      "description": "[ZH] Learn how to write effective tests for different scenarios, from simple applications to complex enterprise workflows.",
+      "coverage": "[ZH] This guide covers:",
+      "coverageList": {
+        "patterns": "[ZH] ✅ Common testing patterns and anti-patterns",
+        "enterprise": "[ZH] ✅ Enterprise-scale testing strategies",
+        "smallApps": "[ZH] ✅ Optimized approaches for small applications",
+        "maintenance": "[ZH] ✅ Long-term test maintenance strategies",
+        "debugging": "[ZH] ✅ Debugging and troubleshooting techniques"
+      }
+    },
+    "enterprisePatterns": {
+      "title": "[ZH] Enterprise Testing Patterns",
+      "description": "[ZH] Best practices for large-scale applications:",
+      "patterns": {
+        "dataIsolation": {
+          "title": "[ZH] Data Isolation",
+          "description": "[ZH] Separate test data from production data with proper isolation strategies"
+        },
+        "pageObjects": {
+          "title": "[ZH] Page Object Integration",
+          "description": "[ZH] Combine AI testing with traditional page object patterns"
+        },
+        "workflows": {
+          "title": "[ZH] Business Workflow Testing",
+          "description": "[ZH] Test complex multi-step business processes end-to-end"
+        },
+        "parallelization": {
+          "title": "[ZH] Parallel Test Execution",
+          "description": "[ZH] Design tests for parallel execution and CI/CD pipelines"
+        }
+      }
+    },
+    "smallAppTips": {
+      "title": "[ZH] Small Application Tips",
+      "description": "[ZH] Optimized strategies for smaller projects:",
+      "tips": {
+        "simplicity": {
+          "title": "[ZH] Keep It Simple",
+          "description": "[ZH] Focus on core user journeys and critical functionality"
+        },
+        "costOptimization": {
+          "title": "[ZH] Cost Optimization",
+          "description": "[ZH] Minimize AI token usage while maintaining test coverage"
+        },
+        "quickFeedback": {
+          "title": "[ZH] Quick Feedback Loops",
+          "description": "[ZH] Structure tests for fast development cycles"
+        },
+        "essential": {
+          "title": "[ZH] Essential Tests Only",
+          "description": "[ZH] Prioritize high-impact tests that catch critical bugs"
+        }
+      }
+    },
+    "commonPatterns": {
+      "title": "[ZH] Common Testing Patterns",
+      "description": "[ZH] Proven patterns that work across different application types:",
+      "authentication": {
+        "title": "[ZH] Authentication Flows",
+        "description": "[ZH] Login, logout, password reset, and multi-factor authentication"
+      },
+      "forms": {
+        "title": "[ZH] Form Testing",
+        "description": "[ZH] Validation, submission, error handling, and dynamic forms"
+      },
+      "navigation": {
+        "title": "[ZH] Navigation Testing",
+        "description": "[ZH] Menu navigation, breadcrumbs, and deep linking"
+      },
+      "dataVisualization": {
+        "title": "[ZH] Data Visualization",
+        "description": "[ZH] Testing charts, graphs, and interactive data displays"
+      }
+    },
+    "antiPatterns": {
+      "title": "[ZH] Anti-Patterns to Avoid",
+      "description": "[ZH] Common mistakes that lead to flaky or unmaintainable tests:",
+      "patterns": {
+        "overSpecification": "[ZH] ❌ Over-specifying UI elements (use semantic descriptions)",
+        "hardcoding": "[ZH] ❌ Hard-coding dynamic values (use data functions)",
+        "chainedTests": "[ZH] ❌ Creating long chains of dependent tests",
+        "noValidation": "[ZH] ❌ Missing proper validation and assertions",
+        "duplicateLogic": "[ZH] ❌ Duplicating test logic across multiple tests"
+      }
+    },
+    "nextSteps": {
+      "nextButton": "[ZH] Prompt Guide",
+      "previousButton": "[ZH] Test Structure"
+    }
+  }
+}

@@ -121,7 +121,8 @@
     },
     "nextSteps": {
       "nextButton": "Weiter: VS Code Debugging →",
-      "backButton": "Zurück zur Dokumentation"
+      "backButton": "Zurück zur Dokumentation",
+      "previousButton": "[DE] Test Writing Tips"
     }
   }
 }

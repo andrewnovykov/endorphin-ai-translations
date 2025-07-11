@@ -121,7 +121,8 @@
     },
     "nextSteps": {
       "nextButton": "다음: VS Code 디버깅 →",
-      "backButton": "문서로 돌아가기"
+      "backButton": "문서로 돌아가기",
+      "previousButton": "[KO] Test Writing Tips"
     }
   }
 }

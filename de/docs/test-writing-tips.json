@@ -97,7 +97,8 @@
     },
     "nextSteps": {
       "nextButton": "Weiter: Prompt-Leitfaden →",
-      "backButton": "Zurück zur Dokumentation"
+      "backButton": "Zurück zur Dokumentation",
+      "previousButton": "[DE] Test Structure"
     }
   }
 }

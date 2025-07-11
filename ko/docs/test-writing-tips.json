@@ -97,7 +97,8 @@
     },
     "nextSteps": {
       "nextButton": "다음: 프롬프트 가이드 →",
-      "backButton": "문서로 돌아가기"
+      "backButton": "문서로 돌아가기",
+      "previousButton": "[KO] Test Structure"
     }
   }
 }

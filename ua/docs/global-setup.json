@@ -1,114 +1,207 @@
 {
+  "navigation": {
+    "backToDocumentation": "Back to Documentation"
+  },
+  "header": {
+    "badge": "v0.9.0 Feature",
+    "title": "Global Setup Guide",
+    "description": "Run custom code before all your tests start - perfect for preparing servers, databases, and test environments"
+  },
+  "whatIsGlobalSetup": {
+    "title": "What is Global Setup?",
+    "description": "Global setup lets you prepare your test environment once before any tests run. Perfect for:",
+    "useCases": {
+      "startingTestServers": "Starting test servers",
+      "settingUpTestDatabases": "Setting up test databases",
+      "preparingTestData": "Preparing test data",
+      "configuringEnvironmentVariables": "Configuring environment variables"
+    }
+  },
+  "quickSetup": {
+    "title": "Quick Setup (2 Steps)",
+    "step1": {
+      "title": "Create global-setup.js",
+      "description": "Create a global-setup.js file in your project root:"
+    },
+    "step2": {
+      "title": "Configure Endorphin",
+      "description": "Tell Endorphin to use it in endorphin.config.ts:",
+      "completionMessage": "That's it! Your setup will run before tests start."
+    }
+  },
+  "commonExamples": {
+    "title": "Common Examples",
+    "startTestServer": {
+      "title": "Start a Test Server"
+    },
+    "setUpTestData": {
+      "title": "Set Up Test Data"
+    },
+    "databaseSetup": {
+      "title": "Database Setup"
+    },
+    "multipleSetupSteps": {
+      "title": "Multiple Setup Steps"
+    }
+  },
+  "usingSetupData": {
+    "title": "Using Setup Data in Tests",
+    "description": "Access environment variables and data set during global setup"
+  },
+  "importantNotes": {
+    "title": "Important Notes",
+    "noTeardown": {
+      "title": "No Teardown Yet",
+      "description": "Global teardown is not implemented yet. To clean up, use process event handlers, run cleanup scripts separately, or let CI/CD handle cleanup."
+    },
+    "fileFormat": {
+      "title": "File Format",
+      "requirements": [
+        "Must be JavaScript (.js) or TypeScript (.ts)",
+        "Must export a default function",
+        "Function can be async"
+      ]
+    },
+    "timing": {
+      "title": "Timing",
+      "details": [
+        "Runs once before all tests",
+        "If setup fails, tests won't run",
+        "No timeout limit (be reasonable!)"
+      ]
+    }
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "description": "Common issues and how to fix them",
+    "fileNotFound": {
+      "title": "\"Global setup file not found\"",
+      "description": "Make sure:",
+      "solutions": [
+        "File path in config is correct",
+        "File exists in project root",
+        "Path uses forward slashes (/)"
+      ]
+    },
+    "mustExportDefault": {
+      "title": "\"Must export a default function\"",
+      "correct": "✅ Correct",
+      "wrong": "❌ Wrong - named export"
+    },
+    "setupRunsButTestsDontSeeChanges": {
+      "title": "Setup Runs But Tests Don't See Changes",
+      "solutions": [
+        "Environment variables should work",
+        "Global variables might not persist",
+        "Use files or external storage for complex data"
+      ]
+    }
+  },
+  "proTips": {
+    "title": "Pro Tips",
+    "tips": [
+      "Keep it Simple - Don't overcomplicate setup",
+      "Log Progress - Help debug when things go wrong",
+      "Handle Errors - Fail gracefully with clear messages",
+      "Fast Setup - Don't slow down test starts"
+    ]
+  },
+  "navigationButtons": {
+    "backToDocumentation": "Back to Documentation",
+    "previous": "CI/CD Setup",
+    "next": "Test Structure"
+  },
+  "globalSetupPage": {
     "navigation": {
-        "backToDocumentation": "Back to Documentation"
+      "backToDocumentation": "[UA] Back to Documentation"
     },
     "header": {
-        "badge": "v0.9.0 Feature",
-        "title": "Global Setup Guide",
-        "description": "Run custom code before all your tests start - perfect for preparing servers, databases, and test environments"
+      "badge": "[UA] v0.9.0 Feature",
+      "title": "[UA] Global Setup Guide",
+      "description": "[UA] Run custom code before all your tests start - perfect for preparing servers, databases, and test environments"
     },
     "whatIsGlobalSetup": {
-        "title": "What is Global Setup?",
-        "description": "Global setup lets you prepare your test environment once before any tests run. Perfect for:",
-        "useCases": {
-            "startingTestServers": "Starting test servers",
-            "settingUpTestDatabases": "Setting up test databases",
-            "preparingTestData": "Preparing test data",
-            "configuringEnvironmentVariables": "Configuring environment variables"
-        }
+      "title": "[UA] What is Global Setup?",
+      "description": "[UA] Global setup lets you prepare your test environment once before any tests run. Perfect for:",
+      "useCases": {
+        "startingTestServers": "[UA] Starting test servers",
+        "settingUpTestDatabases": "[UA] Setting up test databases",
+        "preparingTestData": "[UA] Preparing test data",
+        "configuringEnvironmentVariables": "[UA] Configuring environment variables"
+      }
     },
     "quickSetup": {
-        "title": "Quick Setup (2 Steps)",
-        "step1": {
-            "title": "Create global-setup.js",
-            "description": "Create a global-setup.js file in your project root:"
-        },
-        "step2": {
-            "title": "Configure Endorphin",
-            "description": "Tell Endorphin to use it in endorphin.config.ts:",
-            "completionMessage": "That's it! Your setup will run before tests start."
-        }
+      "title": "[UA] Quick Setup (2 Steps)",
+      "step1": {
+        "title": "[UA] Create global-setup.js",
+        "description": "[UA] Create a global-setup.js file in your project root:"
+      },
+      "step2": {
+        "title": "[UA] Configure Endorphin",
+        "description": "[UA] Tell Endorphin to use it in endorphin.config.ts:",
+        "completionMessage": "[UA] That's it! Your setup will run before tests start."
+      }
     },
     "commonExamples": {
-        "title": "Common Examples",
-        "startTestServer": {
-            "title": "Start a Test Server"
-        },
-        "setUpTestData": {
-            "title": "Set Up Test Data"
-        },
-        "databaseSetup": {
-            "title": "Database Setup"
-        },
-        "multipleSetupSteps": {
-            "title": "Multiple Setup Steps"
-        }
+      "title": "[UA] Common Examples",
+      "startTestServer": {
+        "title": "[UA] Start a Test Server"
+      },
+      "setUpTestData": {
+        "title": "[UA] Set Up Test Data"
+      },
+      "databaseSetup": {
+        "title": "[UA] Database Setup"
+      },
+      "multipleSetupSteps": {
+        "title": "[UA] Multiple Setup Steps"
+      }
     },
     "usingSetupData": {
-        "title": "Using Setup Data in Tests",
-        "description": "Access environment variables and data set during global setup"
+      "title": "[UA] Using Setup Data in Tests",
+      "description": "[UA] Access environment variables and data set during global setup"
     },
     "importantNotes": {
-        "title": "Important Notes",
-        "noTeardown": {
-            "title": "No Teardown Yet",
-            "description": "Global teardown is not implemented yet. To clean up, use process event handlers, run cleanup scripts separately, or let CI/CD handle cleanup."
-        },
-        "fileFormat": {
-            "title": "File Format",
-            "requirements": [
-                "Must be JavaScript (.js) or TypeScript (.ts)",
-                "Must export a default function",
-                "Function can be async"
-            ]
-        },
-        "timing": {
-            "title": "Timing",
-            "details": [
-                "Runs once before all tests",
-                "If setup fails, tests won't run",
-                "No timeout limit (be reasonable!)"
-            ]
-        }
+      "title": "[UA] Important Notes",
+      "noTeardown": {
+        "title": "[UA] No Teardown Yet",
+        "description": "[UA] Global teardown is not implemented yet. To clean up, use process event handlers, run cleanup scripts separately, or let CI/CD handle cleanup."
+      },
+      "fileFormat": {
+        "title": "[UA] File Format",
+        "requirements": "[UA] Must be JavaScript (.js) or TypeScript (.ts),Must export a default function,Function can be async"
+      },
+      "timing": {
+        "title": "[UA] Timing",
+        "details": "[UA] Runs once before all tests,If setup fails, tests won't run,No timeout limit (be reasonable!)"
+      }
     },
     "troubleshooting": {
-        "title": "Troubleshooting",
-        "description": "Common issues and how to fix them",
-        "fileNotFound": {
-            "title": "\"Global setup file not found\"",
-            "description": "Make sure:",
-            "solutions": [
-                "File path in config is correct",
-                "File exists in project root",
-                "Path uses forward slashes (/)"
-            ]
-        },
-        "mustExportDefault": {
-            "title": "\"Must export a default function\"",
-            "correct": "✅ Correct",
-            "wrong": "❌ Wrong - named export"
-        },
-        "setupRunsButTestsDontSeeChanges": {
-            "title": "Setup Runs But Tests Don't See Changes",
-            "solutions": [
-                "Environment variables should work",
-                "Global variables might not persist",
-                "Use files or external storage for complex data"
-            ]
-        }
+      "title": "[UA] Troubleshooting",
+      "description": "[UA] Common issues and how to fix them",
+      "fileNotFound": {
+        "title": "[UA] \"Global setup file not found\"",
+        "description": "[UA] Make sure:",
+        "solutions": "[UA] File path in config is correct,File exists in project root,Path uses forward slashes (/)"
+      },
+      "mustExportDefault": {
+        "title": "[UA] \"Must export a default function\"",
+        "correct": "[UA] ✅ Correct",
+        "wrong": "[UA] ❌ Wrong - named export"
+      },
+      "setupRunsButTestsDontSeeChanges": {
+        "title": "[UA] Setup Runs But Tests Don't See Changes",
+        "solutions": "[UA] Environment variables should work,Global variables might not persist,Use files or external storage for complex data"
+      }
     },
     "proTips": {
-        "title": "Pro Tips",
-        "tips": [
-            "Keep it Simple - Don't overcomplicate setup",
-            "Log Progress - Help debug when things go wrong",
-            "Handle Errors - Fail gracefully with clear messages",
-            "Fast Setup - Don't slow down test starts"
-        ]
+      "title": "[UA] Pro Tips",
+      "tips": "[UA] Keep it Simple - Don't overcomplicate setup,Log Progress - Help debug when things go wrong,Handle Errors - Fail gracefully with clear messages,Fast Setup - Don't slow down test starts"
     },
     "navigationButtons": {
-        "backToDocumentation": "Back to Documentation",
-        "previous": "CI/CD Setup",
-        "next": "Test Structure"
+      "backToDocumentation": "[UA] Back to Documentation",
+      "previous": "[UA] CI/CD Setup",
+      "next": "[UA] Test Structure"
     }
+  }
 }
