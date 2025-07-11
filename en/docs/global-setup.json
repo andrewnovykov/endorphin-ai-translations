@@ -1,12 +1,13 @@
 {
-    "navigation": {
-        "backToDocumentation": "Back to Documentation"
-    },
-    "header": {
-        "badge": "v0.9.0 Feature",
-        "title": "Global Setup Guide",
-        "description": "Run custom code before all your tests start - perfect for preparing servers, databases, and test environments"
-    },
+    "globalSetupPage": {
+        "navigation": {
+            "backToDocumentation": "Back to Documentation"
+        },
+        "header": {
+            "badge": "v0.9.0 Feature",
+            "title": "Global Setup Guide",
+            "description": "Run custom code before all your tests start - perfect for preparing servers, databases, and test environments"
+        },
     "whatIsGlobalSetup": {
         "title": "What is Global Setup?",
         "description": "Global setup lets you prepare your test environment once before any tests run. Perfect for:",
@@ -106,9 +107,10 @@
             "Fast Setup - Don't slow down test starts"
         ]
     },
-    "navigationButtons": {
-        "backToDocumentation": "Back to Documentation",
-        "previous": "CI/CD Setup",
-        "next": "Test Structure"
+        "navigationButtons": {
+            "backToDocumentation": "Back to Documentation",
+            "previous": "CI/CD Setup",
+            "next": "Test Structure"
+        }
     }
 }
